@@ -270,7 +270,7 @@ const DarkModeToggle = () => {
       </svg>
 
       {/* <img className="goggles" src={Goggles} alt="goggles-logo"/> */}
-      <img className="goggles-dark-mode" src={GogglesDarkMode} alt="goggles-logo"/>
+      {/* <img className="goggles-dark-mode" src={GogglesDarkMode} alt="goggles-logo"/> */}
     </div>
   );
 };
