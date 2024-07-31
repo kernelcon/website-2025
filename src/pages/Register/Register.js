@@ -24,7 +24,7 @@ class Register extends Component {
 								href="#">
 								Reg Coming Soon
 								<span aria-hidden class="cybr-btn__glitch">
-									Reg Coming Soon
+									Coming Soon
 								</span>
 							</a>
 						</div><br />
