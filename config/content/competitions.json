@@ -1,0 +1,61 @@
+[{
+  "title": "Side Quests",
+  "author": "Kernelcon",
+  "id": "ctf",
+  "hidden": false,
+  "logo": {
+    "dark_mode_support": false,
+    "image_name": "side-quests.png",
+    "image_class": "",
+    "dark_mode_image_name": "",
+    "dark_mode_image_class": ""
+  },
+  "dates": [{
+      "day": "Thursday, April 4th"
+    },
+    {
+      "day": "Friday, April 5th"
+    }
+  ],
+  "description": "Who is the most well-rounded hacker at Kernelcon? Join in our in first ever Side Quests competition. Throughout the con, there will be challenges spread far and wide, such as, can you pick a lock, can you escape, can you solve this web vulnerability, and what do you know about networking? Check out the public scoreboard and compete in Kernelcon Side Quests.  The competition will run for two solid days, so there is plenty of time to compete and attend your desired talks. The winner can expect to receive a prize for all their hard work proving they are, without a doubt, Kernelcon's most well-rounded hacker!"
+},{
+  "title": "Annual Kernelcon CTF",
+  "author": "Kernelcon",
+  "id": "ctf",
+  "hidden": false,
+  "logo": {
+    "dark_mode_support": false,
+    "image_name": "ctf.png",
+    "image_class": "",
+    "dark_mode_image_name": "",
+    "dark_mode_image_class": ""
+  },
+  "dates": [{
+      "day": "Thursday, April 4th"
+    },
+    {
+      "day": "Friday, April 5th"
+    }
+  ],
+  "description": "Our Annual Kernelcon Capture the Flag event is back and better than ever, with all new challenges, prizes and a new, fun theme!  The competition this year is sure to be fierce with the winning team receiving our coveted <a class='text-highlight' href='/about#reciprocity'>Eternal Kernel badges</a>. CTF challenges to include web hacking, reversing, pwning, cryptography, and a whole lot more.  Do you have the team to beat this year?  If so, we will see you at Kernelcon CTF!"
+},{
+  "title": "Kernelcon Escape Room",
+  "author": "Falkor Security",
+  "id": "ctf",
+  "hidden": false,
+  "logo": {
+    "dark_mode_support": false,
+    "image_name": "escape_room.png",
+    "image_class": "",
+    "dark_mode_image_name": "",
+    "dark_mode_image_class": ""
+  },
+  "dates": [{
+      "day": "Thursday, April 4th"
+    },
+    {
+      "day": "Friday, April 5th"
+    }
+  ],
+  "description": "If you were locked in a room, would you have the Intelligence to escape? Introducing Kernelcon’s first ever escape room! Gather your friends to test your wits and knowledge. Teams up to 6 people may participate and will have 30 minute to escape. Sign Ups coming soon!"
+}]

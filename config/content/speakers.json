@@ -1,0 +1,557 @@
+[
+    {
+       "talks": [
+            {
+                "title": "AI Under Attack: Introduction to Adversarial Machine Learning",
+                "authors": [
+                {
+                    "name": "Dr. Anmol Agarwal",
+                    "speaker_id": "DrAnmolAgarwal",
+                    "company": "",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/anmolsagarwal/",
+                    "image": "Anmol_Agarwal.jpg",
+                    "bio": "Dr. Anmol Agarwal is a security researcher at Nokia and is focused on securing AI and Machine Learning in 5G and 6G. She holds a doctoral degree in cybersecurity analytics and a master's degree in computer science. In her free time, she enjoys giving back to the community and is an active industry mentor. She will be representing herself at this event as an individual security researcher; she is not representing her employer.\n"
+                }
+                ],
+                "talk_id": "AIUnderAttackIntroductiontoAdversarialMachineLearning",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "AI and Machine learning are being used to analyze large amounts of data. While AI and machine learning has many benefits, they are also prone to being attacked. In this session, attendees will be introduced to the idea of adversarial AI or adversarial machine learning and attacks to machine learning models. Attendees will learn about some real-world case studies regarding attacks that have impacted top global companies in the industry as well as current open-source industry solutions that aim to increase the security of machine learning algorithms. After the session, attendees will have a better understanding of machine learning's role in the cyber threat landscape as well as measures they can take to secure their organization's machine learning technologies."
+            },
+            {
+                "title": "sudo reboot YOURSELF: A Self-Care Guide for Tech Warriors",
+                "authors": [
+                {
+                    "name": "Shakib Hikmat",
+                    "speaker_id": "ShakibHikmat",
+                    "company": "FNBO",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/shakib-hikmat-02595a66/",
+                    "image": "",
+                    "bio": "I am a Cloud Engineer at FNBO and I am very passionate about mental/physical health and helping people. I am also very passionate about food, movies, video games, hiking (or anything outdoors), being silly, and just enjoying life. Hit me up if you want to talk about the best places to eat and we'll probably be instant friends (or close friends if you are an adventurous eater). I have an unquenchable thirst for knowledge and growth. Sarcasm is a beautiful way of life. \n"
+                }
+                ],
+                "talk_id": "sudorebootYOURSELF",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "4",
+                "abstract": "Let's face it, in the tech world, the line between our work and personal life is blurrier than ever. We're constantly connected, and it's taking a toll on our mental health. In this talk, I'm going to share my own struggles with feeling like a fraud (hello, imposter syndrome), being perpetually overworked, ignoring my most important relationships with my family and friends, and just being numb to everything around me. But more importantly, I'll share how I turned things around. I've got some real, no-nonsense hacks that are not only backed by science but are also super practical – you can start using them today. We'll explore straightforward ways to reduce stress, improve your mood, and find a bit of calm in the chaos of our digital lives. These methods aren't just theoretical; they're the actual tools I used to reclaim my sanity and rediscover joy. So, come join me, and let's embark on a journey to unleash your inner tech-powered Zen – a journey to balance and well-being in our fast-paced tech world."
+            },
+            {
+                "title": "The Fault in Our Metrics: Rethinking How We Measure Detection & Response",
+                "authors": [
+                {
+                    "name": "Allyn Stott",
+                    "speaker_id": "AllynStott",
+                    "company": "Airbnb",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/whyallyn/",
+                    "image": "Allyn_Stott.png",
+                    "bio": "Allyn Stott is a senior staff engineer at Airbnb on the information security technology leadership team where he spends most of his time working on threat detection and incident response. Over the past decade, he has built and run detection and response programs at companies including Delta Dental of California, MZ, and Palantir. Allyn has previously presented at Black Hat, Kernelcon, The Diana Initiative, Texas Cyber Summit, and BSides around the world. Red team tears are his testimonials.\n"
+                }
+                ],
+                "talk_id": "TheFaultinOurMetricsRethinkingHowWeMeasureDetection&Response",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "Your metrics are boring and dangerous. Recycled slides with meaningless counts of alerts, incidents, true and false positives... SNOOZE. Even worse, it's motivating your team to distort the truth and subvert progress. This talk is your wake-up call to rethink your detection & response metrics.\r\n\r\nMetrics tell a story. But before we can describe the effectiveness of our capabilities, our audience first needs to grasp what modern detection & response is and its value. So, how do we tell that story, especially to leadership?\r\n\r\nMeasurements help us get results. But if you're advocating for faster response times, you might be encouraging your team to make hasty decisions that lead to increased risk. So, how do we find a set of measurements, both qualitative and quantitative, that incentivizes progress and serves as a north star to modern detection & response?\r\n\r\nAt the end of this talk, you'll walk away with a practical framework for developing your own metrics, a new maturity model for measuring detection & response capabilities, data gathering techniques that tell a convincing story using micro-purple testing, and lots of visual examples of metrics that won't put your audience to sleep."
+            },
+            {
+                "title": "Hackers in Jurassic Park: When Attackers Find a Way",
+                "authors": [
+                {
+                    "name": "Kevin Johnson",
+                    "speaker_id": "KevinJohnson",
+                    "company": "Secure Ideas",
+                    "twitter": "https://twitter.com/secureideas",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "kevin_johnson.png",
+                    "bio": "Kevin Johnson is the Chief Executive Officer of Secure Ideas. Kevin has a long history in the IT field including system administration, network architecture and application development. He has been involved in building incident response and forensic teams, architecting security solutions for large enterprises and penetration testing everything from government agencies to Fortune 100 companies. In addition, Kevin is a faculty member at IANS and was an instructor and author for the SANS Institute.\n"
+                }
+                ],
+                "talk_id": "HackersinJurassicParkWhenAttackersFindaWay",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "Story time with a hacker.  This talk focuses on explaining real stories from the trenches.  It focuses on the risks and how we find them."
+            },
+            {
+                "title": "AI in Vulnerability Management: Friend, Foe, or Frenemy?",
+                "authors": [
+                {
+                    "name": "JGamblin",
+                    "speaker_id": "JerryGamblin",
+                    "company": "",
+                    "twitter": "https://twitter.com/jgamblin",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "Jerry Gamblin is a security researcher and analyst focusing on network and application security with over 20 years of experience. His research has been presented on numerous blogs, podcasts, and security conferences. When not at work, his personal research focuses on IoT & embedded automotive systems.\n"
+                }
+                ],
+                "talk_id": "AIinVulnerabilityManagement",
+                "pdf": "",
+                "video": "",
+                "length": "20",
+                "technical": "3",
+                "abstract": "Is Artificial Intelligence (AI) a boon or bane in vulnerability management? This talk unpacks the complexities, analyzing AI's advantages like predictive threat response and challenges such as false positives. We'll explore the ethical dilemmas and chart a way forward in this rapidly evolving landscape of cybersecurity."
+            },
+            {
+                "title": "The Road Ahead: Merging Human Cyber Security Expertise with Generative AI",
+                "authors": [
+                {
+                    "name": "Brennan Lodge",
+                    "speaker_id": "BrennanLodge",
+                    "company": "New York University",
+                    "twitter": "https://twitter.com/blodge08",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "Brennan_Lodge.png",
+                    "bio": "Brennan Lodge, a Professor at New York University, is renowned for his work in cybersecurity risk and defense. His tenure as Global Head of Analytic Engines for Cyber Security at HSBC and leading the Data Science team for Security Incident Response at Goldman Sachs underscore his deep expertise in AI-driven cybersecurity. Brennan's industry-wide recognition stems from his significant contributions to research, publications, and the practical enhancement of AI strategies in cybersecurity.\n"
+                }
+                ],
+                "talk_id": "TheRoadAheadMergingHumanCyberSecurityExpertisewithGenerativeAI",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "4",
+                "abstract": "In an era where cyber threats evolve rapidly, traditional reactive cybersecurity measures are no longer sufficient. This presentation introduces an innovative approach that leverages advanced AI techniques to shift from a reactive to a proactive cybersecurity posture. We explore the integration of AI-driven threat intelligence, predictive analytics, and automated incident response into cybersecurity frameworks. This method not only anticipates potential threats but also enhances the decision-making process, enabling organizations to stay ahead of cyber attackers. The talk will delve into case studies demonstrating the effectiveness of AI in identifying and neutralizing threats before they materialize, along with a discussion on the ethical implications and the need for balancing AI capabilities with human oversight in cybersecurity. Attendees will gain insights into how AI can be a game-changer in safeguarding digital assets and the future of cybersecurity in an AI-dominated landscape."
+            },
+            {
+                "title": "The Groundhog's Revenge: Rethinking Your Grand Strategy",
+                "authors": [
+                {
+                    "name": "Robert LaMagna-Reiter",
+                    "speaker_id": "RobertLaMagnaReiter",
+                    "company": "Hudl",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/robertlamagnareiter/",
+                    "image": "Robert_LaMagaReiter.jpg",
+                    "bio": "As CISO, Robert leads information security strategies and risk management; architecture and engineering; compliance, privacy and IT governance. Leveraging 18+ years of expertise, Robert draws on experience from roles in the transportation, government comms, retail, e-commerce, managed services & SaaS industries. Robert also serves as Zero Trust Initiative Leader for the CyberTheory Institute, and Zero Trust Expert Committee Member for the Cloud Security Alliance.\n"
+                }
+                ],
+                "talk_id": "TheGroundhogsRevengeRethinkingYourGrandStrategy",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "1",
+                "abstract": "Too many organizations have opted into the false narrative that with the right technology and outsourcing, sprinkled with a little artificial intelligence, they are buying down risk. Then it happens. The groundhog is back for revenge, and this time, artificial intelligence can't help. We'll dive into how adopting a strategy shift, known as zero trust, aligns with business' strategic planning above all other methods.\r\n\r\nZero Trust requires a strategic, customer-obsessed & enterprise-wide approach. We'll dispel myths and highlight how we can embrace the opportunity at hand. Success is rooted in leveraging the right mental accounting techniques and choice bracketing, which provides the path out of Groundhog Day and enables security professions to make a positive impact."
+            },
+            {
+                "title": "AI Enhanced Hacks: Model in the Middle",
+                "authors": [
+                    {
+                        "name": "Ryan Ashley",
+                        "speaker_id": "RyanAshley",
+                        "company": "IQT Labs",
+                        "twitter": "",
+                        "mastodon": "https://infosec.exchange/@birdwainer",
+                        "github": "",
+                        "linkedin": "",
+                        "image": "",
+                        "bio": "Ryan Ashleyis an engineer with IQT Labs. For the past 3 years their work has centered on exploring ways to ensure the fairness, ethics, and security of machine learning models and systems.\n"
+                    },
+                    {
+                        "name": "Ari Chadda",
+                        "speaker_id": "AriChadda",
+                        "company": "IQT Labs",
+                        "twitter": "",
+                        "mastodon": "",
+                        "github": "",
+                        "linkedin": "https://www.linkedin.com/in/arichadda",
+                        "image": "",
+                        "bio": "Ari Chadda is an engineer with IQT Labs. For the past 3 years their work has centered on exploring ways to ensure the fairness, ethics, and security of machine learning models and systems.\n"
+                    }
+                ],
+                "talk_id": "AIEnhancedHacksModelintheMiddle",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "4",
+                "abstract": "It is inevitable that Hackers will collectively embrace and abuse AI systems. After all, that is the mindset that differentiates hackers: the desire and capacity to take a piece of technology and twist it to fit our needs. There has been a lot of talk about generative models in the context of social engineering and operational security, but comparatively little discussion of other ways that AI systems might be used as part of a hack. This talk will discuss a recent engagement in which we had to attack a system that interfaced with, among other things, a security camera. We will explain how we implemented a technique that we call a Model in the Middle (ModITM) attack, in which an ML model was inserted as a malicious interloper between a pair of services in order to degrade system integrity.  Additionally, we will discuss how using an ML model in an attack changes the design parameters of both the model and the attack infrastructure. Then, we will generalize the ModITM attack and explain how it can be used in different attack scenarios. To the best of our knowledge, this attack is the only publicly available example of using a machine learning model as a component of an attack chain."
+            },
+            {
+                "title": "Red Teaming and Physical Breach: Constructing a Covert (A)ccess (I)mplant Device",
+                "authors": [
+                {
+                    "name": "Chris Patten",
+                    "speaker_id": "ChrisPatten",
+                    "company": "STACKTITAN",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/christopherpatten/",
+                    "image": "Chris_Patten.jpg",
+                    "bio": "Chris Patten is the Co-Founder at STACKTITAN performing adversarial assessments and security research for a set of diverse industries. Aside from writing code, Chris also wields a Dremel and soldering iron in the pursuit of building interesting hardware tradecraft that the team uses during offensive assessments.\n"
+                }
+                ],
+                "talk_id": "RedTeamingandPhysicalBreachConstructingaCovertAccessImplantDevice",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "Picture this if you will. A client has tasked you with breaching their organization... no limits and everything is in play. Further, the client will not assist with gaining internal access and if the internal command and control technique is burned then so is the operation. This isn't all that uncommon. Our solution was to build a Covert Access Implant from a commodity consumer APC Surge Protector device that could communicate within the enterprise network, but backhaul command and control over the wireless LTE network. We will share the construction of our Covert Access Implant, discuss the functionality, and demonstrate how we use the device for red team operations."
+            },
+            {
+                "title": "Image Scaling Attack Simulation: A Measure of Stealth and Detectability",
+                "authors": [
+                {
+                    "name": "Devon Kelly IV",
+                    "speaker_id": "DevonKellyIV",
+                    "company": "Texas A&M",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "Devon is a first semester Computer Science MS-Thesis student at Texas A&M University and just received his Bachelors this past December from A&M. Devon is doing research in cybersecurity with a dual emphasis in artificial intelligence applications in cybersecurity and low-level cybersecurity.\n"
+                }
+                ],
+                "talk_id": "ImageScalingAttackSimulation",
+                "pdf": "",
+                "video": "",
+                "length": "20",
+                "technical": "2",
+                "abstract": "Cybersecurity practices require effort to be maintained, and one weakness is a lack of awareness regarding potential attacks not only in the usage of machine learning models, but also in their development process. Previous studies have determined that preprocessing attacks, such as image scaling attacks, have been difficult to detect by humans (through visual response) and computers (through entropic algorithms). However, these studies fail to address the real-world performance and detectability of these attacks. The purpose of this work is to analyze the relationship between awareness of image scaling attacks with respect to demographic background and experience. We conduct a survey where we gather the subjects’ demographics, analyze the subjects’ experience in cybersecurity, record their responses to a convolutional neural network model that has been hindered by an image scaling attack of a used dataset. We find in this study that the overall detection rate of the attack is low enough to be viable in a workplace or academic setting, and even after discovery, subjects cannot conclusively determine benign images from attacked images."
+            },
+            {
+                "title": "Leaked Secrets and Unlimited Miles: Hacking Airlines, Rewards Programs, and More",
+                "authors": [
+                {
+                    "name": "Sam Curry",
+                    "speaker_id": "SamCurry",
+                    "company": "",
+                    "twitter": "https://twitter.com/samwcyo",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "Sam_Curry.jpg",
+                    "bio": "Sam Curry is an American ethical hacker, bug bounty hunter, and founder who is best known for his contributions to web application security. His participation in bug bounty programs notably led to the discovery of critical vulnerabilities in dozens of auto manufacturers, including Porsche, Mercedes-Benz, Ferrari, and Toyota. In 2021, Curry led a team of security researchers investigating Apple, whose efforts revealed dozens of critical vulnerabilities in Apple services.\n"
+                }
+                ],
+                "talk_id": "LeakedSecretsandUnlimitedMilesHackingAirlinesRewardsProgramsandMore",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "Nearly every major rewards program (United MileagePlus, American Express, Southwest Rapid Rewards, etc.) is powered by a single provider: points.com. Join us as we discuss vulnerabilities identified in points.com and other pieces of airline infrastructure which lead to mass PII disclosure, an infinite money glitch, and free upgrades."
+            },
+            {
+                "title": "With Great gAIn Comes Greater Security Issues - When ML Frameworks' Scale for Growth Incorporates Security Risks to Users' Cloud Accounts",
+                "authors": [
+                {
+                    "name": "Berenice Flores",
+                    "speaker_id": "BereniceFlores",
+                    "company": "Bishop Fox",
+                    "twitter": "https://twitter.com/dark1t",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "As a senior penetration tester at Bishop Fox, Berenice focuses on application security and cloud penetration testing (AWS). Berenice holds many cybersecurity certifications including Offensive Security Certified Professional (OSCP), OffSec Web Assessor (OSWA) and Offensive Security Wireless Professional (OSWP).\r\n\r\nWhen she's not finding bugs, Berenice enjoys attending hacking conferences and collecting stickers, pins and token coins.\n"
+                }
+                ],
+                "talk_id": "WithGreatgAInComesGreaterSecurityIssuesWhenMLFrameworksScaleforGrowthIncorporatesSecurityRiskstoUsersCloudAccounts",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "There are various Machine Learning/BigData frameworks that have become quite popular in the past year due to the release of ChatGPT. This sudden popularity has caused that the scale for growth in parallel computing comes first and leaves aside the implementation of security mechanisms in some of the frameworks' components. In this talk I will go over the research process that I performed on one of these frameworks in an AWS install, showing how it started as two vulnerabilities in a web dashboard and quickly became privilege escalation in an AWS account."
+            },
+            {
+                "title": "ShockaBLE: The Journey to Hacking a Bluetooth TENS Unit",
+                "authors": [
+                {
+                    "name": "Will McCardell",
+                    "speaker_id": "WillMcCardell",
+                    "company": "",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "Will McCardell is an offensive application security engineer at a professional services firm that specializes in application and hardware security. He's worked in the technology industry for over a decade, spending time, as a software engineer, database administrator, cloud engineer, and now as an application security engineer who dabbles in hardware pentesting. His interests include software engineer, offensive security, hardware, and wireless attacks, as well as making hot sauces.\n"
+                }
+                ],
+                "talk_id": "ShockaBLETheJourneytoHackingaBluetoothTENSUnit",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "4",
+                "abstract": "Wireless devices are around us constantly and Bluetooth is one of the primary wireless protocols used to enhance smart devices. This talk will provide an introduction to Bluetooth Low Energy hacking and then dive how we were able to hack a Bluetooth controlled electrotherapy TENS Unit. We'll cover how others can interact with Bluetooth LE devices using common applications on mobile phones, reverse engineering of mobile apps to understand how the Bluetooth communication works, and the journey for how we were able to safely hack the TENS unit."
+            },
+            {
+                "title": "Attack and Defense of AI Infrastructure",
+                "authors": [
+                {
+                    "name": "Gabe Schuyler",
+                    "speaker_id": "GabeSchuyler",
+                    "company": "Wiz",
+                    "twitter": "",
+                    "mastodon": "https://infosec.exchange/@gabe_sky",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "gabe_schuyler.jpg",
+                    "bio": "Gabe is a cloud security practitioner with experience building, running, and protecting a variety of services both on premises and in the cloud.  By day, he is a solutions engineer at Wiz, Inc.  In his time off he fidgets with locks, experiments with ambient displays, and convinces AI to do things that it shouldn't.\n"
+                }
+                ],
+                "talk_id": "AttackandDefenseofAIInfrastructure",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "In this beginner-friendly talk, we'll discuss how AI infrastructure presents novel security challenges, while also requiring many of the time-honored basics.  Defense runs the gamut from protecting brand-new AI services to the simple exercise of basic hygiene.  Attack employs AI-specific techniques on the one hand, and tried-and-true social engineering (of a sort) on the other.  We'll cover both aspects, ultimately arming you with knowledge and tools to adopt AI infrastructure safely and predictably."
+            },
+            {
+                "title": "Assembly, so easy an AI can't do it",
+                "authors": [
+                {
+                    "name": "DrMilhous",
+                    "speaker_id": "DrMilhous",
+                    "company": "",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "https://github.com/drmilhous",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "Dr. Miller is a security consultant whom specializes in reverse engineering, assembly and computer theory.  He taught Computer Science, assembly and reverse engineering for 8 years at the collegiate level. He co-taught a course 'Reverse Engineering for Pentesters and Malware Analysts' at BlackHat 2020. He has been called as an expert witness on more than a dozen Federal Cases, where he reverse engineered the NIT code provided by the government.\n"
+                }
+                ],
+                "talk_id": "AssemblysoeasyanAIcantdoit",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "Assembly is the foundation of computer science and cybersecurity, yet so few members of the community understand how it works.  This talk will introduce the base level of how assembly works, why assembly code and computers in general will always be vulnerable.  We will also explore how to get started in assembly, write your own programs, interface with the operating systems.  Additionally we will look at how to disassemble binary programs, break disassemblers/av and evade detection."
+            },
+            {
+                "title": "The Lazy Pentester's Guide to Coasting Through Internals - Field Proven Methods of Obtaining Creds, Gaining Footholds, and Generally Wrecking Up The Place Without Much Effort.",
+                "authors": [
+                {
+                    "name": "Matthew Fisher",
+                    "speaker_id": "MatthewFisher",
+                    "company": "STACKTITAN",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "After 14 years in the Intelligence Community, Matthew Fisher transitioned to Cyber Security, with a focus on penetration testing and red team engagements. He specializes in internal tests and craves DA hashes more than anything else.\n"
+                }
+                ],
+                "talk_id": "TheLazyPentestersGuidetoCoastingThroughInternalsFieldProvenMethodsofObtainingCredsGainingFootholdsandGenerallyWreckingUpThePlaceWithoutMuchEffort",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "It's been said that nobody wants to work anymore, and pentesters are certainly no exception to this rule. Internal pentests can be hard, time consuming drudgery. Pentesters may spend hours scanning hosts, looking for open ports and exploitable services only to find themselves with little time left to exploit anything, and a lack of focus on where to begin.\r\n\r\nWhat if there was a better more efficient way? What if there was an 80% solution that will have you traipsing around the network with elevated privileges and creds in hand requiring a fraction of the time and effort using tools you're already using?\r\n\r\nIn this talk we'll cover multiple proven methods for obtaining creds, gaining footholds, and just generally wrecking up the place that are quick, relatively painless, and will leave you owning a client's network fast."
+            },
+            {
+                "title": "Anthropological Intelligence 101: Introduction to the Malware Industry",
+                "authors": [
+                {
+                    "name": "Aaron Walton",
+                    "speaker_id": "AaronWalton",
+                    "company": "Expel",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "Aaron_Walton.jpg",
+                    "bio": "Aaron is a Threat Intel Analyst at Expel. His interactions with the cyber world are shaped by a lifetime of exposure to other disciplines such as aviation regulation, compliance, cultural and linguistic anthropology, ethnomusicology, social justice, and world religion. When he's not at a computer, he is often in a pub playing Irish flute.\n"
+                }
+                ],
+                "talk_id": "AnthropologicalIntelligence101IntroductiontotheMalwareIndustry",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "1",
+                "abstract": "This presentation is an overview of the malware industry from the perspective of an anthropologist. We won't get deep into anthropology, but we will use anthropology to orient ourselves.\r\nInstead of looking at malware as something that exists of itself, this session looks at malware as software that exists in an ecosystem of users and developers.\r\nWe'll walk through a mental model to categorize and think about malware families, and threat actors and the service offerings available to them. This model's wholistic view provides an introduction to Cyber Threat Intelligence, enables detection engineers to focus on the most important threats, and helps analysts orient when investigating malware. Attendees will leave with a deeper understanding of relationships between malware families, tools and threat actors, and will be better enabled to defend against these threats."
+            },
+            {
+                "title": "Artifice and Integrity: How Law Enforcement Gets and Uses Your Data",
+                "authors": [
+                {
+                    "name": "Anthony Kava (karver)",
+                    "speaker_id": "AnthonyKavakarver",
+                    "company": "",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://linkedin.com/in/anthonykava",
+                    "image": "Anthony_Kava.jpg",
+                    "bio": "Anthony Kava is a hacker and carries a badge. Got his start breaking Apple IIs then moved, somehow, to breaking baddies. Works as a cyber crime investigator and digital forensics examiner with a penchant for infosec. Kava is a recognized federal pornography expert, scourge to software vendors, and has been portrayed by a Canadian in a Lifetime movie. Dreams in Perl. Enjoys long walks on the dark web.\n"
+                }
+                ],
+                "talk_id": "ArtificeandIntegrityHowLawEnforcementGetsandUsesYourData",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "2",
+                "abstract": "Google and Ring have changed the rules for law enforcement, but what exactly changed? How are cops getting data without a warrant? Modern investigations require modern evidence. If you want to know how cases are made, what legal tools are used, and what safeguards protect our citizens, this session is for you. We'll talk subpoenas, search warrants, and whether we're trending toward or away from privacy with examples ripped from today's click-bait headlines.\r\n\r\nDisclaimer: Presented by a hacker, not a lawyer. Not legal advice. Ask you doctor if Jolt Cola is right for you."
+            },
+            {
+                "title": "Be the Best (Loser) You Can Be",
+                "authors": [
+                {
+                    "name": "Megan Benoit",
+                    "speaker_id": "MeganBenoit",
+                    "company": "NFM",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "megan_benoit.jpg",
+                    "bio": "Megan Benoit has spent most of the last 20 years building vulnerability management and incident response programs, architecting and deploying security solutions, and telling management she's a security engineer, not a miracle worker, and currently works as a Senior Network Security Engineer for NFM. In her spare time she teaches yoga and group exercise classes because when she tells people what to do, they don't argue back.\n"
+                }
+                ],
+                "talk_id": "BetheBestLoserYouCanBe",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "1",
+                "abstract": "Security is about balance - operational risk and security risk are often in opposition with each other, and more often than not, security is going to suffer first.  How do you succeed at getting security's needs met, while still letting the business function?  We're going to talk about winning, losing, and losing strategically, all of which can help you and your organization succeed at security."
+            },
+            {
+                "title": "Offense for Defense",
+                "authors": [
+                {
+                    "name": "Tim Medin",
+                    "speaker_id": "TimMedin",
+                    "company": "Red Siege",
+                    "twitter": "https://twitter.com/timmedin",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "Tim_Medin.png",
+                    "bio": "Tim is the CEO of Red Siege, a infosec company focusing on pen testing. Tim is also a Senior Instructor and course author (SEC560) at SANS. Through the course of his career, Tim has performed penetration tests on a wide range of organizations and technologies. Tim has gained information security experience in a variety of industries including previous positions in control systems, higher education, financial services, and manufacturing. Tim is the creator of the Kerberoasting.\n"
+                }
+                ],
+                "talk_id": "OffenseforDefense",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "This presentation focuses on the offensive tools that defenders should running, to identify high-impact security issues on their network. Explore the proactive advantages of offensive security tools that can be quickly and easily be run by defenders to better protect and defend their network. Attendees will learn how offensive security tools enable defenders to stay ahead of potential adversaries, enhancing network resilience and safeguarding against breaches effectively."
+            },
+            {
+                "title": "License to Spill: Real-world 0 days in AI/ML Solutions",
+                "authors": [
+                {
+                    "name": "Dan Amodio",
+                    "speaker_id": "DanAmodio",
+                    "company": "Tinder & Match Group",
+                    "twitter": "https://twitter.com/danamodio",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "Dan leads the Red Team at Tinder & Match Group. He has been professionally working in offensive security for around 13 years. Dan also enjoys playing guitar and spending time with his wife and kids.\n"
+                },
+                {
+                    "name": "Rojan Rijal",
+                    "speaker_id": "RojanRijal",
+                    "company": "Tinder Security Labs",
+                    "twitter": "https://twitter.com/uraniumhacker",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "",
+                    "bio": "Rojan Rijal is a Security Researcher at Tinder Security Labs. Rojan focuses on security research against cloud environments, on-premise web applications and enterprise Software-as-a-Service (SaaS) products.\n"
+                }
+                ],
+                "talk_id": "LicensetoSpillRealworld0daysinAIMLSolutions",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "4",
+                "abstract": "As the red team responsible for comprehensive vendor testing at a major company, we encounter a multitude of AI/ML solutions, each complete with its unique set of hurdles and loopholes. Join us as we demonstrate an 'intentionally vulnerable' application, carefully built using ChatGPT and 'inspiration' drawn from actual 0-day vulnerabilities."
+            },
+            {
+                "title": "Who's going to secure the code our army of robots are going to be writing?",
+                "authors": [
+                {
+                    "name": "Arshan Dabirsiaghi",
+                    "speaker_id": "ArshanDabirsiaghi",
+                    "company": "Pixee",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/arshan-dabirsiaghi/",
+                    "image": "Arshan_Dabirsiaghi.png",
+                    "bio": "Arshan is a security researcher pretending to be a software executive, with many years of experience advising organizations on code security. He has spoken at conferences like Bluehat, Blackhat and OWASP, and definitely wrote his own bio. He is also a co-founder of Contrast Security, a cybersecurity unicorn focused on vulnerability discovery through runtime instrumentation. He now serves as CTO of Pixee where he's done finding and asking about security issues -- he's just fixing it for you.\n"
+                }
+                ],
+                "talk_id": "Whosgoingtosecurethecodeourarmyofrobotsaregoingtobewriting",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "3",
+                "abstract": "Large Language Models (LLM) are writing a significant portion of our code through tools like Copilot, and now promising new companies like Sweep are starting to write wholesale features for us. The LLMs are trained on the vulnerable code we've already written, so of course multiple studies have now confirmed that they offer the same vulnerability density.\r\nSecurity today is often already outnumbered by developers at rates like 1000:1. When we started to add LLMs to the developer toolchain, we began barreling towards a comically hopeless situation where the ratio of code developed vs. code secured is no longer tenable.\r\n\r\nThere are too many humans involved in critical chokepoints that have no hope of meaningfully securing the deluge of code that is coming.\r\nI'd like the opportunity to make the case that the only way to keep up is to change our engineering practices and introduce virtual security engineers, powered by a mix of LLMs and traditional technologies."
+            },
+            {
+                "title": "Put the Con in Conversation",
+                "authors": [
+                {
+                    "name": "Jason Downey",
+                    "speaker_id": "JasonDowney",
+                    "company": "",
+                    "twitter": "https://twitter.com/hackandbackpack",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "",
+                    "image": "Jason_Downey.jpg",
+                    "bio": "Jason Downey has over ten years of experience in IT and information security ranging from roles in network security to additional experience in systems administration. Jason has spoken in front of various audiences ranging from youth initiatives to major security conferences, while creating informational web content for beginning security practitioners. Jason excels at a variety of penetration testing tactics and is well known for his vishing and social engineering expertise.\n"
+                }
+                ],
+                "talk_id": "PuttheConinConversation",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "2",
+                "abstract": "In 2023 MGM was hit with ransomware costing them more than 100M in revenue. What caused the initial breach? A telephone conversation. While MGM might be the most recently prolific example of where phone based social engineering (Vishing) led to a breach, it certainly wasn't the first, and we at Red Siege see constant success when implementing it on our engagements. Over the last few years I have coerced people to give me access to accounts I didn't own, download and execute several pieces of malware, and even transfer money out of someone elses bank account into my own.\r\n\r\nThis talk will be a practical guide to developing and running vishing campaigns, focusing more on the practical aspects of social engineering and less on the psychology. You can expect to leave this talk with a solid foundation on how to plan and execute a vishing based social engineering campaign, how to document and track success, and most importantly for defenders, how to protect your organization against this threat... all while getting to laugh at some great stories along the way."
+            },
+            {
+                "title": "Thinking outside the Sandbox: Decoding and Defeating the Node.js Permission Model",
+                "authors": [
+                {
+                    "name": "Matt Austin",
+                    "speaker_id": "MattAustin",
+                    "company": "Pixee.ai",
+                    "twitter": "",
+                    "mastodon": "",
+                    "github": "",
+                    "linkedin": "https://www.linkedin.com/in/matt-/",
+                    "image": "Matt_Austin.jpg",
+                    "bio": "Matt is a husband, a dad, and a hacker and Principal Security Researcher at Pixee.ai with 14+ years in security research and moonlighting BugBounty. \n"
+                }
+                ],
+                "talk_id": "ThinkingoutsidetheSandboxDecodingandDefeatingtheNodejsPermissionModel",
+                "pdf": "",
+                "video": "",
+                "length": "60",
+                "technical": "4",
+                "abstract": "Thinking Outside the Sandbox: Decoding and Defeating the Node.js Permission Model takes a deep dive into the Node.js Module-based and Process-based permissions. This talk will delve into the architecture and implementation of these permission models, providing a clear understanding of how they operate within the Node.js ecosystem. We will explore both the strengths and weaknesses inherent in these systems, drawing attention to critical vulnerabilities and bypass techniques.\r\n\r\nWe will explore several CVEs (Common Vulnerabilities and Exposures) that I was able to uncover that have been fixed, along with a couple issues that are known but remain unaddressed, posing ongoing risks. By examining these security gaps, the presentation aims to equip attendees with the knowledge to better secure their Node.js applications or to motivate others into diving in and help squash some Node.js core bugs."
+            }         
+       ]
+    }
+ ]
+ 

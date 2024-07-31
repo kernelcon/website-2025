@@ -1,0 +1,35 @@
+[{
+    "title": "Diversity, Equity & Inclusion Luncheon: UnMASKquerade",
+    "author": "",
+    "id": "dei",
+    "hidden": false,
+    "logo": {
+      "dark_mode_support": false,
+      "image_name": "deilunch.png",
+      "image_class": "callout-comic",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
+    },
+    "dates": [{
+      "day": "Thursday, April 4th"
+    }],
+    "description": "<p>Kernelcon is excited to host our second Diversity, Equity, and Inclusion luncheon. Eat, drink, and network with others from underrepresented populations and our allies. We'll also have a panel discussion with security professionals who pivoted into InfoSec from another industry or are new enough to provide lessons learned from the beginning of their InfoSec journey. We'll discuss the challenges of bringing your authentic self to work in new or changing environments and hear insights on breaking into cyber.</p><p>Space is limited, check your conference program to RSVP."
+  },
+  {
+    "title": "Kernel Panic",
+    "author": "",
+    "id": "panic",
+    "hidden": false,
+    "logo": {
+      "dark_mode_support": false,
+      "image_name": "kernel-panic.png",
+      "image_class": "callout-comic",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
+    },
+    "dates": [{
+      "day": "Thursday, April 4th"
+    }],
+    "description": "Get ready to power up your networking game at \"Kernel Panic\" - the ultimate fusion of tech and comedy! Dive into an evening buzzing with connections, fueled by free drinks and gourmet bites. As laughter echoes through the venue, top comedians will keep the energy high with their razor-sharp wit and tech-themed humor. Whether you're a coding whiz or just tech-curious, \"Kernel Panic\" promises an electrifying atmosphere where the only thing crashing will be your preconceptions about networking events. Don't miss out on the opportunity to forge meaningful connections in an environment that's as refreshing as a clean codebase."
+  }
+]

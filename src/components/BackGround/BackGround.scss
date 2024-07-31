@@ -1,0 +1,49 @@
+@import '../../static/styles/base/colors';
+@import '../../static/styles/base/variables';
+
+
+body.dark-mode {
+  .header__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./race-condition.jpeg');
+    background-size: cover;
+    background-position-x: center;
+  }
+}
+
+header {
+  // position: relative;
+  height: 800px;
+  // overflow: hidden;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:  url('./race-condition.jpeg');
+  background-size: cover;
+  background-position-x: center;
+}
+
+
+.header__bg__none {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+}

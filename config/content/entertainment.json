@@ -1,0 +1,35 @@
+[{
+    "title": "Opening Act: Lauren Vana",
+    "author": "",
+    "id": "lauren",
+    "hidden": false,
+    "logo": {
+      "dark_mode_support": false,
+      "image_name": "lauren.png",
+      "image_class": "callout-comic",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
+    },
+    "dates": [{
+      "day": "Thursday, April 4th"
+    }],
+    "description": "Lauren Vana is a stand-up comedian born, raised, and based in Omaha, Nebraska. A graduate of the Backline Comedy Theatre, she won the 2023 Funny Bone Clash Comedian of the Year and has opened for the likes of Emma Willmann. Known for her wit and sharp writing, she frequently performs at venues around the Midwest. In addition to stand-up, she does improv and sketch comedy. When she’s not on stage, you can find her writing earnest Letterboxd reviews or completing the New York Times crossword puzzle. You can find her on Instagram, @laurenvana."
+  },
+  {
+    "title": "Headliner: Dante Powell",
+    "author": "",
+    "id": "dante",
+    "hidden": false,
+    "logo": {
+      "dark_mode_support": false,
+      "image_name": "dante.jpg",
+      "image_class": "callout-comic",
+      "dark_mode_image_name": "",
+      "dark_mode_image_class": ""
+    },
+    "dates": [{
+      "day": "Thursday, April 4th"
+    }],
+    "description": "<p>Dante Powell is a comedian from Bernice, Louisiana. Dante currently lives and performs out of Des Moines, IA and travels the country working comedy clubs, theaters, and festivals. His debut comedy album 'The Squirrels Get Fat' was produced by Grammy Award winning Stand Up! Records and is available on any platform you use to purchase albums.</p><p>Dante runs the gamut from opening for major acts like Godfrey, Gary Gulman, Rory Scovel, Mike Epps, Chris Porter, and Pauly Shore to headlining club weekends (Comedy Corner Underground, Blue Room Comedy Club, Penguins Comedy Club) and one off shows.</p><p>Dante brings a unique perspective founded on his life experience to story-telling and joke writing. His comedy is incredibly clever and takes on everything from the common to the mundane in a way that draws in audiences from all walks of life and allows them to connect with him.</p>"
+  }
+]
