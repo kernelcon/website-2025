@@ -147,9 +147,9 @@ export default class Home extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="#">
-                    Reg Coming Soon
+                    Coming Soon
                     <span aria-hidden className="cybr-btn__glitch">
-                    Reg Coming Soon
+                    Coming Soon
                     </span>
                   </a>
                 </div>
