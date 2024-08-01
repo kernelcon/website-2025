@@ -21,10 +21,10 @@ class Register extends Component {
 								class="cybr-btn btn-bottom"
 								target="_blank"
 								rel="noopener noreferrer"
-								href="#">
-								Reg Coming Soon
+								href="https://events.eventzilla.net/e/kernelcon-2025-2138626943">
+								Register Now
 								<span aria-hidden class="cybr-btn__glitch">
-									Coming Soon
+									Register Now
 								</span>
 							</a>
 						</div><br />

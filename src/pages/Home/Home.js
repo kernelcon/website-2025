@@ -145,10 +145,10 @@ export default class Home extends Component {
                     className="cybr-btn btn-bottom"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="#">
-                    Coming Soon
+                    href="https://events.eventzilla.net/e/kernelcon-2025-2138626943">
+                    Register Now
                     <span aria-hidden className="cybr-btn__glitch">
-                    Coming Soon
+                    Register Now
                     </span>
                   </a>
                 </div>
