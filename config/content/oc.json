@@ -129,6 +129,16 @@
       "mastodon": "negahyphen@tech.lgbt",
       "mastodon_url": "https://tech.lgbt/@negahyphen",
       "oc": true
+    },
+    {
+      "id": 14,
+      "name": "Skip Cruse",
+      "title": "",
+      "image": "skip.png",
+      "twitter": "securityshrimp",
+      "mastodon": "",
+      "mastodon_url": "",
+      "oc": true
     }
   ]
 }]
