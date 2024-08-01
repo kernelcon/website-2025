@@ -39,11 +39,11 @@ body.dark-mode {
   div.sizzle-text-title {
     color: $azure-radiance;
   }
-  .sizzle-bullet-item {
-    .sizzle-icon {
-      filter: invert(100%);
-    }
-  }
+  // .sizzle-bullet-item {
+  //   .sizzle-icon {
+  //     filter: invert(100%);
+  //   }
+  // }
   .keynote-speaker-name {
     font-size: 28px;
     font-family: $font-science;
