@@ -4,9 +4,6 @@ import './DarkModeToggle.scss';
 import './RaceCar.scss';
 import useDarkMode from 'use-dark-mode';
 
-import Goggles from "../../static/images/icons/bender-face-2.png"
-import GogglesDarkMode from "../../static/images/icons/bender-face-2-red-eyes.png"
-
 
 const DarkModeToggle = () => {
   const darkMode = useDarkMode(false);

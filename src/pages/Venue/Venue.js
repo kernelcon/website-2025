@@ -58,7 +58,7 @@ export default class Venue extends Component {
 						<div className="tab-title">New Hotel</div>
 						<div className="venue-hotel">
 							<div className="text-area">
-								Due to the sellout last year, we've upgraded our venue this year to a much bigger place! Click on the pictures to view more.
+								Due to the sellout last year, we've upgraded our venue this year to a much bigger place! The new hotel has several advantages including co-locating the bar with the party, check out the pictures, click to view more!
 								<div className="new-hotel-section"
 									onClick={() => this.setState((prevState) => ({ 
 									toggler: !prevState.toggler
@@ -220,7 +220,7 @@ export default class Venue extends Component {
 					<div className="tab-title">Where to Park</div>
 					<p className="about-sub-text"><b>For hotel guests:</b></p>
 					<p className="about-sub-text">
-						Hotel lot surface parking is an additional charge for hotel guests. It is not included with the conference room rate.
+						Hotel garage parking is an additional charge for hotel guests. It is not included with the conference room rate.
 					</p>
 					<p className="about-sub-text"><b>For commuters:</b></p>
 					<p className="about-sub-text">
