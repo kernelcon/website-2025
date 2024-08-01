@@ -99,7 +99,7 @@ export default class Home extends Component {
                           Hands-On Villages
                         </div>
                         <div className='sizzle-bullet-desc'>
-                        We have huge plans for our village area - including classics like Hardware Hacking and Radio Hacking. Got an idea for a fun village? Reach out!
+                        Enter the garage and we'll have all the tools - including classics like Hardware Hacking and Radio Hacking. Got an idea for a fun village? Reach out!
                         </div>
                       </div>
                     </div>
@@ -112,7 +112,7 @@ export default class Home extends Component {
                           Challenging Competitions
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Our Capture-the-Flag event is always a big hit and this year promises not to disappoint. Join us in a quest to win an eternal kernel aka lifetime entry to Kernelcon!
+                          Race to the finish line, our Capture-the-Flag event is always a big hit and last year's Side Quests helped find the most well-rounded hacker. This year promises not to disappoint - join us in a race to win an eternal kernel aka lifetime entry to Kernelcon!
                         </div>
                       </div>
                     </div>
@@ -125,7 +125,7 @@ export default class Home extends Component {
                           Fun Activities
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Join us at our raging party / social event Kernel Panic party.  Details to come but this event is always an attendee favorite!
+                          Come chill out with us at the Race pit.  Our raging party / social event, Kernel Panic, is always an attendee favorite!
                         </div>
                       </div>
                     </div>
