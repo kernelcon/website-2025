@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
 import BackGround from '../../components/BackGround/BackGround';
-
-import Lecture from "../../static/images/icons/lecture.svg"
-import Research from "../../static/images/icons/research.svg"
-import Experiment from "../../static/images/icons/experiment.svg"
-import BrainOutline from "../../static/images/icons/brain-outline.svg"
-import Certificate from "../../static/images/icons/certificate-2.svg"
+import Speakers from "../../static/images/icons/car-speakers.png"
+import Garage from "../../static/images/icons/garage.png"
+import Training from "../../static/images/icons/car-training.png"
+import CarRace from "../../static/images/icons/car-race.png"
+import DriverCelebrate from "../../static/images/icons/driver-celebrate.png"
 
 import "./Home.scss";
 
@@ -67,46 +66,46 @@ export default class Home extends Component {
                   <div className="sizzle-bullets">
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Lecture} alt="speaker-logo"/>
+                        <img src={Speakers} alt="speaker-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
                           Excellent Speakers
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          We are bringing in some of information security's top talents from the midwest and across the nation. Come learn from and network with our speakers!
+                          We are speeding in some of information security's top talents from the midwest and across the nation. Come learn from and network with our speakers!
                         </div>
                       </div>
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Certificate} alt="training-logo"/>
+                        <img src={Training} alt="training-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
                           Professional Training
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Some of the industry's leading trainers descend on Omaha, Nebraska to lead two days of intensive coursework for attendees. Interested in doing the training? Contact us through our open calls.
+                          Some of the industry's leading trainers descend on Omaha, Nebraska to lead two days of intensive coursework for attendees. This training is often offered at a FRACTION of costs at large hacker conferences.
                         </div>
                       </div>
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Research} alt="hands-on-logo"/>
+                        <img src={Garage} alt="hands-on-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
                           Hands-On Villages
                         </div>
                         <div className='sizzle-bullet-desc'>
-                        We have huge plans for our village area - including classics like Hardware Hacking and Radio Hacking. Got an idea for a fun village? Check out our open calls.
+                        We have huge plans for our village area - including classics like Hardware Hacking and Radio Hacking. Got an idea for a fun village? Reach out!
                         </div>
                       </div>
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={BrainOutline} alt="competitions-logo"/>
+                        <img src={CarRace} alt="competitions-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>
@@ -119,7 +118,7 @@ export default class Home extends Component {
                     </div>
                     <div className='sizzle-bullet-item'>
                       <div className='sizzle-icon'>
-                        <img src={Experiment} alt="activities-logo"/>
+                        <img src={DriverCelebrate} alt="activities-logo"/>
                       </div>
                       <div className='sizzle-bullet'>
                         <div className='sizzle-bullet-title'>

@@ -96,18 +96,20 @@ body.dark-mode {
     flex-direction: column;
     min-height: 100px;
     margin: 40px;
-    border: 2px solid $turquoise-green;
+    // border: 2px solid $turquoise-green;
     // border-left: 1px solid $turquoise-green;
     // border-right: 1px solid $turquoise-green;
     -moz-box-shadow: 0px 5px 5px 0px $slate-gray;
     -webkit-box-shadow: 0px 5px 5px 0px $slate-gray;
     box-shadow: 0px 5px 5px 0px $slate-gray;
+
+    color: #ddd;
   }
   div.sizzle-image {
     margin: 2px;
   }
   div.sizzle-header {
-    background-color: rgba(99,151,176,0.9);
+    background-color: rgba(21,85,115,0.9);
     // height: 198px;
   }
   div.sizzle-text-title {
@@ -121,7 +123,7 @@ body.dark-mode {
   div.sizzle-text-section {
     padding: 10px 20px;
     // margin-top: 3px;
-    background-color: rgba(99,151,176,0.9);
+    background-color: rgba(21,85,115,0.9);
     // -moz-box-shadow: 0px 15px 15px 0px cyan;
     // -webkit-box-shadow: 0px 15px 15px 0px cyan;
     // box-shadow: 0px 15px 15px 0px cyan;
@@ -133,7 +135,7 @@ body.dark-mode {
     .sizzle-icon {
       min-width: 100px;
       max-width: 100px;
-      display: flex;
+      display: inline-table;
       img {
         justify-content: center;
         align-items: center;
@@ -147,6 +149,7 @@ body.dark-mode {
       padding-left: 20px;
       .sizzle-bullet-title {
         font-weight: 900;
+        color: #fff;
       }
       .sizzle-bullet-desc {
         font-size: 12px;
@@ -180,7 +183,7 @@ body.dark-mode {
     justify-content: center;
     text-transform: uppercase;
   }
-
+  
   .centered-top {
     display: flex;
     flex-direction: row;

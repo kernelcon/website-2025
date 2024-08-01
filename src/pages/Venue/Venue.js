@@ -124,18 +124,34 @@ export default class Venue extends Component {
 									</div>
 								</div>
 								<div className="map-container">
+									<MediaQuery minDeviceWidth={1000}>
+										<iframe
+											title="hotel-map"
+											id="hotelMap"
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1025272247825!2d-95.93039910000002!3d41.2631035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fba1e715c55%3A0x1a0ff3cbee3a661b!2sHilton%20Omaha!5e0!3m2!1sen!2sus!4v1722300996164!5m2!1sen!2sus"
+											width="800" 
+											height="600" 
+											allowfullscreen="" 
+											loading="lazy" 
+											referrerpolicy="no-referrer-when-downgrade"
+											style={{ marginTop: "-150px" }}>
+											Loading...
+										</iframe>
+									</MediaQuery>
+									<MediaQuery maxDeviceWidth={999}>
 									<iframe
-										title="hotel-map"
-										id="hotelMap"
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1025272247825!2d-95.93039910000002!3d41.2631035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fba1e715c55%3A0x1a0ff3cbee3a661b!2sHilton%20Omaha!5e0!3m2!1sen!2sus!4v1722300996164!5m2!1sen!2sus"
-										width="800" 
-										height="600" 
-										allowfullscreen="" 
-										loading="lazy" 
-										referrerpolicy="no-referrer-when-downgrade"
-										style={{ marginTop: "-150px" }}>
-										Loading...
-									</iframe>
+											title="hotel-map"
+											id="hotelMap"
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.1025272247825!2d-95.93039910000002!3d41.2631035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fba1e715c55%3A0x1a0ff3cbee3a661b!2sHilton%20Omaha!5e0!3m2!1sen!2sus!4v1722300996164!5m2!1sen!2sus"
+											width="400" 
+											height="400" 
+											allowfullscreen="" 
+											loading="lazy" 
+											referrerpolicy="no-referrer-when-downgrade"
+											style={{ marginTop: "-150px" }}>
+											Loading...
+										</iframe>
+									</MediaQuery>
 								</div>
 							</div>
 						</div>
