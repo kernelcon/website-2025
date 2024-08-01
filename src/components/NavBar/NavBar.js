@@ -19,7 +19,7 @@ export default class NavBar extends Component {
 						/>
 						
 						<p className="nav-dates">Training: Apr 1-2</p>
-						<p className="second-nav-dates">Conference: Apr 2-4</p>
+						<p className="second-nav-dates">Conference: Apr 3-4</p>
 					</a>
 				</div>
 				<div className="toggle-group">
