@@ -85,7 +85,7 @@
   .nav-small .nav-links {
     display: block;
     margin-left: -12px;
-    margin-top: -3px;
+    margin-top: 40px;
     text-align: center;
     background-color: #e3e3e3;
   }
@@ -121,11 +121,15 @@
       margin: 0px;
       // width: 30%;
       //fix for using goggles svg
-      margin-top: -25px;
+      margin-top: 5px;
     }
   }
+
+  .nav-dates {
+    margin: 24px 0px 0px -5px;
+  }
   .secondary-nav {
-    height: 85px;
+    height: 100px;
     margin: 0px;
   }
   .backdrop {

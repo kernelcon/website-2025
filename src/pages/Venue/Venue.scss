@@ -25,6 +25,6 @@
 
 
 .new-hotel-pic {
-  width: 250px;
+  width: calc(min((100vw / 3 - 14px), 250px));
   margin: 2px;
 }
