@@ -139,6 +139,16 @@
       "mastodon": "",
       "mastodon_url": "",
       "oc": true
+    },
+    {
+      "id": 15,
+      "name": "James Dietle",
+      "title": "Trackside Director",
+      "image": "james.png",
+      "twitter": "jamesdietle",
+      "mastodon": "",
+      "mastodon_url": "",
+      "oc": true
     }
   ]
 }]
