@@ -18,6 +18,10 @@ body.dark-mode {
     .goggles, .goggles-dark-mode {
         height: 65px;
     }
+
+    .race-car {
+        left: -50px !important;
+    }
 }
 
 .icon {
@@ -29,6 +33,10 @@ body.dark-mode {
     margin: auto;
     display: block;
     font-size: 10px;
+}
+
+.dark-mode-button {
+    margin-left: -120px;
 }
 
 input[type='checkbox'].icon {
@@ -59,3 +67,34 @@ _:-ms-lang(x),
     content: 'Shades';
     font-size: 14px;
 }
+
+
+/* Basic styles for SVGs */
+.race-car {
+    position: absolute; /* Ensure SVGs are positioned absolutely */
+    left: -100px;
+    width: 178px;
+    height: 40px;
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Initially position the original SVG and the new SVG */
+.original {
+    z-index: 2; /* Ensure it is above the new SVG initially */
+}
+
+.new {
+    transform: translateX(100vw); /* Move the new SVG off-screen to the right initially */
+    z-index: 1; /* Place it below the original SVG initially */
+}
+
+/* Move the original SVG out when the checkbox is checked */
+#dm-toggle:checked ~ .dark-mode-button .original {
+    transform: translateX(-100vw); /* Move the original SVG out of view to the left */
+}
+
+/* Move the new SVG into view when the checkbox is checked */
+#dm-toggle:checked ~ .dark-mode-button .new {
+    transform: translateX(0); /* Bring the new SVG into view */
+}
+  

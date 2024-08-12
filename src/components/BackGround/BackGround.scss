@@ -11,7 +11,8 @@ body.dark-mode {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, rgba(37, 40, 42, 0) 75%, #25282a), url('./race-condition.jpeg');
+    // background-image: linear-gradient(180deg, rgba(37, 40, 42, 0) 75%, #25282a), url('./race-track-3x2.png');
+    // background-image: url('./race-track.png');
     background-size: cover;
     background-position-x: center;
   }
@@ -31,10 +32,24 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient( to bottom, rgba($cultured,0) 75%, rgba($cultured,1) ), url('./race-condition.jpeg');
+  // background-image: linear-gradient( to bottom, rgba($cultured,0) 75%, rgba($cultured,1) ), url('./race-track-3x2.png');
+  // background-image: url('./race-track.png');
   background-size: cover;
   background-position-x: center;
 }
+
+@media (min-width: 200px) {
+  .header__bg {
+    background-image: url('./race-track.png');
+  }
+}
+
+@media (min-width: 779px) {
+  .header__bg {
+    background-image: linear-gradient(0deg, rgba(37, 40, 42, 0) 50%, #25282a), url('./race-track-3x2.png');
+  }
+}
+
 
 
 .header__bg__none {
