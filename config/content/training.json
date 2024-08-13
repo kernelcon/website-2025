@@ -1,241 +1,138 @@
 [{
-    "id": "ghidra",
-    "hide": false,
-    "instructors": [{
-      "name": "Chris Eagle",
-      "title": "",
-      "twitter_handle": "@sk3wl",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "Chris Eagle is a security researcher whose interests include computer network operations, computer forensics and reverse / anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA 's Cyber GrandChallenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of \"The Ghidra Book\" and \"The IDA ProBook\". In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon."
-    }],
-    "course": {
-      "title": "Introduction to Ghidra",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>This is an introductory reverse engineering course that teaches students the basics of the Ghidra disassembler/decompiler along with the basic reverse engineering concepts needed to begin analyzing binary software.</p><br /><p>The course begins by ensuring that everyone has a working Ghidra installation and discussing the basic layout of the Ghidra source repo. Next, basic project creation is discussed on the way to examining a simple binary that allows all of the basic features of Ghidra to be explored. In particular, Ghidra's treatment of stack frames, calling conventions and cross references and their importance to the reverse engineering process are discussed.</p><br /><p>The course then moves on to discuss complex data structures and the Ghidra features that assist in decoding and representing them with examples of arrays, C structs and C++ polymorphic classes and vtables.</p><br /><p>The course concludes with a discussion of Ghidra's collaborative reverse engineering capabilities and the setup of a Ghidra collaboration server, Ghidra's integrated debugger, and an introduction to Ghidra scripting where we will review several of Ghidra's example scripts along with some of the basic scripting APIs. Basic scripting using Java and Python are covered, along with Ghidra's Eclipse integration.</p>",
-        "short_form": "<p>This course is designed to introduce students to the essential features of the Ghidra disassembler/decompiler. The course begins with Ghidra installation and project creation, then moves on to cover all of the default Ghidra displays to understand how they can help you in your reverse engineering efforts. Fundamental concepts such as parameter passing and stack frame are covered using binaries from a variety of architectures in order to understand various Ghidra displays and analysis capabilities. Ghidra's handling of complex data types is covered from both the disassembler's and the decompiler's point of view.</p><br /><p>The course conclude with a discussion of configuring and using the Ghidra collaboration server, Ghidra's integrated debugger, and an introduction to Ghidra scripting. No previous Ghidra or reverse engineering experience is assumed.</p>"
-      },
-      "prerequisites": "Prerequisites for the course include some knowledge of assembly languages (32 and 64-bit x86, ARM and MIPS examples will be utilized). The ability to read C is useful for understanding the decompiler's output, and the ability program in Java and/or Python are essential to understanding the scripting portions of the course.",
-      "equipment": "Students are required to supply their own Windows, Linux, or Mac laptop and must have pre-installed or have the ability to install JRE/JDK 11.0 or greater and the Eclipse IDE."
-    }
-  },
-  {
-    "id": "codereview",
-    "hide": false,
-    "instructors": [{
-      "name": "Seth Law",
-      "title": "",
-      "twitter_handle": "@sethlaw",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "Seth Law is an experienced Application Security Professional with over 15 years of experience in the computer security industry. During this time, Seth has worked within multiple disciplines in the security field, from software development to network protection, both as a manager and individual contributor. Seth has honed his application security skills using offensive and defensive techniques, including tool development. Seth is the founder and principal of Redpoint Security, hosts the Absolute AppSec podcast with Ken Johnson, and is a regular speaker at developer meetups and security events, including Blackhat, Defcon, CactusCon, and other regional conferences."
-    }, {
-      "name": "Ken Johnson",
-      "title": "",
-      "twitter_handle": "@cktricky",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": "Ken Johnson has been hacking web applications professionally for 14 years and given security training for 11 of those years. Ken is both a breaker and builder and is the CTO & Co-Founder of DryRun Security. Previously, Ken was a Director with GitHub's Product Security Engineering team and has held both technical and leadership roles both within the consulting world as well as a corporate defender. Previously, Ken has spoken at RSA, You Sh0t the Sheriff, Insomnihack, CERN, DerbyCon, AppSec USA, AppSec DC, AppSec California, DevOpsDays DC, LASCON, RubyNation, and numerous Ruby, OWASP, and AWS events about appsec, devops security, and AWS security. Ken's current passion project is the Absolute AppSec podcast with Seth Law."
-    }],
-    "course": {
-      "title": "Practical Secure Code Review",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>Learn a proven methodology for discovering vulnerabilities in code through secure code reviews against any language or framework, no matter the amount of code AND <b>learn how to optimize processes and discovery utilizing your own RAG AI toolset.</b> Whether analyzing code as a consultant, internal resource, or bug bounty researcher, enhance your bug-hunting techniques and code review skills using a strategy surpassing security review checks covered by language-specific guidance and automated tools plagued by false positives and learn how an emerging technology (AI) can augment your manual approach.</p><br /><p>During the training, you will learn and practice a methodology developed by Seth and Ken (co-hosts of the Absolute AppSec podcast) to find bugs in hundreds of code bases, including web3, mobile, and web applications and also learn how to utilize AI technologies such as Langchain, Vector Databases, and Retrieval Augment Generation (RAG). Students gain the confidence to take on code-review projects, knowing how to organize their limited time, avoiding unnecessary time sinks and focusing on an application’s security-relevant files and functions.</p>",
-        "short_form": "<p>Learn a proven methodology for discovering vulnerabilities in code through secure code reviews against any language or framework, no matter the amount of code AND <b>learn how to optimize processes and discovery utilizing your own RAG AI toolset.</b> Whether analyzing code as a consultant, internal resource, or bug bounty researcher, enhance your bug-hunting techniques and code review skills using a strategy surpassing security review checks covered by language-specific guidance and automated tools plagued by false positives and learn how an emerging technology (AI) can augment your manual approach.</p><br /><p>During the training, you will learn and practice a methodology developed by Seth and Ken (co-hosts of the Absolute AppSec podcast) to find bugs in hundreds of code bases, including web3, mobile, and web applications and also learn how to utilize AI technologies such as Langchain, Vector Databases, and Retrieval Augment Generation (RAG). Students gain the confidence to take on code-review projects, knowing how to organize their limited time, avoiding unnecessary time sinks and focusing on an application’s security-relevant files and functions.</p>"
-      },
-      "prerequisites": "Attendees should be familiar with the development process (SDLC) and where security code reviews fit into the process. Attendees must have experience using an IDE, running command-line tools, and be able to read application source code. Attendees must have knowledge of the OWASP Top 10 and other common vulnerabilities.",
-      "equipment": "A laptop and an IDE."
-    }
-  },
-  {
-    "id": "defense_in_depth",
-    "hide": true,
-    "instructors": [{
-      "name": "John Poulin",
-      "title": "Staff manager of Product Security Engineering",
-      "twitter_handle": "@forced_request",
-      "github_handle": "forced-request",
-      "workplace": "GitHub",
-      "image_name": "",
-      "bio": "<p>John Poulin is an experienced Application Security Practitioner with over 10 years of experience in software development and security. Over his tenure, John has worked with many Fortune 500 companies and startups alike to perform secure code review, architecture, and design discussions, as well as threat modeling.</p><br /><p>Currently, as a Staff manager of Product Security Engineering at GitHub, John and his team focus on performing secure code review of features and services, performing threat modeling, and overall helping to ensure that our software ecosystem is moving towards security maturity.</p><br /><p>John has given talks or training at many industry conferences, such as DEF CON, LASCON, DevSecCon, CactusCon, Source, as well as various Ruby and OWASP events about practical Application Security. </p>"
-    }],
-    "course": {
-      "title": "Defense In Depth Engineering",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>The 2021 OWASP Top Ten introduced a category 'Insecure Design' to focus on risks related to design flaws. In this training, we will focus on building defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios?</p><br /><p>This two-day training is perfect for engineers as well as security practitioners that have some familiarity with the OWASP top 10. During this training, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will utilize source code review to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Every interactive exercise will involve discovering concerns and writing code to engineer solutions. The course will wrap up with real-world vulnerability analysis of open-source software with an effort to help provide more secure architectural recommendations for these projects.</p><br /><p>Engineers will leave this training with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities.</p>",
-        "short_form": "<p>The 2021 OWASP Top Ten introduced a category 'Insecure Design' to focus on risks related to design flaws. In this training, we will focus on building defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios?</p><br /><p>This two-day training is perfect for engineers as well as security practitioners that have some familiarity with the OWASP top 10. During this training, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will utilize source code review to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Every interactive exercise will involve discovering concerns and writing code to engineer solutions. The course will wrap up with real-world vulnerability analysis of open-source software with an effort to help provide more secure architectural recommendations for these projects.</p><br /><p>Engineers will leave this training with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities.</p>"
-      },
-      "prerequisites": "",
-      "equipment": "Attendees will need to come prepared with a laptop, with Docker installed."
-    }
-  },
-  {
-    "id": "python",
-    "hide": false,
-    "instructors": [{
-      "name": "Joff Thyer",
-      "title": "Penetration Tester and Security Analyst",
-      "twitter_handle": "@joff_thyer",
-      "github_handle": "yoda66",
-      "workplace": "Black Hills Information Security",
-      "image_name": "",
-      "bio": "<p>Joff Thyer has been a Penetration Tester and Security Analyst with Black Hills Information Security (BHIS) since 2013. He has an associate in Computer Science, a B.S. in Mathematics, and an M.S. in Computer Science, as well as several certifications (listed below). The best part of a penetration test for Joff is developing sophisticated malware that tackles defensive solutions, ultimately delivering exciting wins for company engagements. He has extensive experience covering intrusion prevention/detection systems, infrastructure defense, vulnerability analysis, defense bypass, source code analysis, and exploit research. When Joff isn't working or co-hosting the Security Weekly podcast, he enjoys making music and woodworking.</p>"
-    }],
-    "course": {
-      "title": "Introduction to Python",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>One of the most pressing needs Information Security professionals face today is the need to automate their work in both the attack, and defense context. Skills gained for automating tasks in programming languages are critical to scale up the efforts of a limited security professional talent pool.</p><br /><p>For example, it is not uncommon to find useful Python scripts on the Internet that are at a Proof-of-Concept stage to quickly achieve some information security professional goal. Penetration testers, incident responders, forensics, and defense professionals need the ability to be able to take existing code and produce stable functional Python tools or be able to debug an issue with an existing tool.</p><br /><p>This course aims to teach the fundamentals of the Python programming language such that a student will gain a beginning to intermediate level of competency with the language. Labs will be presented in a Capture the Flag (CTF) style format as well as some more comprehensive programming tasks.</p><br /><p>The expectation as to whether students can complete all exercises is dependent on prior student experience, and knowledge. Python is a language that is best approached if a student has some elementary programming background (such as shell scripting for example).</p>",
-        "short_form": "<p>One of the most pressing needs Information Security professionals face today is the need to automate their work in both the attack, and defense context. Skills gained for automating tasks in programming languages are critical to scale up the efforts of a limited security professional talent pool.</p><br /><p>For example, it is not uncommon to find useful Python scripts on the Internet that are at a Proof-of-Concept stage to quickly achieve some information security professional goal. Penetration testers, incident responders, forensics, and defense professionals need the ability to be able to take existing code and produce stable functional Python tools or be able to debug an issue with an existing tool.</p><br /><p>This course aims to teach the fundamentals of the Python programming language such that a student will gain a beginning to intermediate level of competency with the language. Labs will be presented in a Capture the Flag (CTF) style format as well as some more comprehensive programming tasks.</p><br /><p>The expectation as to whether students can complete all exercises is dependent on prior student experience, and knowledge. Python is a language that is best approached if a student has some elementary programming background (such as shell scripting for example).</p>"
-      },
-      "prerequisites": "<ul><li>Knowledge of how to use text editors, and UNIX/Linux command line is helpful.</li><li>Some exposure to scripting languages such as PowerShell and Bash.</li><li>Elementary programming skills is beneficial but not required.</li></ul>",
-      "equipment": "<ul><li>Laptop or desktop with sufficient resources to run VMware.<ul><li>64-bit CPU with 8GB Ram or higher.</li><li>Windows 10, Ubuntu, CentOS, or Red Hat.</li><li>Note: ARM under MacOS is not supported.</li></ul></li><li>VMware Workstation or VMware Player (can be downloaded for free)</li></ul>"
-    }
-  },
-  {
-    "id": "offensive_security",
-    "hide": true,
-    "instructors": [{
-      "name": "Gregory Hatcher",
-      "title": "",
-      "twitter_handle": "",
-      "github_handle": "",
-      "workplace": "White Knight Labs",
-      "image_name": "",
-      "bio": "Greg's time spent in Army Special Forces and teaching Windows fundamentals at the NSA gives him a unique background for conducting full-scope offensive cyber operations. He has led over 100 penetration tests that include network, cloud, mobile, web app, and API technologies. In addition, Greg has authored and taught courses at Derbycon, Wild West Hackin' Fest, and Calvin University."
-    },{
-        "name": "John Stigerwalt",
-        "title": "",
-        "twitter_handle": "",
-        "github_handle": "",
-        "workplace": "White Knight Labs",
-        "image_name": "",
-        "bio": "During the last 10 years, John has worked in the following roles: blue team lead, developer, senior penetration tester, and red team lead. Focused mostly on exploit development and offensive cyber operations, he has led red team engagement in highly complex Fortune 500 companies. John has worked closely with Microsoft to improve kernel security for the Windows operating system. And he has led trainings at BlackHat, Derbycon, and Wild West Hackin' Fest."
-      }],
-    "course": {
-      "title": "Offensive Development",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "This course is for offensive security engineers who want to transition into writing their own tools and have a deeper understanding of Windows internal and the inner workings of EDR products. At the beginning of the course, students will receive a Terraform script that spins up a lab environment that consists of several fully patched Windows machines. These machines will have Defender ATP, Cylance, Crowdstrike, and Sophos Intercept X EDR installed. The C2 framework used in the course is Cobalt Strike.",
-        "short_form": "This course is for offensive security engineers who want to transition into writing their own tools and have a deeper understanding of Windows internal and the inner workings of EDR products. At the beginning of the course, students will receive a Terraform script that spins up a lab environment that consists of several fully patched Windows machines. These machines will have Defender ATP, Cylance, Crowdstrike, and Sophos Intercept X EDR installed. The C2 framework used in the course is Cobalt Strike."
-      },
-      "prerequisites": "A background in C programming, Windows Internals, .NET programming, and how AV/EDR products work would be useful, but not required.",
-      "equipment": "We highly recommend that students bring at least one external monitor for this course. Students will need to have the ability to operate on multiple machines while referencing the lab guide simultaneously. Students will also need their own AWS account with admin privileges (read/write/execute) that has programmatic access (keys) so that they can use Terraform to spin up the environment on the first day."
-    }
-  },
-  {
-    "id": "breaching_the_cloud",
-    "hide": false,
-    "instructors": [{
-      "name": "Beau Bullock",
-      "title": "",
-      "twitter_handle": "",
-      "github_handle": "",
-      "workplace": "Antisyphon Training",
-      "image_name": "",
-      "bio": "Beau Bullock is a Senior Security Analyst and Penetration Tester and has been with Black Hills Information Security since 2014. Beau has a multitude of security certifications (OSCP, OSWP, GXPN, GPEN, GWAPT, GCIH, GCIA, GCFA, GSEC) and maintains his extensive skills by routinely taking training, learning as much as he can from his peers, and researching topics that he lacks knowledge in. He is a constant contributor to the infosec community by authoring open-source tools, writing blogs, and frequently speaking at conferences and on webcasts."
-    }],
-    "course": {
-      "title": "Breaching The Cloud",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>Do you want to level up your cloud penetration testing skills? The attack surface of many organizations has changed to include third-party hosted services such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. In this training course, hacking concepts will be introduced for each of those services.</p><br /><p>This training walks through a complete penetration testing methodology of cloud-based infrastructure. Starting with no information other than the company name you will learn to discover what cloud-specific assets your target is using. Following the enumeration of cloud services, you will learn how to discover misconfigurations that commonly expose sensitive data as well as a thorough understanding of how to get an initial foothold into a cloud-based organization.</p><br /><p>Post-compromise techniques of cloud infrastructure differ from the techniques used in typical on-premise environments. You will learn situational awareness techniques that ultimately will impact how you will escalate privileges in the cloud. With most cloud-based authentication being publicly exposed this presents new and interesting persistence techniques that are non-existent to on-premise environments. With productivity tools like G-Suite and Microsoft 365 many organizations are making their email and other data that is normally protected by a firewall available to remote employees. You will learn how to discover, pillage, and exfiltrate data from these services.</p><br /><p>Many organizations are fully leveraging cloud services for their production infrastructure. This can include web servers, SQL databases, storage, virtual machines, and more. In this training, you will learn how to assess and compromise these resources. Some cloud deployments are directly connected to on-premise environments via VPN. This presents an opportunity to pivot access from cloud to on-prem or vice-versa.</p><br /><p>Finally, in this training, we will not only be attacking cloud infrastructure but also leveraging it for red team operations. You will learn techniques that leverage cloud services for techniques such as phishing, domain fronting, and command & control.</p><br /><p>Tools and techniques used on real-world penetration tests against cloud assets will be shared including hands-on demonstrations. At the end of this training, you will have new skills for assessing cloud-based infrastructure!</p><br /><p><b>Key Takeaways:</b><ul><li>A thorough understanding of the attack surface cloud-based organizations face</li><li>A full methodology for compromising cloud environments</li><li>Instruction on how to utilize open-source tools during cloud assessments</li></ul></p><br /><p><b>Who Should Take This Course:</b><ul><li>Penetration testers</li><li>Red teamers</li><li>Cloud security architects</li><li>Ethical hackers</li><li>General security practitioners</li></ul></p><br /><p><b>Audience Skill Level:</b><br />Everyone. This course somewhat doubles as a general pentesting “crash course” as there are many commonalities between cloud-based pentesting and traditional on-prem pentesting.</p><br /><p><b>Student Requirements:</b><ul><li>A credit card (You will be signing up for cloud service accounts such as Microsoft Azure and AWS. These services require a credit card for signing up.)</li><li>Internet access</li></ul></p><br /><p><b>System Requirements:</b><ul><li>x86 architecture CPU clocked at 2 GHz or higher that is capable of nested virtualization (Apple Silicon is currently not supported)</li><li>A computer with at least 8 GB of RAM. 16 GB is recommended</li><li>VMWare Workstation or VMWare Fusion (VirtualBox and other VM software is not supported)</li><li>Windows 10/11, MacOSX+, or a currently supported Linux Distribution</li><li>Full Administrator/root access to your computer or laptop</li></ul></p><p>System should also have at least 40GB of available disk space to accommodate two VMs.</p>",
-        "short_form": "<p>Do you want to level up your cloud penetration testing skills? The attack surface of many organizations has changed to include third-party hosted services such as Amazon Web Services, Microsoft Azure, and Google Cloud Platform. In this training course, hacking concepts will be introduced for each of those services.</p><br /><p>This training walks through a complete penetration testing methodology of cloud-based infrastructure. Starting with no information other than the company name you will learn to discover what cloud-specific assets your target is using. Following the enumeration of cloud services, you will learn how to discover misconfigurations that commonly expose sensitive data as well as a thorough understanding of how to get an initial foothold into a cloud-based organization.</p><br /><p>Post-compromise techniques of cloud infrastructure differ from the techniques used in typical on-premise environments. You will learn situational awareness techniques that ultimately will impact how you will escalate privileges in the cloud. With most cloud-based authentication being publicly exposed this presents new and interesting persistence techniques that are non-existent to on-premise environments. With productivity tools like G-Suite and Microsoft 365 many organizations are making their email and other data that is normally protected by a firewall available to remote employees. You will learn how to discover, pillage, and exfiltrate data from these services.</p><br /><p>Many organizations are fully leveraging cloud services for their production infrastructure. This can include web servers, SQL databases, storage, virtual machines, and more. In this training, you will learn how to assess and compromise these resources. Some cloud deployments are directly connected to on-premise environments via VPN. This presents an opportunity to pivot access from cloud to on-prem or vice-versa.</p><br /><p>Finally, in this training, we will not only be attacking cloud infrastructure but also leveraging it for red team operations. You will learn techniques that leverage cloud services for techniques such as phishing, domain fronting, and command & control.</p><br /><p>Tools and techniques used on real-world penetration tests against cloud assets will be shared including hands-on demonstrations. At the end of this training, you will have new skills for assessing cloud-based infrastructure!</p><br /><p><b>Key Takeaways:</b><ul><li>A thorough understanding of the attack surface cloud-based organizations face</li><li>A full methodology for compromising cloud environments</li><li>Instruction on how to utilize open-source tools during cloud assessments</li></ul></p><br /><p><b>Who Should Take This Course:</b><ul><li>Penetration testers</li><li>Red teamers</li><li>Cloud security architects</li><li>Ethical hackers</li><li>General security practitioners</li></ul></p><br /><p><b>Audience Skill Level:</b><br />Everyone. This course somewhat doubles as a general pentesting “crash course” as there are many commonalities between cloud-based pentesting and traditional on-prem pentesting.</p><br /><p><b>Student Requirements:</b><ul><li>A credit card (You will be signing up for cloud service accounts such as Microsoft Azure and AWS. These services require a credit card for signing up.)</li><li>Internet access</li></ul></p><br /><p><b>System Requirements:</b><ul><li>x86 architecture CPU clocked at 2 GHz or higher that is capable of nested virtualization (Apple Silicon is currently not supported)</li><li>A computer with at least 8 GB of RAM. 16 GB is recommended</li><li>VMWare Workstation or VMWare Fusion (VirtualBox and other VM software is not supported)</li><li>Windows 10/11, MacOSX+, or a currently supported Linux Distribution</li><li>Full Administrator/root access to your computer or laptop</li></ul></p><p>System should also have at least 40GB of available disk space to accommodate two VMs.</p>"
-      },
-      "prerequisites": "",
-      "equipment": ""
-    }
-  },
-  {
-    "id": "hacking_active_directory",
-    "hide": false,
-    "instructors": [{
-      "name": "Dale Hobbs",
-      "title": "",
-      "twitter_handle": "@HobbsDale",
-      "github_handle": "",
-      "workplace": "Black Hills Information Security",
-      "image_name": "",
-      "bio": "Dale Hobbs is a Penetration Tester with Black Hills Information Security (BHIS). He is also a TA for SEC401, SEC504, and SEC566 with the SANS Institute and is an active member of the GIAC Advisory Board. Prior to BHIS, Dale was the Security Manager for a large North American Retail company. When he’s not working with BHIS, Dale enjoys camping, fishing, and playing chauffeur for his kids."
-    }],
-    "course": {
-      "title": "Hacking Active Directory: Fundamentals and Techniques",
-      "days": 2,
-      "scheduled": {
-        "day_one": true,
-        "day_two": true
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "<p>The majority of enterprise networks today are managed using Microsoft Active Directory and it is crucial for a security professional to understand the current threats to a modern Windows environment.</p><br /><p>Participants will learn about the various attack vectors and methods used to compromise Active Directory, such as password attacks, service abuse and privilege escalation.</p><br /><p>The course simulates real world attack scenarios with a focus on exploiting the variety of overlooked domain features and not just software vulnerabilities.</p><br /><p>This course is designed for students, defenders and aspiring penetration testers who would like to enhance their Active Directory security knowledge and want to understand practical threats and attacks in a modern Active Directory environment.</p>",
-        "short_form": "<p>The majority of enterprise networks today are managed using Microsoft Active Directory and it is crucial for a security professional to understand the current threats to a modern Windows environment.</p><br /><p>Participants will learn about the various attack vectors and methods used to compromise Active Directory, such as password attacks, service abuse and privilege escalation.</p><br /><p>The course simulates real world attack scenarios with a focus on exploiting the variety of overlooked domain features and not just software vulnerabilities.</p><br /><p>This course is designed for students, defenders and aspiring penetration testers who would like to enhance their Active Directory security knowledge and want to understand practical threats and attacks in a modern Active Directory environment.</p>"
-      },
-      "prerequisites": "Students should be comfortable operating from the command-line in Debian-based Linux distributions such as Kali Linux, Microsoft Windows and familiar with using PowerShell scripts.",
-      "equipment": "<p>Hardware Requirements:<ul><li>Computer capable of running four virtual machines (Linux and Windows)</li><li>64-bit Intel i5 or i7 2.0 GHz processor or higher.</li><li>16 GB RAM is highly recommended for the best experience.</li><li>100 GB of FREE space on the hard drive is critical to host the VMs and additional files we distribute. SSD drives are also highly recommended, as they allow virtual machines to run much faster than mechanical hard drives.</li><li>Windows 10, macOS 10.15.x or later, or Linux that also can install and run VMware virtualization products described below.</li></ul></p><p><b>CRITICAL NOTE: </b>Apple systems using the M1/M2 processor line cannot perform the necessary virtualization functionality and therefore cannot be used for this course.</p><p>Software Requirements:<ul><li>VMware Player 16, VMware Fusion 12, or VMware Workstation 16. (you can download a free 30-day trial copy from VMware. VMware Workstation Player is a free download)</li></ul></p><p><b>NOTE:</b> Hyper-V and VirtualBox are not supported and may not work with the course material.</p>"
-    }
-  },
-  {
-    "id": "",
-    "hide": true,
-    "instructors": [{
-      "name": "",
-      "title": "",
-      "twitter_handle": "",
-      "github_handle": "",
-      "workplace": "",
-      "image_name": "",
-      "bio": ""
-    }],
-    "course": {
-      "title": "",
-      "days": 1,
-      "scheduled": {
-        "day_one": true,
-        "day_two": false
-      },
-      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-      "description": {
-        "long_form": "",
-        "short_form": ""
-      },
-      "prerequisites": "",
-      "equipment": ""
-    }
+  "id": "AI",
+  "hide": false,
+  "instructors": [{
+    "name": "Joff Thyer",
+    "title": "",
+    "twitter_handle": "@joff_thyer",
+    "github_handle": "",
+    "linkedin_handle": "joffthyer",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Joff Thyer has been a Security Analyst with Black Hills Information Security (BHIS) since 2013. He has an associate in Computer Science, a B.S. in Mathematics, and an M.S. in Computer Science, as well as several certifications. The best part of a penetration test for Joff is developing sophisticated malware that tackles defensive solutions, ultimately delivering exciting wins for company engagements. He has extensive experience covering intrusion prevention/detection systems, infrastructure defense, vulnerability analysis, defense bypass, source code analysis, and exploit research. When Joff isn’t working he enjoys making music and woodworking. Certifications include GIAC GXPN, GWAPT, GPEN, GCIA, GCIA Gold, and Coursera Deep Learning AI Tensorflow Developer Professional."
+  }, {
+    "name": "Derek Banks",
+    "title": "",
+    "twitter_handle": "@0xderuke",
+    "github_handle": "",
+    "linkedin_handle": "derek-banks-117b0012",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Derek Banks has been with Black Hills Information Security (BHIS) since 2014 as a Security Analyst, Penetration Tester, and Red Teamer, and now fulfills a leadership role in the BHIS Security Operations Center (SOC). He has a B.S. in Information Systems and an M.S. in Data Science, as well as several industry certifications. Derek has experience in computer forensics and incident response, creating custom host and network-based logging and monitoring solutions, penetration testing and red teaming, vulnerability analysis, and threat modeling. Derek’s favorite aspects of working at BHIS include learning from his coworkers and helping customers better their security posture. When not working, Derek enjoys spending time with his family, staying physically fit, and playing the bass guitar. Certifications include GIAC GSEC, GCFA, GCIH, GPEN, GNFA, GMOB, GCIA, and CISSP."
+  }],
+  "course": {
+    "title": "AI for Cyber Security Professionals",
+    "days": 2,
+    "scheduled": {
+      "day_one": true,
+      "day_two": true
+    },
+    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+    "description": {
+      "long_form": "<p>This course provides an introduction to the application of artificial intelligence (AI) in the field of cyber security. Designed for cyber security defenders, the course covers foundational AI history, concepts, and data science underpinnings.  Participants will learn how AI enhances threat detection, malware analysis, incident response, and can be used as a daily task accelerator.  The course includes hands-on sessions where participants will learn how to setup an AI development environment, program and leverage some pre-trained models for predictive analysis in Python and Jupyter Notebook, and utilize some existing frameworks for AI-LLM prompt engineering. Ethical considerations, privacy concerns, and future trends in AI for cybersecurity are also discussed. By the end of the course, participants will have a solid understanding of AI fundamentals, development and building block technologies, some of the potential challenges, and how AI might be applied in their everyday professional careers.</p>",
+      "short_form": "<p>This course provides an introduction to the application of artificial intelligence (AI) in the field of cyber security. Designed for cyber security defenders, the course covers foundational AI history, concepts, and data science underpinnings.  Participants will learn how AI enhances threat detection, malware analysis, incident response, and can be used as a daily task accelerator.  The course includes hands-on sessions where participants will learn how to setup an AI development environment, program and leverage some pre-trained models for predictive analysis in Python and Jupyter Notebook, and utilize some existing frameworks for AI-LLM prompt engineering. Ethical considerations, privacy concerns, and future trends in AI for cybersecurity are also discussed. By the end of the course, participants will have a solid understanding of AI fundamentals, development and building block technologies, some of the potential challenges, and how AI might be applied in their everyday professional careers.</p>"
+    },
+    "prerequisites": "A working knowledge of Python scripting. Internet connectivity and compliant browser. Familiarity/comfort in a command line environment.",
+    "equipment": "One of the following: Latest Windows 10/11 laptop with administrative access, or MacOS. MacBook Pro M1/M2/M3 or later. Intel/AMD hardware laptop 2023 or later. Intel/AMD minimum specs: multiple core CPU, 16GB Ram, 1TB disk. Latest Windows 10/11 O/S software with WSL2 support.",
+    "whoshouldattend": ""
   }
-]
+},
+{
+  "id": "offensefordefense",
+  "hide": false,
+  "instructors": [{
+    "name": "Jason Downey",
+    "title": "",
+    "twitter_handle": "@hackandbackpack",
+    "github_handle": "",
+    "linkedin_handle": "",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Jason Downey has over ten years of professional experience in IT and information security ranging in a variety of roles in network security roles with additional experience in systems administration. Jason has spoken in front of various audiences ranging from youth initiatives to major security conferences, while creating informational content on SiegeCasts and forward-facing marketing channels. Jason excels at a variety of penetration testing tactics and is well known for his vishing and social engineering expertise."
+  }, {
+    "name": "Tim Medin",
+    "title": "",
+    "twitter_handle": "@timmedin",
+    "github_handle": "",
+    "linkedin_handle": "timmedin",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Tim spent more than a dozen years teaching thousands of students as Senior Instructor and course author of SEC560: Enterprise Penetration Testing at The SANS Institute. Throughout the course of his career, Tim has performed penetration tests on a wide range of organizations and technologies. Tim has gained information security experience in a variety of industries including previous positions in control systems, higher education, financial services, and manufacturing. Tim is an experienced international speaker, having presented to organizations around the world. Tim is the creator of the Kerberoasting, a widely utilized Red Team penetration test technique to extract kerberos tickets in order to offline attack the password of enterprise service accounts. Tim earned his MBA through the University of Texas and recently completed an eMBA equivalent through Harvard Business School."
+  }],
+  "course": {
+    "title": "Offense For Defense",
+    "days": 2,
+    "scheduled": {
+      "day_one": true,
+      "day_two": true
+    },
+    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+    "description": {
+      "long_form": "<p>Offense for Defense, a Red Siege Information Security specialized course tailored for information security blue teamers, or defenders, aiming to fortify their skills in offensive security strategies. Throughout this program, participants will delve into the fundamentals of offensive security, gaining insight into the tactics, techniques, and procedures employed by adversaries. By understanding the attacker's mindset and methodologies, defenders will be better equipped to anticipate and defend against common cyber threats effectively. Through practical exercises and real-world scenarios, participants will learn to proactively identify vulnerabilities, assess risks, and implement robust defensive measures to safeguard against potential attacks. Join us as we empower defenders with the knowledge and tools needed to strengthen their cybersecurity posture and protect critical assets from evolving threats.</p>",
+      "short_form": "<p>Offense for Defense, a Red Siege Information Security specialized course tailored for information security blue teamers, or defenders, aiming to fortify their skills in offensive security strategies. Throughout this program, participants will delve into the fundamentals of offensive security, gaining insight into the tactics, techniques, and procedures employed by adversaries. By understanding the attacker's mindset and methodologies, defenders will be better equipped to anticipate and defend against common cyber threats effectively. Through practical exercises and real-world scenarios, participants will learn to proactively identify vulnerabilities, assess risks, and implement robust defensive measures to safeguard against potential attacks. Join us as we empower defenders with the knowledge and tools needed to strengthen their cybersecurity posture and protect critical assets from evolving threats.</p>"
+    },
+    "prerequisites": "",
+    "equipment": "",
+    "whoshouldattend": "Information Security blue teamers aiming to fortify their skills in offensive security strategies by learning directly from the experience and knowledge of the attackers."
+  }
+},
+{
+  "id": "ransomware",
+  "hide": false,
+  "instructors": [{
+    "name": "Markus Schober",
+    "title": "",
+    "twitter_handle": "@mascho",
+    "github_handle": "",
+    "linkedin_handle": "markusschober123",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Markus Schober, founder and CEO of Blue Cape Security, is a leading expert in Digital Forensics and Incident Response (DFIR) with over a decade of experience. Certified as a CISSP, GCFA, and GCIH, Markus has managed significant breach investigations and advised on building robust cybersecurity programs. At Blue Cape Security, he has developed the CyberLabHero platform, providing cutting-edge training solutions that equip individuals and organizations with essential cybersecurity skills. Markus is dedicated to advancing the field of cybersecurity through innovative training methods and practical, real-world applications."
+  }],
+  "course": {
+    "title": "Ransomware Attack Simulation and Investigation for Blue Teamers",
+    "days": 2,
+    "scheduled": {
+      "day_one": true,
+      "day_two": true
+    },
+    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+    "description": {
+      "long_form": "<p>As a cyber security defender and investigator, understanding ransomware attacks is crucial for effective response. In this workshop, participants will learn how attackers operate, set up a C2 infrastructure with the Empire C2 framework, and execute a simulated attack, step-by-step, from initial access all the way throughout post-exploitation phases, each student in their own cloud based lab environment. Following, we will perform a full investigation of the scenario at hand, covering log and endpoint analysis at scale as well as data collection and digital forensics concepts. For this, the tools we are going to use are Splunk, Velociraptor and several industry-established digital forensic utilities. Upon completion of the training, participants will have a better understanding of the steps ransomware threat actors take to achieve their objectives, as well as the best practices for detecting and ultimately preventing ransomware attacks.</p>",
+      "short_form": "<p>As a cyber security defender and investigator, understanding ransomware attacks is crucial for effective response. In this workshop, participants will learn how attackers operate, set up a C2 infrastructure with the Empire C2 framework, and execute a simulated attack, step-by-step, from initial access all the way throughout post-exploitation phases, each student in their own cloud based lab environment. Following, we will perform a full investigation of the scenario at hand, covering log and endpoint analysis at scale as well as data collection and digital forensics concepts. For this, the tools we are going to use are Splunk, Velociraptor and several industry-established digital forensic utilities. Upon completion of the training, participants will have a better understanding of the steps ransomware threat actors take to achieve their objectives, as well as the best practices for detecting and ultimately preventing ransomware attacks.</p>"
+    },
+    "prerequisites": "Basic proficiency in handling Virtual Machines and using command line terminals in Windows and Linux. ",
+    "equipment": "Only a RDP client is needed to access the lab environment.",
+    "whoshouldattend": "Security professionals in technical roles. Beginner friendly to intermediate level. SOC analysts, IT administrators, System engineers, IT managers, Red Teamers, etc."
+  }
+},
+{
+  "id": "redteam",
+  "hide": false,
+  "instructors": [{
+    "name": "Michael Allen",
+    "title": "",
+    "twitter_handle": "@Wh1t3Rh1n0",
+    "github_handle": "https://github.com/Wh1t3Rh1n0",
+    "linkedin_handle": "wh1t3rh1n0",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Michael Allen is a Senior Security Analyst and Red Team Practice Lead at Black Hills Information Security and has been a professional red teamer and penetration tester since 2014. Having started hacking and picking locks at an early age, Michael has since turned “doing things he’s not supposed to do and going places where he’s not supposed to be,” into an impactful career. He has a multitude of infosec certifications, including the OSCE, MLSE, and CISSP; and his “think like a criminal” mindset brings incredible value to the clients he serves. Michael enjoys sharing his knowledge to empower others and has created and taught classes at in-person events including Black Hat USA and Wild West Hackin’ Fest, as well as online through AntisyphonTraining.com. Hacking isn’t just a job for Michael; it’s a way of life, in which he brings fun, creativity, and passion to every hack, breach, and bypass he attempts."
+  }],
+  "course": {
+    "title": "Red Team Initial Access",
+    "days": 2,
+    "scheduled": {
+      "day_one": true,
+      "day_two": true
+    },
+    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+    "description": {
+      "long_form": "<p>This new course has been completely rebuilt from the ground up to reflect modern initial access methods that work in 2025! Getting a foothold is the first step in a successful breach—and due to modern defenses, it is often the most difficult. In this class, students will learn to execute the most effective and up-to-date methods for breaching a modern enterprise environment and obtaining initial access.</p>",
+      "short_form": "<p>This new course has been completely rebuilt from the ground up to reflect modern initial access methods that work in 2025! Getting a foothold is the first step in a successful breach—and due to modern defenses, it is often the most difficult. In this class, students will learn to execute the most effective and up-to-date methods for breaching a modern enterprise environment and obtaining initial access.</p>"
+    },
+    "prerequisites": "Basic familiarity with information security concepts is all that is required to follow along with the presentation and course material. To successfully participate in and complete the lab exercises, students should be able to install and run a VMware virtual machine on the computer they use for class. Students will also need to sign up for free trials of Microsoft and Amazon cloud service accounts before the first day of class to participate in some of the lab exercises. More information and step-by-step instructions on how to setup the cloud services and virtual machine are provided at the link below, so you will know in advance what to expect. https://adversarydev.com/rtia-before-class/index.html The download link for the student virtual machine will be provided a few days before class begins, and I recommend waiting until that time to setup the cloud service accounts as well. That way your free trials of those services will last the full length of the class. ",
+    "equipment": "Students will need to have the following resources to participate in the lab exercises in class: A modern x64 computer with VMware Workstation or Fusion virtualization software installed. Please Note that due to the x64 processor requirement, computers with Apple M1/M2 processors may not be able to run the student virtual machine. User permissions to install and run a Windows 11 x64 virtual machine in their virtualization platform. The following minimum hardware resources are required to run the virtual machine: 70 GB of available hard disk space and 8 GB of RAM. A credit card - Students need to sign up for cloud service accounts such as Microsoft 365, Azure, and Amazon AWS. These services offer free trials, which can be used for the lab exercises, but a credit card is required for signing up. A mobile phone – Students may need to receive SMS messages to complete signups for cloud service accounts. Students may also require a mobile phone for multi-factor authentication during the labs. If you are not sure if your computer meets the hardware or virtualization requirements noted above, you can test your computer before purchasing the class by downloading and installing Microsoft's official VMware Windows 11 image at the following URL. If you can run this VMware virtual machine on your computer, you will also be able to run the virtual machine provided for class. Note that the virtual machine available at this link is not the same one you will be using in class. It is provided here only for testing your computer before purchasing the class. Download link: https://aka.ms/windev_VM_vmware. Additional information: https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/",
+    "whoshouldattend": "Red teamers who are frustrated with traditional initial access attacks or who want to add more techniques to their toolbox. Aspiring penetration testers and red teamers who want to quickly learn the latest and greatest attacks that we use on the job every day. Blue teams and other defenders who want to understand how to defend modern cyber-attacks and how to easily test their own prevention and monitoring capabilities. Managers of either offensive or defensive security teams, seeking to keep their technical knowledge up to date. Anyone with an interest in cyber security."
+  }
+}]
