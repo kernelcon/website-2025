@@ -135,4 +135,33 @@
     "equipment": "Students will need to have the following resources to participate in the lab exercises in class: A modern x64 computer with VMware Workstation or Fusion virtualization software installed. Please Note that due to the x64 processor requirement, computers with Apple M1/M2 processors may not be able to run the student virtual machine. User permissions to install and run a Windows 11 x64 virtual machine in their virtualization platform. The following minimum hardware resources are required to run the virtual machine: 70 GB of available hard disk space and 8 GB of RAM. A credit card - Students need to sign up for cloud service accounts such as Microsoft 365, Azure, and Amazon AWS. These services offer free trials, which can be used for the lab exercises, but a credit card is required for signing up. A mobile phone – Students may need to receive SMS messages to complete signups for cloud service accounts. Students may also require a mobile phone for multi-factor authentication during the labs. If you are not sure if your computer meets the hardware or virtualization requirements noted above, you can test your computer before purchasing the class by downloading and installing Microsoft's official VMware Windows 11 image at the following URL. If you can run this VMware virtual machine on your computer, you will also be able to run the virtual machine provided for class. Note that the virtual machine available at this link is not the same one you will be using in class. It is provided here only for testing your computer before purchasing the class. Download link: https://aka.ms/windev_VM_vmware. Additional information: https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/",
     "whoshouldattend": "Red teamers who are frustrated with traditional initial access attacks or who want to add more techniques to their toolbox. Aspiring penetration testers and red teamers who want to quickly learn the latest and greatest attacks that we use on the job every day. Blue teams and other defenders who want to understand how to defend modern cyber-attacks and how to easily test their own prevention and monitoring capabilities. Managers of either offensive or defensive security teams, seeking to keep their technical knowledge up to date. Anyone with an interest in cyber security."
   }
+}, {
+  "id": "cloud",
+  "hide": false,
+  "instructors": [{
+    "name": "Andrew Krug",
+    "title": "",
+    "twitter_handle": "@andrewkrug",
+    "github_handle": "",
+    "linkedin_handle": "andrewkrug",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Andrew Krug is a Security Geek specializing in Cloud and Identity and Access Management. Krug brings 15 years experience at the intersection of security, education, and systems administration. As a fierce advocate for Open Source and founder of ThreatResponse tool suite, Andrew has helped inspire the landscape around forensics and incident response in the Cloud. Krug has been a presenter at a variety of conferences, publishing papers with BlackHat USA, DerbyCon, and many more."
+  }],
+  "course": {
+    "title": "Securing the Cloud: Foundations",
+    "days": 2,
+    "scheduled": {
+      "day_one": true,
+      "day_two": true
+    },
+    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+    "description": {
+      "long_form": "<p>In this course, we’ll explore Amazon Web Services (AWS) as a platform. We will take the perspective of a new startup company spinning up infrastructure in AWS for the very first time. We’ll use a scenario-based approach, where you’ll don the persona of a security engineer on your first day at a new startup. This course will demonstrate ideas like secure-by-default and will examine services and patterns for locking down defaults using a combination of open source and platform-native tooling. Finally, attendees will walk away with a practical understanding of various controls, detections, and guardrails.</p>",
+      "short_form": "<p>In this course, we’ll explore Amazon Web Services (AWS) as a platform. We will take the perspective of a new startup company spinning up infrastructure in AWS for the very first time. We’ll use a scenario-based approach, where you’ll don the persona of a security engineer on your first day at a new startup. This course will demonstrate ideas like secure-by-default and will examine services and patterns for locking down defaults using a combination of open source and platform-native tooling. Finally, attendees will walk away with a practical understanding of various controls, detections, and guardrails.</p>"
+    },
+    "prerequisites": "Some command line experience. General ability to use Git workflows.",
+    "equipment": "A laptop capable of running virtual machines.",
+    "whoshouldattend":"This course is designed for entry level to cloud curious practitioners."
+  }
 }]
