@@ -164,4 +164,33 @@
     "equipment": "A laptop capable of running virtual machines.",
     "whoshouldattend":"This course is designed for entry level to cloud curious practitioners."
   }
+}, {
+  "id": "offensivetooling",
+  "hide": false,
+  "instructors": [{
+    "name": "Chris Traynor",
+    "title": "",
+    "twitter_handle": "@cstraynor",
+    "github_handle": "",
+    "linkedin_handle": "chris-traynor",
+    "workplace": "",
+    "image_name": "",
+    "bio": "Chris is a Penetration Tester for Black Hills Information Security (BHIS), where he is responsible for Pen Testing web apps, mobile app, APIs, and networks. Chris has over 15 years of experience in Web/Mobile App development, QA Automation, and Penetration Testing. Chris is an active member of the GIAC Advisory Board, InfraGard, and The Open Organization Of Lockpickers (TOOOL). He also authors and teaches two Antisyphon classes. Intro to Offensive Tooling and Advanced Offensive Tooling."
+  }],
+  "course": {
+    "title": "Advanced Offensive Tooling",
+    "days": 2,
+    "scheduled": {
+      "day_one": true,
+      "day_two": true
+    },
+    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+    "description": {
+      "long_form": "<p>In the Advanced Offensive Tooling course, you will embark on a journey into the depths of cybersecurity expertise, immersing yourself in advanced techniques and methodologies employed by seasoned offensive operators.</p><p>This hands-on class transcends the basics, offering an exploration of sophisticated offensive tools crucial in navigating the ever-evolving landscape of security.</p><p>Immerse yourself in practical, real-world scenarios through hands-on labs and live demos, carefully crafted to provide an immersive learning experience. The curriculum is meticulously designed to not only sharpen your skills but also elevate your understanding of your toolset. Explore each tool’s inner workings, unlock customization options, harness scripting abilities, and learn the art of responsible tool usage.</p>",
+      "short_form": "<p>In the Advanced Offensive Tooling course, you will embark on a journey into the depths of cybersecurity expertise, immersing yourself in advanced techniques and methodologies employed by seasoned offensive operators.</p><p>This hands-on class transcends the basics, offering an exploration of sophisticated offensive tools crucial in navigating the ever-evolving landscape of security.</p><p>Immerse yourself in practical, real-world scenarios through hands-on labs and live demos, carefully crafted to provide an immersive learning experience. The curriculum is meticulously designed to not only sharpen your skills but also elevate your understanding of your toolset. Explore each tool’s inner workings, unlock customization options, harness scripting abilities, and learn the art of responsible tool usage.</p>"
+    },
+    "prerequisites": "Basic knowledge of networking. Basic knowledge of web applications. Basic knowledge of general offensive security tools and offensive goals.",
+    "equipment": "System Hardware Requirements: Stable Internet access, x86 architecture CPU clocked at 2 GHz or higher that is capable of nested virtualization, (Apple Silicon is currently not supported), A computer with at least 8 GB of RAM. 16 GB is recommended. Host Configuration and Software Requirements: VMWare Workstation or VMWare Fusion, (VirtualBox and other VM software is not supported), Windows 10/11, MacOSX+, or a currently supported Linux Distribution, Full Administrator/root access to your computer or laptop",
+    "whoshouldattend": "General security practitioners, Network Admins, Penetration Testers, Red Teamers, Blue Teamers looking to broaden their knowledge."
+  }
 }]
