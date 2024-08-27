@@ -6,11 +6,13 @@ render() {
 return (
 <div className="con-page">
 	<div className="text-area">
-		<h4 className='closed-text'>The 2025 Call for Papers will be open soon!</h4>
-		{/* <div>
+		{/*< h4 className='closed-text'>The 2025 Call for Papers will be open soon!</h4> */}
+		<div>
+		<p className="tab-paragraph">Calling all Drivers!
+		</p>
 		<p className="tab-paragraph">TL;DR - submit via  {" "}
 			<a
-				href="https://forms.gle/hUdJG1FNGtvJZu1u6"
+				href="https://forms.gle/pGNLyn3dQRYnLBRC7"
 				className="text-highlight"
 				rel="noopener noreferrer"
 				target="_blank">
@@ -18,7 +20,7 @@ return (
 			</a> (but you really should read the instructions). 
 		</p>
 		<p className="tab-paragraph">
-			The Kernelcon Crew is soliciting presentations for the sixth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 2-5, 2024.
+			The Kernelcon Crew is soliciting presentations for the seventh annual Kernelcon held at the Hilton Downtown in Omaha, NE, April 3-4, 2025.
 		</p>
 		<p className="tab-paragraph">
 			Create something fun in your homelab? Develop a new technique? Wish you could spare someone the horrors you faced? Impart your wisdom, start the difficult conversations, submit your work to our CFP!
@@ -43,13 +45,19 @@ return (
 				rel="noopener noreferrer"
 				target="_blank">
 			2022</a>,{" "}
-			or the{" "}
 			<a
 				href="http://2023.kernelcon.org/agenda"
 				className="text-highlight"
 				rel="noopener noreferrer"
 				target="_blank">
-			2023</a>{" "}programs{""}.
+			2023</a>,{" "}
+			or the{" "}
+			<a
+				href="http://2024.kernelcon.org/agenda"
+				className="text-highlight"
+				rel="noopener noreferrer"
+				target="_blank">
+			2024</a>{" "}programs{""}.
 		</p>
 		<p className='tab-heading'>Important Dates</p>
 		<p className="tab-paragraph">
@@ -64,7 +72,10 @@ return (
 			, which will always have the most current information. Make sure to pay attention to that page to ensure you don't miss the CFP closing date!
 		</p>
 		<p className='tab-heading'>Suggested topic areas</p>
-		<p className="tab-paragraph">The theme for Kernelcon 2024, is “AI” (note, this does not, exclusively, mean "artificial intelligence"). Accordingly, those that wish to tailor a talk to the theme or require a broad topic to start the creative engine toward a new talk, "AI" is your starting point. Consider Artificial Intelligence, but also Audio Interfaces, All Inclusive talks, maybe event DIY Astronomical Interferometers. However, adopting the theme is not a hard requirement.  Do not let these directions limit your creativity, interpretation, or the subject of your talk.</p>
+		<p className="tab-paragraph">Calling all Drivers!</p>
+		<p className="tab-paragraph">
+                The theme for Kernelcon 2025, is "Race Condition" - a situation when a system attempts to perform two actions at the same time, typically with unexpected, undesirable results.  Much like Kernelcon itself embraces the multiple meanings of "Kernel" (chiefly as in "corn" and as in "operating system"), this year we are soliciting all things around the race.  Consider winning the Race, Race condition (or hazzard), atomic operations, concurrency, locking, but also tech around actual physical races - cars, drones, humans, other...but do not let these suggestions limit your interpretation!
+		</p>
 		<p className="tab-paragraph">Kernelcon submissions should focus on topics that are of interest to the security and hacking communities. The list below is meant as a guideline, not an exhaustive list.</p>
 		<p className="tab-paragraph">
 		<ul className="real-bullet-list">
@@ -92,9 +103,9 @@ return (
 			<li>Focused Security Research (Visualization, IoT, Vehicles, Toys, Web apps, etc)</li>
 		</ul>
 		</p>
-		<p className="tab-paragraph">If your talk doesn't fit precisely into one of these areas, the theme, but you still think is a good fit, please submit it for consideration! The suggested topics are meant only to provide some direction, not as a strict pedantic gate through which all submissions must pass.</p>
+		<p className="tab-paragraph">If your talk doesn't fit precisely into one of these areas, the theme, but you still think is a good fit, please submit it for consideration! The suggested topics are meant only to provide some direction, not as a strict pedantic gate through which all submissions must pass. "Calling all Drivers" can can refer to human car drivers, NdisClMakeCall, PING G430 Max, or...even...an Uber driver? </p>
 		<p className='tab-heading'>Conference format</p>
-		<p className="tab-paragraph">Kernelcon 2024 will have two, concurrent main tracks, and talks should fit into a 60 (FULL) or 20 (SHORT) minute timeslot (meaning a 50 or 15 minute presentation is expected). As one might expect, presenters will be positioned at the front of a hotel conference area, and will present using typical conference equipment.</p>
+		<p className="tab-paragraph">Kernelcon 2025 will have two, concurrent main tracks, and talks should fit into a 60 (FULL) or 20 (SHORT) minute timeslot (meaning a 50 or 15 minute presentation is expected). As one might expect, presenters will be positioned at the front of a hotel conference area, and will present using typical conference equipment.</p>
 		<p className='tab-heading'>Speaker Benefits</p>
 		<p className="tab-paragraph">Speakers receive complimentary admission to Kernelcon and will be recognized as a speaker via a special “SPEAKER” badge. Speakers also have the option of attending an exclusive speaker party preceding the conference. Details will be sent to accepted speakers following acceptance notification.</p>
 		<p className="tab-paragraph">For each FULL talk, the speakers may additionally select one of:</p>
@@ -115,6 +126,8 @@ return (
 		<ul className="real-bullet-list no-bullets">
 			<li><input className="fake-checkbox" type="checkbox"/>Speaker name(s)</li>
 			<li><input className="fake-checkbox" type="checkbox"/>Speaker Name(s), Pseudonym(s), or handle(s) </li>
+			<li><input className="fake-checkbox" type="checkbox"/>Speaker Company or affiliation </li>
+			<li><input className="fake-checkbox" type="checkbox"/>Speaker headshot </li>
 			<li><input className="fake-checkbox" type="checkbox"/>Contact information (email, twitter, phone, etc - if we need to reach you and we can't, that's on you) *</li>
 			<li><input className="fake-checkbox" type="checkbox"/>Speaker promotion information (twitter, facebook, etc) - if we want to promote your talk specifically, and you want us to tag you</li>
 			<li><input className="fake-checkbox" type="checkbox"/>Presentation Title</li>
@@ -136,10 +149,10 @@ return (
 		</p>
 		<p className="tab-paragraph">Incomplete or misformatted submissions greatly reduce the likelihood of your talk being accepted.</p>
 		<p className="tab-paragraph">Novel, new, on-topic talks receive the most preference. Submissions by first-time presenters are not discounted in any way. Quite the opposite! First-timers are whole-heartedly encouraged to submit. Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted. We expect presentations that are considerate, planned, thought-out, and delivered well. All talks are considered on their merits. Everyone, including sponsors, internet legends, cultural icons, and Dave Kennedy must submit just like all other speakers.</p>
-		<p className="tab-paragraph">For 2024 we've moved to a form based CFP submission system rather than the email and PDF based system used prior.  Such a system allows for more automation on our end, but also addresses some feedback we've heard from authors, such as the ability to edit submissions.</p>
+		<p className="tab-paragraph">For 2025 we're iterating on the form-based CFP submission system rather than the email and PDF based system used prior.  Such a system allows for more automation on our end, but also addresses some feedback we've heard from authors.</p>
 		<p className="tab-paragraph">Submissions are collected by {" "}
 			<a
-				href="https://forms.gle/hUdJG1FNGtvJZu1u6"
+				href="https://forms.gle/pGNLyn3dQRYnLBRC7"
 				className="text-highlight"
 				rel="noopener noreferrer"
 				target="_blank">
@@ -161,14 +174,14 @@ return (
 		<p className="tab-paragraph">
 		<ol className="real-bullet-list">
 			<li>I will submit a completed presentation, a copy of the tool(s) and/or code(s), and a reference to all of the tool(s), law(s), web sites and/or publications referenced at the end of my talk and as described in this CFP submission for publication by Kernelcon.</li>
-			<li>I will submit any revisions to the originally submitted Title, Abstract and Biography for the Kernelcon website and printed conference materials by March 4, 2024.</li>
+			<li>I will submit any revisions to the originally submitted Title, Abstract and Biography for the Kernelcon website and printed conference materials by March 3, 2025.</li>
 			<li>I will complete my presentation within the time allocated to me - not running over, or excessively under, the time allocation.</li>
 			<li>I understand that the Kernelcon venue will provide 1 projector feed, microphone(s), wired and/or wireless Internet. I understand that I am responsible for providing all other necessary equipment, including laptops and machines, to complete my presentation.</li>
 			<li>I understand that I will be responsible for my own hotel and travel expenses.</li>
 		</ol>
 		</p>
 		<p className="tab-paragraph">By submitting your talk proposeal, you agree to the Terms of Speaking.</p>
-		</div> */}
+		</div> 
 	</div>
 </div>
 );
