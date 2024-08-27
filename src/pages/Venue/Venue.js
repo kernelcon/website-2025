@@ -58,7 +58,7 @@ export default class Venue extends Component {
 						<div className="tab-title">New Hotel</div>
 						<div className="venue-hotel">
 							<div className="text-area">
-								Due to the sellout last year, we've upgraded our venue this year to a much bigger place! The new hotel has several advantages including co-locating the bar with the party, check out the pictures, click to view more!
+								Due to the early sellout last year, we've upgraded our venue this year to a much bigger place! The new hotel has several advantages including co-locating the bar with the party, check out the pictures, click to view more!
 								<div className="new-hotel-section"
 									onClick={() => this.setState((prevState) => ({ 
 									toggler: !prevState.toggler
