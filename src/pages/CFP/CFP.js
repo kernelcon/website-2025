@@ -6,7 +6,7 @@ render() {
 return (
 <div className="con-page">
 	<div className="text-area">
-		< h4 className='closed-text'>The 2025 Call for Papers will be open soon!</h4>
+		< h4 className='closed-text'>The 2025 Call for Papers is closed!</h4>
 		<div>
 		<p className="tab-paragraph">Calling all Drivers!
 		</p>
