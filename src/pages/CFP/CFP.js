@@ -157,8 +157,8 @@ return (
 				rel="noopener noreferrer"
 				target="_blank">
 			form
-			</a>{""}. */}
-
+			</a>{""}. </p>*/}
+                <p className="tab-paragraph">
 			If you run into issues, or have questions inquire at {" "}
 			<a
 				href="mailto:cfp@kernelcon.org"
