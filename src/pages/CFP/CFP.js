@@ -6,11 +6,11 @@ render() {
 return (
 <div className="con-page">
 	<div className="text-area">
-		{/*< h4 className='closed-text'>The 2025 Call for Papers will be open soon!</h4> */}
+		< h4 className='closed-text'>The 2025 Call for Papers will be open soon!</h4>
 		<div>
 		<p className="tab-paragraph">Calling all Drivers!
 		</p>
-		<p className="tab-paragraph">TL;DR - submit via  {" "}
+	        {/*<p className="tab-paragraph">TL;DR - submit via  {" "}
 			<a
 				href="https://forms.gle/pGNLyn3dQRYnLBRC7"
 				className="text-highlight"
@@ -18,7 +18,7 @@ return (
 				target="_blank">
 			this form
 			</a> (but you really should read the instructions). 
-		</p>
+		</p> */}
 		<p className="tab-paragraph">
 			The Kernelcon Crew is soliciting presentations for the seventh annual Kernelcon held at the Hilton Downtown in Omaha, NE, April 3-4, 2025.
 		</p>
@@ -150,14 +150,16 @@ return (
 		<p className="tab-paragraph">Incomplete or misformatted submissions greatly reduce the likelihood of your talk being accepted.</p>
 		<p className="tab-paragraph">Novel, new, on-topic talks receive the most preference. Submissions by first-time presenters are not discounted in any way. Quite the opposite! First-timers are whole-heartedly encouraged to submit. Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted. We expect presentations that are considerate, planned, thought-out, and delivered well. All talks are considered on their merits. Everyone, including sponsors, internet legends, cultural icons, and Dave Kennedy must submit just like all other speakers.</p>
 		<p className="tab-paragraph">For 2025 we're iterating on the form-based CFP submission system rather than the email and PDF based system used prior.  Such a system allows for more automation on our end, but also addresses some feedback we've heard from authors.</p>
-		<p className="tab-paragraph">Submissions are collected by {" "}
+	        {/* <p className="tab-paragraph">Submissions are collected by {" "}
 			<a
 				href="https://forms.gle/pGNLyn3dQRYnLBRC7"
 				className="text-highlight"
 				rel="noopener noreferrer"
 				target="_blank">
 			form
-			</a>{""}. If you run into issues, or have questions inquire at {" "}
+			</a>{""}. */}
+
+			If you run into issues, or have questions inquire at {" "}
 			<a
 				href="mailto:cfp@kernelcon.org"
 				className="text-highlight"
