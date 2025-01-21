@@ -74,24 +74,24 @@ export default class Agenda extends Component {
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList>
-          <Tab tabFor="schedule">Schedule</Tab>
-          <Tab tabFor="keynotes">Keynotes</Tab>
-          <Tab tabFor="speakers">Speakers</Tab>
+          {/* <Tab tabFor="schedule">Schedule</Tab> */}
+          {/* <Tab tabFor="keynotes">Keynotes</Tab> */}
+          {/* <Tab tabFor="speakers">Speakers</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
           <Tab tabFor="activities">Activities</Tab>
-          <Tab tabFor="entertainment">Entertainment</Tab>
+          {/* <Tab tabFor="entertainment">Entertainment</Tab> */}
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
-        <TabPanel tabId="schedule">
+        {/* <TabPanel tabId="schedule">
           <div className='text-area'>
           	<TalksSchedule />
           </div>
-        </TabPanel>
-        <TabPanel tabId="keynotes">
+        </TabPanel> */}
+        {/* <TabPanel tabId="keynotes">
           <div className='text-area'>
             <h3 className='title'>Keynotes</h3>
-            {/* <div className='keynote-section'>
+            <div className='keynote-section'>
               <div className='keynote-left'>
                 <h4 className='keynote-name'>Paul Vixie</h4>
                 <div className='keynote-subtitle'>
@@ -132,17 +132,17 @@ export default class Agenda extends Component {
                   alt='Joe Grand'
                   className='keynote-image'/>
                </div>
-            </div>  */}
+            </div>
             <div className='keynote-section'>
               <div className='keynote-left'>
                 <h4 className='keynote-name'>Paul Vixie</h4>
                 <div className='keynote-subtitle'>
-                  {/* <div className='keynote-company'>
+                  <div className='keynote-company'>
                     <a href='https://aws.amazon.com/' target="_blank" rel="noopener noreferrer">
                       AWS Security
                     </a>
                   </div>
-                  <div className='keynote-div'>|</div> */}
+                  <div className='keynote-div'>|</div>
                   <div className='keynote-handle'>
                     <a href='https://twitter.com/paulvixie' target="_blank" rel="noopener noreferrer">
                       @paulvixie
@@ -154,7 +154,7 @@ export default class Agenda extends Component {
                   <p className='tab-paragraph'>Paul Vixie is a VP and Distinguished Engineer who joined AWS Security after a 29 year career as the founder and CEO of five startup companies covering the fields of DNS, anti-spam, Internet exchange, Internet carriage and hosting, and Internet security. Vixie earned his Ph.D. in Computer Science from Keio University in 2011 and was inducted into the Internet Hall of Fame in 2014. He is also known as an author of open source software including Cron.</p>
                 </div>
 
-                {/* <div className='keynote-talk'>
+                <div className='keynote-talk'>
                   <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
                   <div className='keynote-abstract'>
                     <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
@@ -162,7 +162,7 @@ export default class Agenda extends Component {
                     <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
                     <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
                   </div>
-                </div> */}
+                </div>
               </div>
               <div className='keynote-right'>
                 <img src={Paul}
@@ -174,12 +174,12 @@ export default class Agenda extends Component {
               <div className='keynote-left'>
                 <h4 className='keynote-name'>John Hultquist</h4>
                 <div className='keynote-subtitle'>
-                  {/* <div className='keynote-company'>
+                  <div className='keynote-company'>
                     <a href='' target="_blank" rel="noopener noreferrer">
                       Mandiant Intelligence
                     </a>
                   </div>
-                  <div className='keynote-div'>|</div> */}
+                  <div className='keynote-div'>|</div>
                   <div className='keynote-handle'>
                     <a href='https://twitter.com/johnhultquist' target="_blank" rel="noopener noreferrer">
                     @JohnHultquist
@@ -191,7 +191,7 @@ export default class Agenda extends Component {
                   <p className='tab-paragraph'>John Hultquist is Chief Analyst of Mandiant Intelligence at Google Cloud. Prior to the acquisition of iSIGHT Partners by FireEye/Mandiant, John led iSIGHT's cyber espionage practice, where his team uncovered the Russian threat actor best known as Sandworm. John previously worked at State Department and Defense Intelligence Agency. He is an Adjunct Professor at Johns Hopkins University and the founder of CYBERWARCON and SLEUTHCON. John is also a veteran of the US Army.</p>
                 </div>
 
-                {/* <div className='keynote-talk'>
+                <div className='keynote-talk'>
                   <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
                   <div className='keynote-abstract'>
                     <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
@@ -199,7 +199,7 @@ export default class Agenda extends Component {
                     <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
                     <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
                   </div>
-                </div> */}
+                </div>
               </div>
               <div className='keynote-right'>
                 <img src={John}
@@ -208,13 +208,13 @@ export default class Agenda extends Component {
               </div>
             </div>
           </div>
-        </TabPanel>
-        <TabPanel tabId="speakers" className="speakers">
+        </TabPanel> */}
+        {/* <TabPanel tabId="speakers" className="speakers">
           <div className='text-area'>
             <h3 className='title'>Speakers</h3>
             <Speakers />
           </div>
-        </TabPanel>
+        </TabPanel> */}
 
 
         <TabPanel tabId="villages">
@@ -234,13 +234,13 @@ export default class Agenda extends Component {
         </TabPanel>
 
 
-        <TabPanel tabId="entertainment">
+        {/* <TabPanel tabId="entertainment">
           <div className='text-area'>
 
             <CallOuts title='Entertainment' config={entertainmentConfig} />
 
           </div>
-        </TabPanel>
+        </TabPanel> */}
 
 
         <TabPanel tabId="activities">

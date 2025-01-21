@@ -1,20 +1,4 @@
-[{
-    "title": "Diversity, Equity & Inclusion Luncheon: UnMASKquerade",
-    "author": "",
-    "id": "dei",
-    "hidden": false,
-    "logo": {
-      "dark_mode_support": false,
-      "image_name": "deilunch.png",
-      "image_class": "callout-comic",
-      "dark_mode_image_name": "",
-      "dark_mode_image_class": ""
-    },
-    "dates": [{
-      "day": "Thursday, April 4th"
-    }],
-    "description": "<p>Kernelcon is excited to host our second Diversity, Equity, and Inclusion luncheon. Eat, drink, and network with others from underrepresented populations and our allies. We'll also have a panel discussion with security professionals who pivoted into InfoSec from another industry or are new enough to provide lessons learned from the beginning of their InfoSec journey. We'll discuss the challenges of bringing your authentic self to work in new or changing environments and hear insights on breaking into cyber.</p><p>Space is limited, check your conference program to RSVP."
-  },
+[
   {
     "title": "Kernel Panic",
     "author": "",

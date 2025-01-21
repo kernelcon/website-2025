@@ -11,13 +11,13 @@
       "dark_mode_image_class": ""
     },
     "dates": [{
-        "day": "Thursday, April 4th"
+        "day": "Thursday, April 3rd"
       },
       {
-        "day": "Friday, April 5th"
+        "day": "Friday, April 4th"
       }
     ],
-    "description": "Available Interactive projects! Hardware hackers and novices alike stop by the Kernelcon Hardware Hacking Village. Assembly Instructions provided! Never soldered? Now's your chance to play with molten metal! Learn the secrets of modding smart plugs, light strips and other IOT devices using Alternate Implementation documentation. Our experts will help teach you how to make the blinky-blink. We will have small project kits and tools to practice your soldering skills. Acclaimed Items to Actually Inspect include - wifi AP firmware flashing, and back for another year of Alternate Implementation --- tmobile hotspot unlock and IMEI modification. Don’t miss the brightest village at the con - the Hardware Hacking Village."
+    "description": "Now with more AI! Available Interactive projects! Hardware hackers and novices alike stop by the Kernelcon Hardware Hacking Village. Assembly Instructions provided! Never soldered? Now's your chance to play with molten metal! Learn the secrets of modding smart plugs, light strips and other IOT devices using Alternate Implementation documentation. Our experts will help teach you how to make the blinky-blink. We will have small project kits and tools to practice your soldering skills. Acclaimed Items to Actually Inspect include - wifi AP firmware flashing, and back for another year of Alternate Implementation --- tmobile hotspot unlock and IMEI modification. Don’t miss the brightest village at the con - the Hardware Hacking Village."
   },
   {
     "title": "Lockpicking Village",
@@ -32,16 +32,16 @@
       "dark_mode_image_class": ""
     },
     "dates": [{
-        "day": "Thursday, April 4th"
-      },
-      {
-        "day": "Friday, April 5th"
-      }
-    ],
+      "day": "Thursday, April 3rd"
+    },
+    {
+      "day": "Friday, April 4th"
+    }
+  ],
     "description": "Tired of staring at a monitor trying to hack your way through a computer...come try your hand [literally] at hacking hardware! The Open Organisation Of Lockpickers [TOOOL] is set up and ready to give you a new kind of challenge. Gaining access has a different meaning here. TOOOL uses their knowledge to guide you through different types of locks, their vulnerabilities, and how to exploit them. Scrape pin tumblers instead of data!"
   },
   {
-    "title": "Radio Hacking Village",
+    "title": "Radio Hacking Outpost",
     "author": "Kernelcon",
     "id": "rfvillage",
     "hidden": false,
@@ -50,10 +50,10 @@
       "image_class": "logo-reverse"
     },
     "dates": [{
-      "day": "Thursday, April 4th"
+      "day": "Thursday, April 3rd"
     },
     {
-      "day": "Friday, April 5th"
+      "day": "Friday, April 4th"
     }
   ],
     "description": "Visit the Kernelcon Radio Hacking Village to learn more about software defined radio applications.  There will be various radio & wifi hardware if anyone wants to get hands on experience and/or see real-time examples of wireless hacking. Wifi adapters, expoitable routers, RTL-SDRs, signal decoding and cloning."
@@ -68,10 +68,10 @@
       "image_class": ""
     },
     "dates": [{
-      "day": "Thursday, April 4th"
+      "day": "Thursday, April 3rd"
     },
     {
-      "day": "Friday, April 5th"
+      "day": "Friday, April 4th"
     }
   ],
     "description": "Howdy partners! Kernelcon is just plumb excited to have the good ol’ folks from Wild West Hackin’ Fest visit our little husking bee to share some labs from their ho down. Gallop on over and find out what makes Wild West Hackin’ Fest one of the best in the west!"
@@ -89,30 +89,12 @@
       "dark_mode_image_class": "dark-mode-logo"
     },
     "dates": [{
-        "day": "Friday, April 4th"
-      },
-      {
-        "day": "Saturday, April 5th"
-      }
-    ],
-    "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
-  },
-  {
-    "title": "Resume & Career Review Village",
-    "author": "TEKSystems",
-    "id": "careervillage",
-    "hidden": false,
-    "logo": {
-      "image_name": "teksystems.png",
-      "image_class": "logo-brighten"
+      "day": "Thursday, April 3rd"
     },
-    "dates": [{
-        "day": "Friday, April 4th"
-      },
-      {
-        "day": "Saturday, April 5th"
-      }
-    ],
-    "description": "Stop by the TEKsystems Resume & Career Review village to discuss your technical skills and career goals with IT job market experts. Weather you’re looking for advice on the next step in your career or would benefit getting an extra pair of eyes on your resume the TEKsystems team will be happy to discuss the national market landscape with you."
+    {
+      "day": "Friday, April 4th"
+    }
+  ],
+    "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
   }
 ]
