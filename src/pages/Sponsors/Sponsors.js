@@ -41,6 +41,7 @@ import Turngate from "../../static/images/sponsors/turn-gate.png"
 import Phosphorus from "../../static/images/sponsors/phosphorus.png"
 import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
 import Runza from "../../static/images/sponsors/runza-logo-tagline.webp"
+import CyberCityCircuits from "../../static/images/logos/cyber_city_circuits_logo.png"
 
 import "./Sponsors.scss";
 
@@ -547,13 +548,26 @@ export default class Sponsors extends Component {
                     </a> */}
                     <br />
                   </div>
-{/* 
+
 
                 <div className='spons-block'>
                     <div className='foodbev-spons'>
                     
                       <div className='single-foodbev-spons'>
                         <h6 className='text-highlight spons-title'>Popcorn</h6>
+                        <a href="https://cybercitycircuits.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={CyberCityCircuits}
+                            className='spons-img fdbev-spons'
+                            alt="SecureSky"/>
+                        </a>
+
+
+
+
+{/* 
                         <a href="https://securesky.com/"
                           target="_blank"
                           rel='noopener noreferrer'
@@ -602,9 +616,10 @@ export default class Sponsors extends Component {
                             className='spons-img fdbev-spons'
                             alt="Turngate"/>
                         </a>
+                        */}
                       </div>
                     </div>
-                </div> */}
+                </div> 
 
 
                 {/* <div className='spons-block'>
