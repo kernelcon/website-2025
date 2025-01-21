@@ -558,6 +558,14 @@ export default class Sponsors extends Component {
                         <a href="https://cybercitycircuits.com/"
                           target="_blank"
                           rel='noopener noreferrer'
+                          className='all-bright dark-mode-logo'>
+                          <img src={CyberCityCircuits}
+                            className='spons-img fdbev-spons'
+                            alt="SecureSky"/>
+                        </a>
+                        <a href="https://cybercitycircuits.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
                           className='light-mode-logo'>
                           <img src={CyberCityCircuits}
                             className='spons-img fdbev-spons'
