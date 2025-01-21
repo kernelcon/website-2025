@@ -30,9 +30,11 @@ const DarkModeToggle = () => {
     <input
       className="icon"
       type="checkbox"
+      checked={darkMode.value}
+      onChange={darkMode.toggle} 
       id="dm-toggle"
     />
-      <button onClick={() => { document.getElementById('dm-toggle').click(); }} className='dark-mode-button'>
+      <button onClick={() => { document.getElementById('dm-toggle').click(); }} onChange={darkMode.toggle} className='dark-mode-button'>
         <svg viewBox="0 0 178 40" width="178" height="40" className="race-car original">
             <path
                 className="air"
