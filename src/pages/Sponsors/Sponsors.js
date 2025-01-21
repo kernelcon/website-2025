@@ -225,22 +225,6 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Farm Credit"/>
                     </a>
-                    {/* <a href="https://www.conagrabrands.com/"
-                      target="_blank"
-                      className='dark-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={ConAgraLight}
-                        className='spons-img gold-spons'
-                        alt="Conagra"/>
-                    </a>
-                    <a href="https://www.conagrabrands.com/"
-                      target="_blank"
-                      className='all-dark light-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={ConAgraLight}
-                        className='spons-img gold-spons'
-                        alt="Conagra"/>
-                    </a>
                     <a href="https://www.wiz.io/"
                       target="_blank"
                       className='all-bright dark-mode-logo'
@@ -256,6 +240,22 @@ export default class Sponsors extends Component {
                       <img src={Wiz}
                         className='spons-img gold-spons'
                         alt="Wiz"/>
+                    </a>
+                    {/* <a href="https://www.conagrabrands.com/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ConAgraLight}
+                        className='spons-img gold-spons'
+                        alt="Conagra"/>
+                    </a>
+                    <a href="https://www.conagrabrands.com/"
+                      target="_blank"
+                      className='all-dark light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ConAgraLight}
+                        className='spons-img gold-spons'
+                        alt="Conagra"/>
                     </a>
                     <a href="https://expel.com/"
                       target="_blank"
