@@ -26,7 +26,7 @@
   "logo": {
     "dark_mode_support": false,
     "image_name": "2fast2ctf.png",
-    "image_class": "",
+    "image_class": "logo-reverse",
     "dark_mode_image_name": "",
     "dark_mode_image_class": ""
   },
