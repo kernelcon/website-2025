@@ -118,7 +118,7 @@ export default class Sponsors extends Component {
               </div>
             </div>
             <div className="spons-page">
-              <h1 className="title">Our 2024 Sponsors</h1>
+              <h1 className="title">Our 2025 Sponsors</h1>
               <div className="text-block">
                 <p>
                   We would like to thank all of our sponsors who make
@@ -128,7 +128,7 @@ export default class Sponsors extends Component {
               </div>
 
               <div className="text-block spons-groups">
-                <div className='spons-block'>
+                {/* <div className='spons-block'>
                   <h2 className='platinum spons-title'>Platinum</h2>
                   <div className='gp-logo'>
                     <a href="https://www.guidepointsecurity.com/"
@@ -188,28 +188,27 @@ export default class Sponsors extends Component {
 
                     </span>
                   </div>
-
-
-
-                    {/* <a href="https://www.netscout.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'>
-                      <img src={netscout}
-                        className='spons-img plat-spons'
-                        alt="NETSCOUT"/>
-                    </a>
-                    <a href="https://www.endgame.com/"
-                      target="_blank"
-                      rel='noopener noreferrer'>
-                      <img src={endgamelogo}
-                        className='spons-img plat-spons'
-                        alt="ENDGAME"/>
-                    </a> */}
                 </div>
-                
+                 */}
 
                   <div className='spons-block'>
                     <h2 className='gold spons-title'>Gold</h2>
+                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AmazonLight}
+                        className='spons-img silver-spons'
+                        alt="Amazon Security"/>
+                    </a>
+                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AmazonDark}
+                        className='spons-img silver-spons'
+                        alt="Amazon Security"/>
+                    </a>
                     <a href="https://www.fcsamerica.com/"
                       target="_blank"
                       className='light-mode-logo'
@@ -226,7 +225,7 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Farm Credit"/>
                     </a>
-                    <a href="https://www.conagrabrands.com/"
+                    {/* <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -273,26 +272,10 @@ export default class Sponsors extends Component {
                       <img src={ExpelDark}
                         className='spons-img gold-spons'
                         alt="Expel"/>
-                    </a>
-                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
-                      target="_blank"
-                      className='light-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={AmazonLight}
-                        className='spons-img silver-spons'
-                        alt="Amazon Security"/>
-                    </a>
-                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
-                      target="_blank"
-                      className='dark-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={AmazonDark}
-                        className='spons-img silver-spons'
-                        alt="Amazon Security"/>
-                    </a>
+                    </a> */}
                   </div>
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
                     <a href="https://www.trailofbits.com/"
                       target="_blank"
@@ -326,7 +309,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Contrast"/>
                     </a>
-                    {/* <a href="https://fnbo.com/"
+                    <a href="https://fnbo.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={Fnbo}
@@ -339,10 +322,10 @@ export default class Sponsors extends Component {
                       <img src={RedCanary}
                         className='spons-img other-spons'
                         alt="Red Canary"/>
-                    </a> */}
-                  </div>
+                    </a>
+                  </div> */}
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
                     <a href="http://www.evolvingsol.com/"
                           target="_blank"
@@ -360,7 +343,7 @@ export default class Sponsors extends Component {
                             className='spons-img other-spons'
                             alt="Evolving Solutions"/>
                         </a>
-                  </div>
+                  </div> */}
 
                   {/* <div className='spons-block'>
                     <h5 className='tin spons-title'>Tin</h5>
@@ -517,13 +500,13 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="TOOOL"/>
                     </a>
-                    <a href="https://nostarch.com/"
+                    {/* <a href="https://nostarch.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={NoStarchPress}
                         className='spons-img other-spons'
                         alt="NoStarchPress"/>
-                    </a>
+                    </a> */}
                     <a href="https://www.falkorsecurity.com/"
                       target="_blank"
                       className=''
@@ -548,7 +531,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Mental Health Hackers"/>
                     </a>
-                    <a href="https://www.teksystems.com/en/"
+                    {/* <a href="https://www.teksystems.com/en/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={TekSystems}
@@ -561,10 +544,10 @@ export default class Sponsors extends Component {
                       <img src={Runza}
                         className='spons-img other-spons'
                         alt="Runza"/>
-                    </a>
+                    </a> */}
                     <br />
                   </div>
-
+{/* 
 
                 <div className='spons-block'>
                     <div className='foodbev-spons'>
@@ -621,7 +604,7 @@ export default class Sponsors extends Component {
                         </a>
                       </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* <div className='spons-block'>
