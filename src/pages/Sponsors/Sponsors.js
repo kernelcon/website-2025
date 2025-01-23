@@ -1,46 +1,46 @@
 import React, { Component } from "react";
-import ContrastDarkMode from "../../static/images/sponsors/contrast-dark-logo.png";
-import ContrastLightMode from "../../static/images/sponsors/contrast-light-logo.png";
-import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
+// import ContrastDarkMode from "../../static/images/sponsors/contrast-dark-logo.png";
+// import ContrastLightMode from "../../static/images/sponsors/contrast-light-logo.png";
+// import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
 import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
-import Fnbo from "../../static/images/sponsors/fnbo.png";
-import CheckPoint from "../../static/images/sponsors/checkpoint-dark-logo.png";
-import AppGateDark from "../../static/images/sponsors/appgate-dark-logo.png";
-import AppGateLight from "../../static/images/sponsors/appgate-light-logo.png";
-import RedCanary from "../../static/images/sponsors/red_canary.png";
-import AWSDark from "../../static/images/sponsors/AWS_black.png";
-import AWSLight from "../../static/images/sponsors/AWS-color.png";
-import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
-import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
-import Protiviti from "../../static/images/sponsors/protiviti.png";
-import ZScaler from "../../static/images/sponsors/zscaler.png";
-import BairdHolm from "../../static/images/sponsors/bairdholm.png";
-import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
-import Tanium from "../../static/images/sponsors/Tanium.png";
-import Axonius from "../../static/images/sponsors/Axonius.png";
+// import Fnbo from "../../static/images/sponsors/fnbo.png";
+// import CheckPoint from "../../static/images/sponsors/checkpoint-dark-logo.png";
+// import AppGateDark from "../../static/images/sponsors/appgate-dark-logo.png";
+// import AppGateLight from "../../static/images/sponsors/appgate-light-logo.png";
+// import RedCanary from "../../static/images/sponsors/red_canary.png";
+// import AWSDark from "../../static/images/sponsors/AWS_black.png";
+// import AWSLight from "../../static/images/sponsors/AWS-color.png";
+// import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
+// import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
+// import Protiviti from "../../static/images/sponsors/protiviti.png";
+// import ZScaler from "../../static/images/sponsors/zscaler.png";
+// import BairdHolm from "../../static/images/sponsors/bairdholm.png";
+// import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
+// import Tanium from "../../static/images/sponsors/Tanium.png";
+// import Axonius from "../../static/images/sponsors/Axonius.png";
 import Wiz from "../../static/images/sponsors/wiz.png";
-import Code42 from "../../static/images/sponsors/code42.png";
+// import Code42 from "../../static/images/sponsors/code42.png";
 import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.png";
 import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
 import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
 import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
-import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
-import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
-import TrailOfBitsDark from "../../static/images/sponsors/trailofbits-dark-mode.png"
-import TrailOfBitsLight from "../../static/images/sponsors/trailofbits-light-mode.png"
-import EvolvingSolDark from "../../static/images/sponsors/evolving-sol-dark-mode.png"
-import EvolvingSolLight from "../../static/images/sponsors/evolving-sol-light-mode.png"
+// import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
+// import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
+// import TrailOfBitsDark from "../../static/images/sponsors/trailofbits-dark-mode.png"
+// import TrailOfBitsLight from "../../static/images/sponsors/trailofbits-light-mode.png"
+// import EvolvingSolDark from "../../static/images/sponsors/evolving-sol-dark-mode.png"
+// import EvolvingSolLight from "../../static/images/sponsors/evolving-sol-light-mode.png"
 import Falkor from "../../static/images/sponsors/FS_Purple.png";
-import TekSystems from "../../static/images/logos/teksystems.png"
-import ExpelDark from "../../static/images/sponsors/expel-dark-mode.png"
-import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
+// import TekSystems from "../../static/images/logos/teksystems.png"
+// import ExpelDark from "../../static/images/sponsors/expel-dark-mode.png"
+// import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
 import AmazonDark from "../../static/images/sponsors/amazon-dark-mode.png"
 import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
-import Turngate from "../../static/images/sponsors/turn-gate.png"
-import Phosphorus from "../../static/images/sponsors/phosphorus.png"
-import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
-import Runza from "../../static/images/sponsors/runza-logo-tagline.webp"
+// import Turngate from "../../static/images/sponsors/turn-gate.png"
+// import Phosphorus from "../../static/images/sponsors/phosphorus.png"
+// import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
+// import Runza from "../../static/images/sponsors/runza-logo-tagline.webp"
 import CyberCityCircuits from "../../static/images/logos/cyber_city_circuits_logo.png"
 
 import "./Sponsors.scss";

@@ -3,7 +3,7 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 import Villages from './Villages';
 import './OpenCalls.scss';
-import Stickers from '../../static/images/sticker-sheet-proof.png';
+// import Stickers from '../../static/images/sticker-sheet-proof.png';
 
 import CFP from '../CFP/CFP';
 

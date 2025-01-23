@@ -31,7 +31,7 @@ class CallOuts extends Component {
       }
       const detailBox = ele.details && ele.details.map((el, idx) => {
         return (
-          <div className='callout-details'>
+          <div className='callout-details' key={idx}>
             <div className='callout-detail-name'>{el.detail_name}</div>
             <div className='callout-detail-desc'>{el.detail_desc}</div>
           </div>

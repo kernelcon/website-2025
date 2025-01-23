@@ -5,7 +5,7 @@ import MediaQuery from "react-responsive";
 import "./Venue.scss";
 import Hilton1 from "./kernelcon_hilton10.jpg";
 import Hilton2 from "./kernelcon_hilton2.jpg";
-import Hilton3 from "./kernelcon_hilton3.jpg";
+// import Hilton3 from "./kernelcon_hilton3.jpg";
 import Hilton4 from "./kernelcon_hilton4.jpg";
 import Hilton5 from "./kernelcon_hilton5.jpg";
 import Hilton6 from "./kernelcon_hilton6.jpg";
@@ -63,15 +63,15 @@ export default class Venue extends Component {
 									onClick={() => this.setState((prevState) => ({ 
 									toggler: !prevState.toggler
 									}))}>
-									<img className="new-hotel-pic" src={Hilton1} />
-									<img className="new-hotel-pic" src={Hilton2} />
-									<img className="new-hotel-pic" src={Hilton4} />
-									<img className="new-hotel-pic" src={Hilton5} />
-									<img className="new-hotel-pic" src={Hilton6} />
-									<img className="new-hotel-pic" src={Hilton7} />
-									<img className="new-hotel-pic" src={Hilton8} />
-									<img className="new-hotel-pic" src={Hilton9} />
-									<img className="new-hotel-pic" src={Hilton10} />
+									<img className="new-hotel-pic" src={Hilton1} alt="hilton1" />
+									<img className="new-hotel-pic" src={Hilton2} alt="hilton2" />
+									<img className="new-hotel-pic" src={Hilton4} alt="hilton4" />
+									<img className="new-hotel-pic" src={Hilton5} alt="hilton5" />
+									<img className="new-hotel-pic" src={Hilton6} alt="hilton6" />
+									<img className="new-hotel-pic" src={Hilton7} alt="hilton7" />
+									<img className="new-hotel-pic" src={Hilton8} alt="hilton8" />
+									<img className="new-hotel-pic" src={Hilton9} alt="hilton9" />
+									<img className="new-hotel-pic" src={Hilton10} alt="hilton10" />
 								</div>
 								<FsLightbox
 									toggler={this.state.toggler}

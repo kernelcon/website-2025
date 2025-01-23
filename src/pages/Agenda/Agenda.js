@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 
-import TalksSchedule from './TalksSchedule/TalksSchedule';
-import Speakers from './Speakers/Speakers';
+// import TalksSchedule from './TalksSchedule/TalksSchedule';
+// import Speakers from './Speakers/Speakers';
 // import ConSchedule from './ConSchedule';
 // import TrainingSubmissions from './TrainingSubmission';
 // import Workshops from './Workshops';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
-import Paul from "../../static/images/trainers/paul.jpg";
-import John from "../../static/images/trainers/john2-square.jpg";
+// import Paul from "../../static/images/trainers/paul.jpg";
+// import John from "../../static/images/trainers/john2-square.jpg";
 
 
 import villageConfig from 'villageConfig';
 import competitionConfig from 'competitionConfig';
-import entertainmentConfig from 'entertainmentConfig';
+// import entertainmentConfig from 'entertainmentConfig';
 import activityConfig from 'activityConfig';
 
 import './Agenda.scss';
