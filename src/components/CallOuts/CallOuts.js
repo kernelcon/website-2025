@@ -29,6 +29,14 @@ class CallOuts extends Component {
       if ( ele.logo.dark_mode_support ) {
         darkModeImage = this.getImage(ele.logo.dark_mode_image_name);
       }
+      const detailBox = ele.details && ele.details.map((el, idx) => {
+        return (
+          <div className='callout-details'>
+            <div className='callout-detail-name'>{el.detail_name}</div>
+            <div className='callout-detail-desc'>{el.detail_desc}</div>
+          </div>
+        );
+      });
 
       return (
         <div className='callout-area'
@@ -42,7 +50,10 @@ class CallOuts extends Component {
                 {darkModeImage && <img className={`callout-img ${ele.logo.dark_mode_image_class}`} src={darkModeImage} alt={ele.title} />}
               </div>
             </div>
-            <div className='callout-description' dangerouslySetInnerHTML={this.createMarkup(ele.description)}></div>
+            <div className='callout-description'>
+              <span dangerouslySetInnerHTML={this.createMarkup(ele.description)}></span>
+              {detailBox}
+            </div>
           </div>
         </div>
       );

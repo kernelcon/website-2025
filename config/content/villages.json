@@ -74,6 +74,16 @@
       "day": "Friday, April 4th"
     }
   ],
+    "details": [{
+      "detail_name": "Doorbell Replay Attack Lab",
+      "detail_desc": "This lab includes and introduction to Signal Defined Radio (SDR) recording and playback for static signal devices. Steps include identifying signal characteristics, waveform analysis, static signal analysis / regeneration, and signal replay. Attendees will be able to perform a relay attack against a wireless doorbell."
+    }, {
+      "detail_name": "Keystroke Injections Lab",
+      "detail_desc": "This lab includes concepts of hijacking a wireless mouse or keyboard and performing keystroke injection attacks. Several wireless input devices are found to still be vulnerable to this type of attack. Attendees will be able to understand and demonstrate how this attack is performed."
+    }, {
+      "detail_name": "Mini-Door Lab",
+      "detail_desc": "This lab is a travel version of the WWHF hall of doors lab. This lab introduces RFID access control and the different types of RFID cards. Attendees will be able to follow step-by-step directions on performing attacks against an RFID access system by replaying, cloning, and brute forcing low-frequency RFID card. High-frequency attack analysis is also included as well as demonstrations of wired communication attacks and a door controller attack."
+    }],
     "description": "Howdy partners! Kernelcon is just plumb excited to have the good ol’ folks from Wild West Hackin’ Fest visit our little husking bee to share some labs from their ho down. Gallop on over and find out what makes Wild West Hackin’ Fest one of the best in the west!"
   },
   {

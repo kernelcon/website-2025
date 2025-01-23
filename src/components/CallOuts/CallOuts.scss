@@ -48,6 +48,14 @@
       p {
         margin-bottom: 14px;
       }
+      .callout-details {
+        margin-top: 10px;
+        font-size: 12px;
+
+        .callout-detail-name {
+          font-weight: bolder;
+        }
+      }
     }
   }
 }
