@@ -25,14 +25,14 @@ import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.p
 import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
 import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
 import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
-// import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
-// import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
+import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
+import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
 // import TrailOfBitsDark from "../../static/images/sponsors/trailofbits-dark-mode.png"
 // import TrailOfBitsLight from "../../static/images/sponsors/trailofbits-light-mode.png"
 // import EvolvingSolDark from "../../static/images/sponsors/evolving-sol-dark-mode.png"
 // import EvolvingSolLight from "../../static/images/sponsors/evolving-sol-light-mode.png"
 import Falkor from "../../static/images/sponsors/FS_Purple.png";
-// import TekSystems from "../../static/images/logos/teksystems.png"
+import TekSystems from "../../static/images/logos/teksystems.png"
 // import ExpelDark from "../../static/images/sponsors/expel-dark-mode.png"
 // import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
 import AmazonDark from "../../static/images/sponsors/amazon-dark-mode.png"
@@ -40,7 +40,7 @@ import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
 // import Turngate from "../../static/images/sponsors/turn-gate.png"
 // import Phosphorus from "../../static/images/sponsors/phosphorus.png"
 // import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
-// import Runza from "../../static/images/sponsors/runza-logo-tagline.webp"
+import Runza from "../../static/images/sponsors/runza-logo-tagline.png"
 import CyberCityCircuits from "../../static/images/logos/cyber_city_circuits_logo.png"
 
 import "./Sponsors.scss";
@@ -532,7 +532,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Mental Health Hackers"/>
                     </a>
-                    {/* <a href="https://www.teksystems.com/en/"
+                    <a href="https://www.teksystems.com/en/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={TekSystems}
@@ -545,7 +545,7 @@ export default class Sponsors extends Component {
                       <img src={Runza}
                         className='spons-img other-spons'
                         alt="Runza"/>
-                    </a> */}
+                    </a>
                     <br />
                   </div>
 
@@ -561,7 +561,7 @@ export default class Sponsors extends Component {
                           className='all-bright dark-mode-logo'>
                           <img src={CyberCityCircuits}
                             className='spons-img fdbev-spons'
-                            alt="SecureSky"/>
+                            alt="CyberCityCircuits"/>
                         </a>
                         <a href="https://cybercitycircuits.com/"
                           target="_blank"
@@ -569,13 +569,8 @@ export default class Sponsors extends Component {
                           className='light-mode-logo'>
                           <img src={CyberCityCircuits}
                             className='spons-img fdbev-spons'
-                            alt="SecureSky"/>
+                            alt="CyberCityCircuits"/>
                         </a>
-
-
-
-
-{/* 
                         <a href="https://securesky.com/"
                           target="_blank"
                           rel='noopener noreferrer'
@@ -592,6 +587,12 @@ export default class Sponsors extends Component {
                             className='spons-img fdbev-spons'
                             alt="SecureSky"/>
                         </a>
+
+
+
+
+{/* 
+                        
                         <a href="https://www.wiz.io/"
                           target="_blank"
                           rel='noopener noreferrer'
