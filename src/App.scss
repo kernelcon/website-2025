@@ -163,6 +163,10 @@ body.dark-mode {
   .tabs [id^="tab"]:checked+label:after {
     border-bottom-color: #1b2938;
   }
+  .callout-details {
+    border-left: 6px solid #dddddd0f !important;
+    background-color: #eeeeee0f !important;
+  }
 }
 
 .dark-mode-toggle {
