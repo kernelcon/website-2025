@@ -37,7 +37,7 @@ import TekSystems from "../../static/images/logos/teksystems.png"
 // import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
 import AmazonDark from "../../static/images/sponsors/amazon-dark-mode.png"
 import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
-// import Turngate from "../../static/images/sponsors/turn-gate.png"
+import Turngate from "../../static/images/sponsors/turn-gate.png"
 // import Phosphorus from "../../static/images/sponsors/phosphorus.png"
 // import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
 import Runza from "../../static/images/sponsors/runza-logo-tagline.png"
@@ -326,9 +326,25 @@ export default class Sponsors extends Component {
                     </a>
                   </div> */}
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
-                    <a href="http://www.evolvingsol.com/"
+                    <a href="https://www.turngate.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='all-bright dark-mode-logo'>
+                          <img src={Turngate}
+                            className='spons-img other-spons'
+                            alt="Wiz"/>
+                        </a>
+                        <a href="https://www.turngate.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={Turngate}
+                            className='spons-img other-spons'
+                            alt="Turngate"/>
+                        </a>
+                    {/* <a href="http://www.evolvingsol.com/"
                           target="_blank"
                           rel='noopener noreferrer'
                           className='light-mode-logo'>
@@ -343,8 +359,8 @@ export default class Sponsors extends Component {
                           <img src={EvolvingSolDark}
                             className='spons-img other-spons'
                             alt="Evolving Solutions"/>
-                        </a>
-                  </div> */}
+                        </a> */}
+                  </div>
 
                   {/* <div className='spons-block'>
                     <h5 className='tin spons-title'>Tin</h5>
@@ -609,6 +625,17 @@ export default class Sponsors extends Component {
                             className='spons-img fdbev-spons'
                             alt="Wiz"/>
                         </a>
+                        */}
+                      </div>
+                    </div>
+                </div> 
+
+
+                <div className='spons-block'>
+                    <div className='foodbev-spons'>
+                    
+                      <div className='single-foodbev-spons'>
+                        <h6 className='text-highlight spons-title'>Coffee</h6>
                         <a href="https://www.turngate.io/"
                           target="_blank"
                           rel='noopener noreferrer'
@@ -625,17 +652,8 @@ export default class Sponsors extends Component {
                             className='spons-img fdbev-spons'
                             alt="Turngate"/>
                         </a>
-                        */}
-                      </div>
-                    </div>
-                </div> 
 
-
-                {/* <div className='spons-block'>
-                    <div className='foodbev-spons'>
-                    
-                      <div className='single-foodbev-spons'>
-                        <h6 className='text-highlight spons-title'>Coffee</h6>
+                        {/* 
                         <a href="https://www.appgate.com/"
                           target="_blank"
                           rel='noopener noreferrer'
@@ -658,9 +676,9 @@ export default class Sponsors extends Component {
                           <img src={ZScaler}
                             className='spons-img fdbev-spons'
                             alt="zscaler"/>
-                        </a>
+                        </a>*/}
                       </div>
-
+{/*
                       <div className='single-foodbev-spons'>
                         <h6 className='text-highlight spons-title'>Popcorn</h6>
                         <a href="https://www.checkpoint.com/"
@@ -685,9 +703,9 @@ export default class Sponsors extends Component {
                             alt="Netsecuris"/>
                         </a>
                       </div>
-
+*/}
                     </div>
-                </div> */}
+                </div> 
               </div>
             </div>
           </div>
