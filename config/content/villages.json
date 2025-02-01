@@ -1,6 +1,6 @@
 [{
     "title": "Hardware Hacking Village",
-    "author": "Kernelcon",
+    "author": "Hackspace.io",
     "id": "hhv",
     "hidden": false,
     "logo": {
@@ -17,7 +17,24 @@
         "day": "Friday, April 4th"
       }
     ],
-    "description": "Now with more AI! Available Interactive projects! Hardware hackers and novices alike stop by the Kernelcon Hardware Hacking Village. Assembly Instructions provided! Never soldered? Now's your chance to play with molten metal! Learn the secrets of modding smart plugs, light strips and other IOT devices using Alternate Implementation documentation. Our experts will help teach you how to make the blinky-blink. We will have small project kits and tools to practice your soldering skills. Acclaimed Items to Actually Inspect include - wifi AP firmware flashing, and back for another year of Alternate Implementation --- tmobile hotspot unlock and IMEI modification. Don’t miss the brightest village at the con - the Hardware Hacking Village."
+    "details": [{
+      "detail_name": "Smart Plug Sprint",
+      "detail_desc": "Take your mark and flash/hack ESP32 and ESP8266 smart plugs. Can you bypass security, inject your own code, and control your appliances from afar? The race is on to own the power grid!"
+    },{
+      "detail_name": "AP Open Road",
+      "detail_desc": "Leave the manufacturer’s restrictions in the dust! Flash Meraki Wireless APs with OpenWRT and unlock their hidden potential. Control the network, explore advanced features, and leave the default firmware in the rearview mirror."
+    },{
+      "detail_name": "LED Light Speed",
+      "detail_desc": "Build your own custom LED strip controllers using the versatile WLED firmware. Create dazzling light shows, synchronize with music, or just make your room look awesome. It’s a race against time to create the most impressive illumination!"
+    },{
+      "detail_name": "DeepSeek Decoder",
+      "detail_desc": "Need a break from the soldering iron? Explore the power of AI with a fully local instance of DeepSeek. Query the model, explore its capabilities, and discover how AI can be a tool in your hardware hacking arsenal."
+    },{
+      "detail_name": "Mesh Network Marathon",
+      "detail_desc": "Go off-grid and build your own resilient, peer-to-peer communication network using Meshtastic and LoRa. Explore the power of long-range radio, create a decentralized mesh, and communicate even when the internet is down. It’s a race to build the ultimate backup communication system!"
+    }],
+    "description": "<div><p>Buckle up, hackers! Kernelcon’s Hardware Hacking Village is hitting the ground running with our “Race Condition” theme. This year, we’re not just talking about software bugs – we’re pushing the limits of hardware and firmware, exploring the vulnerabilities that arise when timing is everything. Get ready to exploit race conditions in the physical world!</p><p>Dive headfirst into a world of embedded systems, RF wizardry, and decentralized communication. Our village is packed with challenges and opportunities to get your hands dirty:</p></div>",
+    "final_details": "<p><p>Beyond the projects, our village is a collaborative space for hackers of all skill levels. Share tips, tricks, and war stories with fellow racers. Mentors will be on hand to guide you through the challenges and help you push your hardware hacking skills to the next level.</p><p>And if you’re looking for a different kind of race, check out our neighboring <b>Cryptomining Village</b>. Learn about multi-algorithm crypto mining, explore different algorithms, and understand the metrics that drive profitability. It’s a different kind of race, but just as thrilling!</p><p>We’ll also be bringing back the Franklin T9 Hotspots….and of course they all have the “special” firmware loaded on them that lets you do interesting things with them. It’s been incredibly popular in previous years — work through the lab activities and see for yourself.</p><p>So, are you ready to race against the clock and exploit the vulnerabilities that lie beneath the surface? The Kernelcon Hardware Hacking Village is your starting line. Don’t get left in the dust!</p><p>Reminder – all activities in the HHV are free to do and free to try. If you want to take the project home with you when you’re done, there is a small fee to cover hardware costs and supplies.</p></p>"
   },
   {
     "title": "Lockpicking Village",

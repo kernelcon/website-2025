@@ -53,6 +53,7 @@ class CallOuts extends Component {
             <div className='callout-description'>
               <span dangerouslySetInnerHTML={this.createMarkup(ele.description)}></span>
               {detailBox}
+              {ele.final_details && <span className='final_details' dangerouslySetInnerHTML={this.createMarkup(ele.final_details)}></span>}
             </div>
           </div>
         </div>
