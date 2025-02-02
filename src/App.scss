@@ -80,7 +80,17 @@ body.dark-mode {
   .in-touch-icons {
     fill: #ddd;
   }
-  div.faq-list :not(.question) {
+  div.faq-list :not(.question),
+  .dancing-robots .robot1:before,
+  .dancing-robots .robot1:after,
+  .dancing-robots .robot2:before,
+  .dancing-robots .robot2:after,
+  .dancing-robots .robot3:before,
+  .dancing-robots .robot3:after,
+  .dancing-robots .robot4:before,
+  .dancing-robots .robot4:after,
+  .dancing-robots .robot5:before,
+  .dancing-robots .robot5:after {
     /* Temporary until CSS is broken down */
     filter: invert(100%);
   }
@@ -203,13 +213,31 @@ body.dark-mode {
     display: flex;
     flex-direction: row;
   }
+  .dancing-robots div {
+    transform: scale(0.25) !important;
+  }
+  .yt-vid iframe {
+    max-width: 100% !important;
+    max-height: 332px;
+  }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .dancing-robots div {
+    transform: scale(0.5) !important;
+  }
+}
 
 @media (max-width: 779px) {
   .keynote-section {
     display: flex;
     flex-direction: column;
+  }
+  .dancing-robots div {
+    transform: scale(0.3) !important;
+  }
+  .yt-vid iframe {
+    max-width: 100% !important;
+    max-height: 200px;
   }
 }

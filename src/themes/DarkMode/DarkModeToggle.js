@@ -324,7 +324,7 @@ const DarkModeToggle = () => {
                         <path
                             strokeWidth="2"
                             stroke="#1E191A"
-                            fill="#ff00000"  
+                            fill="#c9e502"  
                             d="M 0 0 v -2 a 4.5 4.5 0 0 1 9 0 v 2">
                         </path>
                         <rect

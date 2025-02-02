@@ -22,6 +22,7 @@ import Register from "./pages/Register/Register";
 import Safety from "./pages/Safety/Safety";
 import Training from "./pages/Training/Training";
 import Agenda from "./pages/Agenda/Agenda";
+import RoboRace from "./pages/RoboRace/RoboRace";
 import audio1 from './static/audio/tmnt.mp3';
 import audio2 from './static/audio/punks-not-dead.mp3';
 import audio3 from './static/audio/jingly.mp3';
@@ -61,6 +62,7 @@ function App() {
 					<Route exact path="/admin" component={Admin} />
           			<Route exact path="/bio" component={Bio} />
 					<Route exact path="/conference" component={Conference} />
+					<Route exact path="/robo-race" component={RoboRace} />
 					<Route exact path="/dates" component={Dates} />
 					<Route exact path="/open-calls" component={OpenCalls} />
 					<Route exact path="/cfp" component={CFP} />
