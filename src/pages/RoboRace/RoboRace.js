@@ -21,7 +21,7 @@ class RoboRace extends Component {
                     </p>
 
                     <div className="tab-title">Kits</div>
-                    <p className="tab-paragraph">We highly encourage you to come with your own builds. In fact, there might be some custom swag for participants whos bring their own robot for the competition. However, we understand that not everyone can participate so we plan on having several kits built for the robo-curious to try or play with.  If you are interested in bringing your own robot, there are many kits available online including: these kits from {" "}
+                    <p className="tab-paragraph">We highly encourage you to come with your own builds. In fact, there might be some custom swag for participants who bring their own robot for the competition. However, we understand that not everyone can participate so we plan on having several kits built for the robo-curious to try or play with.  If you are interested in bringing your own robot, there are many kits available online including: these kits from {" "}
                         <a
                             href="https://www.amazon.com/s?k=line+following+robot+kit&crid=1G9JVQSM7R7XZ&sprefix=line+followin%2Caps%2C128&ref=nb_sb_ss_mvt-t5-ranker_2_13"
                             className="text-highlight"
