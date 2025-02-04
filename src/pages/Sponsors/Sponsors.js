@@ -42,6 +42,7 @@ import Turngate from "../../static/images/sponsors/turn-gate.png"
 // import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
 import Runza from "../../static/images/sponsors/runza-logo-tagline.png"
 import CyberCityCircuits from "../../static/images/logos/cyber_city_circuits_logo.png"
+import EthicalIntruder from '../../static/images/sponsors/ethical_intruder_logo.jpg'
 
 import "./Sponsors.scss";
 
@@ -241,6 +242,14 @@ export default class Sponsors extends Component {
                       <img src={Wiz}
                         className='spons-img gold-spons'
                         alt="Wiz"/>
+                    </a>
+                    <a href="https://www.ethicalintruder.com/"
+                      target="_blank"
+                      className=''
+                      rel='noopener noreferrer'>
+                      <img src={EthicalIntruder}
+                        className='spons-img gold-spons'
+                        alt="Ethical Intruder"/>
                     </a>
                     {/* <a href="https://www.conagrabrands.com/"
                       target="_blank"
