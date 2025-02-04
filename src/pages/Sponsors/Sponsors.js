@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import ContrastDarkMode from "../../static/images/sponsors/contrast-dark-logo.png";
-// import ContrastLightMode from "../../static/images/sponsors/contrast-light-logo.png";
+import ContrastDarkMode from "../../static/images/sponsors/contrast-dark-logo.png";
+import ContrastLightMode from "../../static/images/sponsors/contrast-light-logo.png";
 // import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
 import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
@@ -285,24 +285,8 @@ export default class Sponsors extends Component {
                     </a> */}
                   </div>
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
-                    <a href="https://www.trailofbits.com/"
-                      target="_blank"
-                      className='dark-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={TrailOfBitsDark}
-                        className='spons-img other-spons'
-                        alt="Trail of Bits"/>
-                    </a>
-                    <a href="https://www.trailofbits.com/"
-                      target="_blank"
-                      className='light-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={TrailOfBitsLight}
-                        className='spons-img other-spons'
-                        alt="Trail of Bits"/>
-                    </a>
                     <a href="https://www.contrastsecurity.com/"
                       target="_blank"
                       className='dark-mode-logo'
@@ -319,6 +303,22 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Contrast"/>
                     </a>
+                    {/* <a href="https://www.trailofbits.com/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={TrailOfBitsDark}
+                        className='spons-img other-spons'
+                        alt="Trail of Bits"/>
+                    </a>
+                    <a href="https://www.trailofbits.com/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={TrailOfBitsLight}
+                        className='spons-img other-spons'
+                        alt="Trail of Bits"/>
+                    </a>
                     <a href="https://fnbo.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
@@ -332,8 +332,8 @@ export default class Sponsors extends Component {
                       <img src={RedCanary}
                         className='spons-img other-spons'
                         alt="Red Canary"/>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
 
                   <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
