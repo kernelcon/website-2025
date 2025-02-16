@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ContrastDarkMode from "../../static/images/sponsors/contrast-dark-logo.png";
 import ContrastLightMode from "../../static/images/sponsors/contrast-light-logo.png";
+import ECS from "../../static/images/sponsors/ECS.png";
 // import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
 import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
@@ -248,6 +249,14 @@ export default class Sponsors extends Component {
                       className=''
                       rel='noopener noreferrer'>
                       <img src={EthicalIntruder}
+                        className='spons-img gold-spons'
+                        alt="Ethical Intruder"/>
+                    </a>
+                    <a href="https://ecstech.com/"
+                      target="_blank"
+                      className=''
+                      rel='noopener noreferrer'>
+                      <img src={ECS}
                         className='spons-img gold-spons'
                         alt="Ethical Intruder"/>
                     </a>
