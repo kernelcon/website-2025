@@ -178,7 +178,7 @@
     "bio": "Chris is a Penetration Tester for Black Hills Information Security (BHIS), where he is responsible for Pen Testing web apps, mobile app, APIs, and networks. Chris has over 15 years of experience in Web/Mobile App development, QA Automation, and Penetration Testing. Chris is an active member of the GIAC Advisory Board, InfraGard, and The Open Organization Of Lockpickers (TOOOL). He also authors and teaches two Antisyphon classes. Intro to Offensive Tooling and Advanced Offensive Tooling."
   }],
   "course": {
-    "title": "Advanced Offensive Tooling",
+    "title": "Offensive Tooling for Operators",
     "days": 2,
     "scheduled": {
       "day_one": true,

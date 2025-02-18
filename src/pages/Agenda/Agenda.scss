@@ -43,8 +43,11 @@
     margin-bottom: 20px;
   }
   .keynote-image {
-    max-width: 350px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: top center; /* fixing images */
   }
 }
 

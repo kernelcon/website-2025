@@ -34,7 +34,7 @@
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
-                    "image": "Heather Lawrence.jpg",
+                    "image": "HeatherLawrence.jpg",
                     "bio": "Heather Lawrence is the principal consultant for Atropos Insights providing clients with custom machine learning solutions. She is a PhD candidate in Cybersecurity at UCCS with over a decade of experience at the intersection of engineering, computer security, and machine learning. Prior to consulting, she was a US Navy nuclear engineer, NCCDC winner, and darknet marketplace miner. Her research has been presented at the DEF CON AI Village and the Journal of Systems Architecture."
                 }
                 ],
@@ -190,7 +190,7 @@
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
-                    "image": "MutedMouse.jpg",
+                    "image": "MutedMouse.png",
                     "bio": "Andrew is an independent cybersecurity researcher with over 15 years of federal service. He is an active participant in the research community and eternal tinkerer."
                 }
                 ],
@@ -256,7 +256,7 @@
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
-                    "image": "JerryJohansen.jpeg",
+                    "image": "GerryJohansen.jpeg",
                     "bio": "Gerard is a cyber security specialist for Red Canary, focusing on detection and response. Prior to his tenure at Red Canary, Gerard has had over a decade of experience in digital forensics, incident response and cyber security. Gerard has developed training solutions to aid security teams with responding to cyber attacks. Additionally, Gerard is also a frequent contributor to various conferences and webcasts. He is also author of the book Digital Forensics and Incident Response, 3rd edition."
                 }
                 ],
@@ -295,7 +295,7 @@
                 {
                     "name": "Jay Lagorio",
                     "speaker_id": "JayLagorio",
-                    "company": "Independent Security Researcher",
+                    "company": "Security Researcher",
                     "twitter": "@jaylagorio",
                     "mastodon": "",
                     "github": "@jaylagorio",
