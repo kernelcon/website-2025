@@ -9,7 +9,7 @@ import Speakers from './Speakers/Speakers';
 // import Workshops from './Workshops';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
-import JeffMann from "../../static/images/speakers/JeffMann.jpg";
+import JeffMan from "../../static/images/speakers/JeffMan.jpg";
 
 
 import villageConfig from 'villageConfig';
@@ -92,7 +92,7 @@ export default class Agenda extends Component {
             <h3 className='title'>Keynotes</h3>
             <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Jeff Mann</h4>
+                <h4 className='keynote-name'>Jeff Man</h4>
                 <div className='keynote-subtitle'>
                   <div className='keynote-company'>
                     <a href='https://www.obsglobal.com/' target="_blank" rel="noopener noreferrer">
@@ -120,8 +120,8 @@ export default class Agenda extends Component {
                 </div>
                </div>
                <div className='keynote-right'>
-                <img src={JeffMann}
-                  alt='Jeff Mann'
+                <img src={JeffMan}
+                  alt='Jeff Man'
                   className='keynote-image'/>
                </div>
             </div>
