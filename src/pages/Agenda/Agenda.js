@@ -96,7 +96,7 @@ export default class Agenda extends Component {
                 <div className='keynote-subtitle'>
                   <div className='keynote-company'>
                     <a href='https://www.obsglobal.com/' target="_blank" rel="noopener noreferrer">
-                      Online Business Solutions
+                      Online Business Systems
                     </a>
                   </div>
                   <div className='keynote-div'>|</div>
