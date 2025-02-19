@@ -53,6 +53,9 @@ class Individuals extends Component {
 
   render() {
     const imgSrc = this.getImage(this.props.image);
+    const twitter = this.props.twitter ? ((this.props.twitter.includes("x.com" || "twitter.com")) ? this.props.twitter : "https://x.com/" + this.props.twitter) : '';
+    const github = this.props.github ? ((this.props.github.includes("github.com")) ? this.props.github : "https://github.com/" + this.props.github) : '';
+    
 
     return (
       <div id={this.props.speaker_id}
@@ -60,20 +63,47 @@ class Individuals extends Component {
         <div className='speaker-wording'>
           <span>
             <h3 className='speaker-name'>
-              {/* <a onClick={() => {this.changeTab(this.props.talkId)}} 
-                href={`#schedule`}>*/}
                 {this.props.speaker}
-              {/*</a> */}
             </h3>
-            {/* {(this.props.company ) && <span className='speaker-titles'>
+            {(this.props.company || twitter || this.props.mastodon || github || this.props.linkedin) && <span className='speaker-titles'>
               {this.props.company && <span>{this.props.company}</span>}
-            </span>} */}
-            {(this.props.company || this.props.twitter || this.props.mastodon || this.props.github || this.props.linkedin) && <span className='speaker-titles'>
-              {this.props.company && <span>{this.props.company}</span>}
-              {/* {this.props.twitter && <span>{this.props.twitter}</span>} */}
-              {this.props.twitter && <span><a href={this.props.twitter} target="_blank" rel="noopener noreferrer nofollow"><img src={TwitterLogoLight} className="light-mode-logo speaker-socials-logo"  alt="twitter-logo"/></a><a href={this.props.twitter} target="_blank" rel="noopener noreferrer nofollow"><img src={TwitterLogoDark} className="dark-mode-logo speaker-socials-logo"  alt="twitter-logo"/></a></span>}
+              {twitter && 
+                <span>
+                  <a href={twitter} 
+                    target="_blank" 
+                    rel="noopener noreferrer nofollow">
+                    <img src={TwitterLogoLight} 
+                      className="light-mode-logo speaker-socials-logo"  
+                      alt="twitter-logo"/>
+                  </a>
+                  <a href={twitter} 
+                    target="_blank" 
+                    rel="noopener noreferrer nofollow">
+                    <img src={TwitterLogoDark} 
+                    className="dark-mode-logo speaker-socials-logo"  
+                    alt="twitter-logo"/>
+                  </a>
+                </span>
+              }
               {this.props.mastodon && <span><a href={this.props.mastodon} target="_blank" rel="noopener noreferrer nofollow"><img src={MastodonLogoLight} className="light-mode-logo speaker-socials-logo"  alt="mastodon-logo"/></a><a href={this.props.mastodon} target="_blank" rel="noopener noreferrer nofollow"><img src={MastodonLogoDark} className="dark-mode-logo speaker-socials-logo"  alt="mastodon-logo"/></a></span>}
-              {this.props.github && <span><a href={this.props.github} target="_blank" rel="noopener noreferrer nofollow"><img src={GithubLogoLight} className="light-mode-logo speaker-socials-logo"  alt="github-logo"/></a><a href={this.props.github} target="_blank" rel="noopener noreferrer nofollow"><img src={GithubLogoDark} className="dark-mode-logo speaker-socials-logo"  alt="github-logo"/></a></span>}
+              {github && 
+                <span>
+                  <a href={github} 
+                    target="_blank" 
+                    rel="noopener noreferrer nofollow">
+                    <img src={GithubLogoLight} 
+                    className="light-mode-logo speaker-socials-logo"  
+                    alt="github-logo"/>
+                  </a>
+                  <a href={github} 
+                    target="_blank" 
+                    rel="noopener noreferrer nofollow">
+                    <img src={GithubLogoDark} 
+                      className="dark-mode-logo speaker-socials-logo"  
+                      alt="github-logo"/>
+                  </a>
+                </span>
+              }
               {this.props.linkedin && <span><a href={this.props.linkedin} target="_blank" rel="noopener noreferrer nofollow"><img src={LinkedinLogo} className="speaker-socials-logo"  alt="linkedin-logo"/></a></span>}
             </span>}
             {/* {(this.props.mastodon ) && <span className='speaker-titles'>
