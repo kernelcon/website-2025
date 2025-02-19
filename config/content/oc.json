@@ -111,19 +111,9 @@
       "oc": true
     },
     {
-      "id": 12,
-      "name": "Ryen Macababbad",
-      "title": "",
-      "image": "ryen.png",
-      "twitter": "Ryen_Mac",
-      "mastodon": "",
-      "mastodon_url": "",
-      "oc": true
-    },
-    {
       "id": 13,
       "name": "Will Gentle",
-      "title": "",
+      "title": "Entertainment Coordinator",
       "image": "will.png",
       "twitter": "",
       "mastodon": "negahyphen@tech.lgbt",
@@ -133,7 +123,7 @@
     {
       "id": 14,
       "name": "Skip Cruse",
-      "title": "",
+      "title": "Driver",
       "image": "skip.png",
       "twitter": "securityshrimp",
       "mastodon": "",

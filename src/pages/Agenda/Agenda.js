@@ -75,7 +75,7 @@ export default class Agenda extends Component {
         vertical={vert}>
         <TabList>
           {/* <Tab tabFor="schedule">Schedule</Tab> */}
-          <Tab tabFor="keynotes">Keynote</Tab>
+          <Tab tabFor="keynotes">Keynotes</Tab>
           <Tab tabFor="speakers">Speakers</Tab>
           <Tab tabFor="talks">Talks</Tab>
           <Tab tabFor="villages">Villages</Tab>
