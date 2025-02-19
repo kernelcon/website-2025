@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 import Speakers from './Speakers/Speakers';
+import Talks from './Talks/Talks';
 
 // import TalksSchedule from './TalksSchedule/TalksSchedule';
 // import ConSchedule from './ConSchedule';
@@ -76,6 +77,7 @@ export default class Agenda extends Component {
           {/* <Tab tabFor="schedule">Schedule</Tab> */}
           <Tab tabFor="keynotes">Keynote</Tab>
           <Tab tabFor="speakers">Speakers</Tab>
+          <Tab tabFor="talks">Talks</Tab>
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
           <Tab tabFor="activities">Activities</Tab>
@@ -205,6 +207,12 @@ export default class Agenda extends Component {
           <div className='text-area'>
             <h3 className='title'>Speakers</h3>
             <Speakers />
+          </div>
+        </TabPanel>
+        <TabPanel tabId="talks" className="talks">
+          <div className='text-area'>
+            <h3 className='title'>Talks</h3>
+            <Talks />
           </div>
         </TabPanel>
 
