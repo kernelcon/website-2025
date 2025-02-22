@@ -17,7 +17,7 @@ import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
 // import Protiviti from "../../static/images/sponsors/protiviti.png";
 // import ZScaler from "../../static/images/sponsors/zscaler.png";
 // import BairdHolm from "../../static/images/sponsors/bairdholm.png";
-// import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
+import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
 // import Tanium from "../../static/images/sponsors/Tanium.png";
 // import Axonius from "../../static/images/sponsors/Axonius.png";
 import Wiz from "../../static/images/sponsors/wiz.png";
@@ -131,8 +131,8 @@ export default class Sponsors extends Component {
               </div>
 
               <div className="text-block spons-groups">
-                {/* <div className='spons-block'>
-                  <h2 className='platinum spons-title'>Platinum</h2>
+                <div className='spons-block'>
+                  <h2 className='diamond spons-title'>Diamond</h2>
                   <div className='gp-logo'>
                     <a href="https://www.guidepointsecurity.com/"
                       target="_blank"
@@ -151,7 +151,8 @@ export default class Sponsors extends Component {
                         alt="Guidepoint Security"/>
                     </a>
                   </div>
-                  <div className='sub-party-logos'>
+                </div>
+                  {/*<div className='sub-party-logos'>
                     <span className='sub-party-logos'>
                       <a href="https://phosphorus.io/"
                         target="_blank"
@@ -190,8 +191,6 @@ export default class Sponsors extends Component {
                       </a>
 
                     </span>
-                  </div>
-                </div>
                  */}
 
                   <div className='spons-block'>
