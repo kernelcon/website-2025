@@ -41,14 +41,14 @@
   "id": "offensefordefense",
   "hide": false,
   "instructors": [{
-    "name": "Jason Downey",
+    "name": "Mike Saunders",
     "title": "",
-    "twitter_handle": "@hackandbackpack",
+    "twitter_handle": "@hardwaterhacker",
     "github_handle": "",
     "linkedin_handle": "",
     "workplace": "",
     "image_name": "",
-    "bio": "Jason Downey has over ten years of professional experience in IT and information security ranging in a variety of roles in network security roles with additional experience in systems administration. Jason has spoken in front of various audiences ranging from youth initiatives to major security conferences, while creating informational content on SiegeCasts and forward-facing marketing channels. Jason excels at a variety of penetration testing tactics and is well known for his vishing and social engineering expertise."
+    "bio": "Mike Saunders is Red Siege Information Security’s Principal Consultant. Mike has over 25 years of IT and security expertise, having worked in the ISP, banking, insurance, and agriculture businesses. Mike gained knowledge in a range of roles throughout his career, including system and network administration, development, and security architecture. Mike is a highly regarded and experienced international speaker with notable cybersecurity talks at conferences such as DerbyCon, Circle City Con, SANS Enterprise Summit, and NorthSec, in addition to having more than a decade of experience as a penetration tester as well as being a Black Hat Instructor. You can find Mike’s in-depth technical blogs and tool releases online and learn from his several offensive and defensive-focused SiegeCasts. He has been a member of the NCCCDC Red Team on several occasions and is the Lead Red Team Operator for Red Siege Information Security."
   }, {
     "name": "Tim Medin",
     "title": "",
