@@ -11,6 +11,8 @@ import Talks from './Talks/Talks';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
 import JeffMan from "../../static/images/speakers/JeffMan.jpg";
+import Gabrielle from "../../static/images/speakers/GabrielleHempel.jpg";
+import JaysonStreet from "../../static/images/speakers/JaysonStreet.jpg";
 
 
 import villageConfig from 'villageConfig';
@@ -127,28 +129,29 @@ export default class Agenda extends Component {
                   className='keynote-image'/>
                </div>
             </div>
-            {/* <div className='keynote-section'>
+            <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Paul Vixie</h4>
+                <h4 className='keynote-name'>Gabrielle Hempel</h4>
                 <div className='keynote-subtitle'>
                   <div className='keynote-company'>
-                    <a href='https://aws.amazon.com/' target="_blank" rel="noopener noreferrer">
-                      AWS Security
+                    <a href='https://www.exabeam.com/' target="_blank" rel="noopener noreferrer">
+                      Exabeam
                     </a>
                   </div>
                   <div className='keynote-div'>|</div>
                   <div className='keynote-handle'>
-                    <a href='https://twitter.com/paulvixie' target="_blank" rel="noopener noreferrer">
-                      @paulvixie
+                    <a href='https://twitter.com/gabsmashh' target="_blank" rel="noopener noreferrer">
+                      @gabsmashh
                     </a>
                   </div>
                 </div>
 
                 <div className='keynote-bio'>
-                  <p className='tab-paragraph'>Paul Vixie is a VP and Distinguished Engineer who joined AWS Security after a 29 year career as the founder and CEO of five startup companies covering the fields of DNS, anti-spam, Internet exchange, Internet carriage and hosting, and Internet security. Vixie earned his Ph.D. in Computer Science from Keio University in 2011 and was inducted into the Internet Hall of Fame in 2014. He is also known as an author of open source software including Cron.</p>
+                  <p className='tab-paragraph'>Gabrielle Hempel is a cybersecurity strategist specializing in security operations, threat detection, and compliance. She is the Security Operations Strategist at Exabeam, where she works across the SOC, AppSec, and GRC teams to strengthen internal security.</p>
+                  <p className='tab-paragraph'>Beyond her technical expertise, Gabrielle is a Flotilla Staff Officer with the U.S. Coast Guard Cyber Auxiliary and a member of the Marine Corps Cyber Auxiliary. She holds a master's in global security and cybersecurity from NYU, is pursuing a law degree at Purdue University with a focus on technology law, and serves as an adjunct professor in cybersecurity policy and management at UMGC. A speaker at conferences like BlackHat and DEF CON, Gabrielle is passionate about bridging the gap between cybersecurity strategy, policy, and real-world implementation.</p>
                 </div>
 
-                <div className='keynote-talk'>
+                {/* <div className='keynote-talk'>
                   <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
                   <div className='keynote-abstract'>
                     <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
@@ -156,15 +159,55 @@ export default class Agenda extends Component {
                     <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
                     <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className='keynote-right'>
-                <img src={Paul}
-                  alt="Paul Vixie"
+                <img src={Gabrielle}
+                  alt="Gabrielle Hempel"
                   className='keynote-image'/>
               </div>
             </div>
             <div className='keynote-section'>
+              <div className='keynote-left'>
+                <h4 className='keynote-name'>Jayson Street</h4>
+                <div className='keynote-subtitle'>
+                  <div className='keynote-company'>
+                    <a href='https://www.secureyeti.com/' target="_blank" rel="noopener noreferrer">
+                      Secure Yeti
+                    </a>
+                  </div>
+                  <div className='keynote-div'>|</div>
+                  <div className='keynote-handle'>
+                    <a href='https://twitter.com/jaysonstreet' target="_blank" rel="noopener noreferrer">
+                    @jaysonstreet
+                    </a>
+                  </div>
+                </div>
+
+                <div className='keynote-bio'>
+                  <p className='tab-paragraph'>Dubbed a "notorious hacker" by FOX25 Boston, "World Class Hacker" by National Geographic Breakthrough Series, a "paunchy hacker" by Rolling Stone Magazine and, as a "Change Agent" by the Director of Counter Intelligence at the Pentagon, Jayson Street prefers if people just refer to him simply as a Hacker, Helper & Human.</p>
+                  <p className='tab-paragraph'>Jayson is a Simulated Adversary for hire. The author of the "Dissecting the hack: Series" (which is currently required reading at 7 colleges in 4 countries that he knows of). Also the DEF CON Groups Global Ambassador. He's spoken at conferences & summits in over 50 countries such as DEF CON, Le Hack, GISEC, IT-Defense, SYSCAN and at several other 'CONs & colleges on a variety of Cyber Security/Hacking subjects. He also was asked to speak at the Pentagon on his revolutionary process of Situational Awareness training.</p>
+                  <p className='tab-paragraph'>He loves to explore the world & networks as much as he can. He has successfully robbed banks, hotels, government facilities, Biochemical companies, etc.. on five continents (Only successfully robbing the wrong bank in Lebanon once all others he was supposed to)!</p>
+                  <p className='tab-paragraph'>*Jayson is a highly carbonated speaker who has partaken of Pizza from Bulgaria to Brazil & China to The Canary Islands. He does not expect anybody to still be reading this far but if they are please note he was proud to be chosen as one of Time's persons of the year for 2006.</p>
+                </div>
+
+                {/* <div className='keynote-talk'>
+                  <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
+                  <div className='keynote-abstract'>
+                    <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
+                    <p className='tab-paragraph'>There is a fine line between acceptable and irreconcilable risk, while some risks are mitigatable, others are not, and ignoring the facts has disproportionate consequences. This presentation will explore modern supply chain security risks through a technical deep dive of 5G infrastructure and the political battles surrounding it.</p>
+                    <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
+                    <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
+                  </div>
+                </div> */}
+              </div>
+              <div className='keynote-right'>
+                <img src={JaysonStreet}
+                  alt="Jayson Street"
+                  className='keynote-image'/>
+              </div>
+            </div>
+            {/* <div className='keynote-section'>
               <div className='keynote-left'>
                 <h4 className='keynote-name'>John Hultquist</h4>
                 <div className='keynote-subtitle'>
