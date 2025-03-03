@@ -22,8 +22,10 @@ class CallOuts extends Component {
   
 
   render() {
-    const callOutsAlphabetized = this.props.config.sort((a,b) => a.title.localeCompare(b.title));
-    const callOuts = callOutsAlphabetized.map((ele, idx) => {
+    console.log(this.props.config.order);
+    // const callOutsOrdered = this.props.config.sort((a,b) => a.title.localeCompare(b.title));
+    const callOutsOrdered = this.props.config.sort((a, b) => (a.order || b.order) ? (a.order - b.order) : a.title.localeCompare(b.title));
+    const callOuts = callOutsOrdered.map((ele, idx) => {
       const image = this.getImage(ele.logo.image_name);
       let darkModeImage = false;
       if ( ele.logo.dark_mode_support ) {
@@ -53,9 +55,10 @@ class CallOuts extends Component {
             <div className='callout-description'>
               {ele.socials &&
                 <span className='speaker-titles'>
-                  <span><a href={`https://www.instagram.com/${ele.socials.instagram}`} target="_blank" rel="noopener noreferrer">Instagram</a></span>
-                  <span><a href={`https://www.x.com/${ele.socials.twitter}`} target="_blank" rel="noopener noreferrer">Twitter</a></span>
-                  <span><a href={ele.socials.music} target="_blank" rel="noopener noreferrer">Music</a></span>
+                  {ele.socials.instagram && <span><a href={`https://www.instagram.com/${ele.socials.instagram}`} target="_blank" rel="noopener noreferrer">Instagram</a></span>}
+                  {ele.socials.twitter && <span><a href={`https://www.x.com/${ele.socials.twitter}`} target="_blank" rel="noopener noreferrer">Twitter</a></span>}
+                  {ele.socials.music && <span><a href={ele.socials.music} target="_blank" rel="noopener noreferrer">Music</a></span>}
+                  {ele.socials.website && <span><a href={ele.socials.website} target="_blank" rel="noopener noreferrer">Website</a></span>}
                 </span>
               }
               {ele.music && 
