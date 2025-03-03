@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
+import KernelconRaceCondition from "../../static/images/logos/logo4.png"
 import BackGround from '../../components/BackGround/BackGround';
 import Speakers from "../../static/images/icons/car-speakers.png"
 import Garage from "../../static/images/icons/garage.png"
 import Training from "../../static/images/icons/car-training.png"
 import CarRace from "../../static/images/icons/car-race.png"
 import DriverCelebrate from "../../static/images/icons/driver-celebrate.png"
+import JeffMan from "../../static/images/speakers/JeffMan.jpg";
+import Gabrielle from "../../static/images/speakers/GabrielleHempel.jpg";
+import JaysonStreet from "../../static/images/speakers/JaysonStreet.jpg";
+import YTCracker from "../../static/images/logos/ytcracker.png";
+import DualCore from "../../static/images/logos/dualcore2.png";
 
 import "./Home.scss";
 
@@ -45,12 +50,13 @@ export default class Home extends Component {
         <div className="container">
           <div className="home-page">
             <div className="centered-top">
-              <img src={FullKernelconLogoDark} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
-              <img src={FullKernelconLogoDark} className="dark-mode-logo dark-mode-kernel-logo"  alt="kernelcon-logo"/>
+              {/* <img src={FullKernelconLogoDark} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
+              <img src={FullKernelconLogoDark} className="dark-mode-logo dark-mode-kernel-logo"  alt="kernelcon-logo"/> */}
+              <img src={KernelconRaceCondition} className="main-logo"  alt="kernelcon-logo"/>
             </div>
-            <div className="centered-top theme-name">
+            {/* <div className="centered-top theme-name">
               <span className="theme-name-r">R</span>ace Condition
-            </div>
+            </div> */}
 
             <div className="col left">
               <div className="sizzle">
@@ -154,6 +160,73 @@ export default class Home extends Component {
                 </div>
               </span>
 
+              <div className='update-section'>
+                <h2 className='centered'>Kernelcon Updates</h2>
+                <p className='update-text'>As we continue to tinker in the garage, please check back here for updates and announcements. Click on each update to be taken to their individual pages for more details.</p>
+                <div className='updates'>
+                  <h3 className='update-announcement'>New Keynotes</h3>
+                  <div className='keynote-section'>
+                    <a className='keynote-anchor'
+                      href="https://kernelcon.org/agenda">
+                      <div className='keynote keynote-bkg'>
+                        <img
+                          src={Gabrielle}
+                          className="update-keynote"
+                          alt="Gabrielle Hempel"
+                        />
+                        <div className="keynote-name">Gabrielle Hempel</div>
+                      </div>
+                    </a>
+                    <a className='keynote-anchor'
+                      href="https://kernelcon.org/agenda">
+                    <div className='keynote keynote-bkg'>
+                      <img
+                        src={JaysonStreet}
+                        className="update-keynote"
+                        alt="Jayson Street"
+                      />
+                      <div className="keynote-name">Jayson Street</div>
+                    </div>
+                    </a>
+                    <a className='keynote-anchor'
+                      href="https://kernelcon.org/agenda">
+                    <div className='keynote keynote-bkg'>
+                      <img
+                        src={JeffMan}
+                        className="update-keynote"
+                        alt="Jeff Man"
+                      />
+                      <div className="keynote-name">Jeff Man</div>
+                    </div>   
+                    </a>  
+                  </div>
+                  <h3 className='update-announcement'>New Entertainment</h3>
+                  <div className='keynote-section'>
+                    <a className='keynote-anchor'
+                      href="https://kernelcon.org/agenda">
+                      <div className='keynote keynote-bkg'>
+                        <img
+                          src={YTCracker}
+                          className="update-keynote"
+                          alt="ytcracker"
+                        />
+                        <div className="keynote-name">YTCracker</div>
+                      </div>
+                    </a>
+                    <a className='keynote-anchor'
+                      href="https://kernelcon.org/agenda">
+                    <div className='keynote keynote-bkg'>
+                      <img
+                        src={DualCore}
+                        className="update-keynote"
+                        alt="DualCore"
+                      />
+                      <div className="keynote-name">int80 of Dual Core</div>
+                    </div>
+                    </a> 
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

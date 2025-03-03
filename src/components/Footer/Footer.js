@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import logo from '../../static/images/logos/k_black.png';
+import logoDark from '../../static/images/logos/k_black.png';
+import logo from '../../static/images/logos/social5.png';
 import './Footer.scss';
 
 class Footer extends Component {
@@ -11,8 +12,13 @@ class Footer extends Component {
           <div className='footer-brand'>
             <div className='footer-logo'>
               <img src={logo}
-                height="30"
+                className='light-mode-logo'
+                height="50"
                 alt="logo"/>
+                <img src={logoDark}
+                  className='dark-mode-logo'
+                  height="30"
+                  alt="logo"/>
             </div>
           </div>
             <div className='footer-social'>

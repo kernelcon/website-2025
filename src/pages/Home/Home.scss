@@ -33,11 +33,11 @@ body.dark-mode {
   div.sizzle-text-section {
     background-color: rgba(0, 0, 0, 0.7);
   }
-  div.sizzle-header {
-    background-color: rgba(0, 0, 0, 0.7);
+  div.sizzle-header, div.update-section, div.keynote-bkg {
+    background-color: rgba(0, 0, 0, 0.7) !important;
   }
-  div.sizzle-text-title {
-    color: $azure-radiance;
+  div.sizzle-text-title, h3.update-announcement {
+    color: $azure-radiance !important;
   }
   // .sizzle-bullet-item {
   //   .sizzle-icon {
@@ -50,6 +50,97 @@ body.dark-mode {
     color: $madder-lake !important;
     text-shadow: 2px 2px $turquoise-green !important;
     font-weight: 900;
+  }
+
+  .update-announcement:before,
+  .update-announcement:after {
+    background: #ccc !important;
+  }
+  
+}
+
+.all-bright {
+  filter: invert(1) grayscale(1) brightness(1000);
+}
+
+.main-logo {
+  width: 100%;
+}
+
+
+
+div.update-section {
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #c1bbc7e8;
+
+  .centered {
+    text-align: center;
+  }
+
+  .update-text {
+    margin: 10px;
+  }
+
+  .updates {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .update-announcement {
+      font-size: 20px;
+      font-family: 'Jura', 'Montserrat', sans-serif;
+      text-align: center;
+      margin: 0px 10px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 1em;
+    }
+    .update-announcement:before,
+    .update-announcement:after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #333;
+    }
+    
+    
+  
+
+    .keynote-section {
+      padding: 5px 0px 10px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+
+      .keynote-anchor {
+        width: 31%;
+
+        .keynote {
+          padding:10px;
+          border-radius: 5px;
+
+          .update-keynote {
+            height: 100px; /* your desired height */
+            width: 100%; /* or whatever width you want */
+            object-fit: cover;
+          }
+
+          .keynote-name {
+            font-size: 14px;
+            font-family: $font-chalkboard;
+          }
+        }
+
+        .keynote-bkg {
+          background-color: #ddd;
+        }
+      }
+    }
   }
 }
 
