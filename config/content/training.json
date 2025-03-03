@@ -77,36 +77,6 @@
   }
 },
 {
-  "id": "ransomware",
-  "hide": false,
-  "instructors": [{
-    "name": "Markus Schober",
-    "title": "",
-    "twitter_handle": "@mascho",
-    "github_handle": "",
-    "linkedin_handle": "markusschober123",
-    "workplace": "",
-    "image_name": "",
-    "bio": "Markus Schober, founder and CEO of Blue Cape Security, is a leading expert in Digital Forensics and Incident Response (DFIR) with over a decade of experience. Certified as a CISSP, GCFA, and GCIH, Markus has managed significant breach investigations and advised on building robust cybersecurity programs. At Blue Cape Security, he has developed the CyberLabHero platform, providing cutting-edge training solutions that equip individuals and organizations with essential cybersecurity skills. Markus is dedicated to advancing the field of cybersecurity through innovative training methods and practical, real-world applications."
-  }],
-  "course": {
-    "title": "Ransomware Attack Simulation and Investigation for Blue Teamers",
-    "days": 2,
-    "scheduled": {
-      "day_one": true,
-      "day_two": true
-    },
-    "time": "8:00 AM - 5:00 PM, with one hour lunch break",
-    "description": {
-      "long_form": "<p>As a cyber security defender and investigator, understanding ransomware attacks is crucial for effective response. In this workshop, participants will learn how attackers operate, set up a C2 infrastructure with the Empire C2 framework, and execute a simulated attack, step-by-step, from initial access all the way throughout post-exploitation phases, each student in their own cloud based lab environment. Following, we will perform a full investigation of the scenario at hand, covering log and endpoint analysis at scale as well as data collection and digital forensics concepts. For this, the tools we are going to use are Splunk, Velociraptor and several industry-established digital forensic utilities. Upon completion of the training, participants will have a better understanding of the steps ransomware threat actors take to achieve their objectives, as well as the best practices for detecting and ultimately preventing ransomware attacks.</p>",
-      "short_form": "<p>As a cyber security defender and investigator, understanding ransomware attacks is crucial for effective response. In this workshop, participants will learn how attackers operate, set up a C2 infrastructure with the Empire C2 framework, and execute a simulated attack, step-by-step, from initial access all the way throughout post-exploitation phases, each student in their own cloud based lab environment. Following, we will perform a full investigation of the scenario at hand, covering log and endpoint analysis at scale as well as data collection and digital forensics concepts. For this, the tools we are going to use are Splunk, Velociraptor and several industry-established digital forensic utilities. Upon completion of the training, participants will have a better understanding of the steps ransomware threat actors take to achieve their objectives, as well as the best practices for detecting and ultimately preventing ransomware attacks.</p>"
-    },
-    "prerequisites": "Basic proficiency in handling Virtual Machines and using command line terminals in Windows and Linux. ",
-    "equipment": "Only a RDP client is needed to access the lab environment.",
-    "whoshouldattend": "Security professionals in technical roles. Beginner friendly to intermediate level. SOC analysts, IT administrators, System engineers, IT managers, Red Teamers, etc."
-  }
-},
-{
   "id": "redteam",
   "hide": false,
   "instructors": [{
