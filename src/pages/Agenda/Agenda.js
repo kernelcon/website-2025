@@ -17,7 +17,7 @@ import JaysonStreet from "../../static/images/speakers/JaysonStreet.jpg";
 
 import villageConfig from 'villageConfig';
 import competitionConfig from 'competitionConfig';
-// import entertainmentConfig from 'entertainmentConfig';
+import entertainmentConfig from 'entertainmentConfig';
 import activityConfig from 'activityConfig';
 
 import './Agenda.scss';
@@ -83,7 +83,7 @@ export default class Agenda extends Component {
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
           <Tab tabFor="activities">Activities</Tab>
-          {/* <Tab tabFor="entertainment">Entertainment</Tab> */}
+          <Tab tabFor="entertainment">Entertainment</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
         {/* <TabPanel tabId="schedule">
@@ -277,13 +277,13 @@ export default class Agenda extends Component {
         </TabPanel>
 
 
-        {/* <TabPanel tabId="entertainment">
+        <TabPanel tabId="entertainment">
           <div className='text-area'>
 
             <CallOuts title='Entertainment' config={entertainmentConfig} />
 
           </div>
-        </TabPanel> */}
+        </TabPanel>
 
 
         <TabPanel tabId="activities">
@@ -293,7 +293,6 @@ export default class Agenda extends Component {
 
           </div>
         </TabPanel>
-
 
         {/* <TabPanel tabId="careers">
           <div className='text-area'>

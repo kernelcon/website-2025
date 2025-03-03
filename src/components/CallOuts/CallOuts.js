@@ -41,7 +41,7 @@ class CallOuts extends Component {
       return (
         <div className='callout-area'
           key={ele.id}>
-              <div className='callout-title'>{ele.title}</div>
+          <div className='callout-title'>{ele.title}</div>
           <div className='callout-section'>
             <div className='callout-name-logo'>
               {ele.author && <div className='callout-author'>{`From ${ele.author}`}</div>}
@@ -51,6 +51,22 @@ class CallOuts extends Component {
               </div>
             </div>
             <div className='callout-description'>
+              {ele.socials &&
+                <span className='speaker-titles'>
+                  <span><a href={`https://www.instagram.com/${ele.socials.instagram}`} target="_blank" rel="noopener noreferrer">Instagram</a></span>
+                  <span><a href={`https://www.x.com/${ele.socials.twitter}`} target="_blank" rel="noopener noreferrer">Twitter</a></span>
+                  <span><a href={ele.socials.music} target="_blank" rel="noopener noreferrer">Music</a></span>
+                </span>
+              }
+              {ele.music && 
+                <iframe className='band-camp'
+                  title={ele.music.desc}
+                  src={ele.music.iframe} seamless>
+                  <a href={ele.music.href} style={{backgroundImage: `${ele.img}`}}>
+                    {ele.music.desc}
+                  </a>
+                </iframe>
+              }
               <span dangerouslySetInnerHTML={this.createMarkup(ele.description)}></span>
               {detailBox}
               {ele.final_details && <span className='final_details' dangerouslySetInnerHTML={this.createMarkup(ele.final_details)}></span>}

@@ -1,35 +1,57 @@
 [{
-    "title": "Opening Act: Lauren Vana",
-    "author": "",
-    "id": "lauren",
-    "hidden": false,
-    "logo": {
-      "dark_mode_support": false,
-      "image_name": "lauren.png",
-      "image_class": "callout-comic",
-      "dark_mode_image_name": "",
-      "dark_mode_image_class": ""
-    },
-    "dates": [{
-      "day": "Thursday, April 4th"
-    }],
-    "description": "Lauren Vana is a stand-up comedian born, raised, and based in Omaha, Nebraska. A graduate of the Backline Comedy Theatre, she won the 2023 Funny Bone Clash Comedian of the Year and has opened for the likes of Emma Willmann. Known for her wit and sharp writing, she frequently performs at venues around the Midwest. In addition to stand-up, she does improv and sketch comedy. When she’s not on stage, you can find her writing earnest Letterboxd reviews or completing the New York Times crossword puzzle. You can find her on Instagram, @laurenvana."
+  "title": "YTCracker",
+  "author": "",
+  "id": "yt",
+  "hidden": false,
+  "logo": {
+    "dark_mode_support": false,
+    "image_name": "ytcracker.png",
+    "image_class": "callout-comic",
+    "dark_mode_image_name": "",
+    "dark_mode_image_class": ""
   },
-  {
-    "title": "Headliner: Dante Powell",
+  "socials" : {
+    "instagram": "y7cracker",
+    "twitter": "realytcracker",
+    "music": "https://soundcloud.com/ytcracker",
+    "website": "https://ytcracker.com/v2020/"
+  },
+  "music": {
+    "iframe": "https://bandcamp.com/EmbeddedPlayer/album=3382247562/size=small/bgcol=ffffff/linkcol=0687f5/track=4261428816/",
+    "href": "https://music.gravitasrecordings.com/album/def-con-21-the-official-soundtrack",
+    "desc": "DEF CON 21: The Official Soundtrack by ytcracker",
+    "img": "url('https://f4.bcbits.com/img/a1652230982_42.jpg')"
+  },
+  "dates": [{
+    "day": "Thursday, April 4th"
+  }],
+  "description": "YTCracker (pronounced 'whitey cracker') is a formerly notorious computer hacker who stopped hacking everyone's gibson and started rapping about it instead. Recognized as a forefather of the 'nerdcore' genre, he has travelled all around the universe amassing billions of fans, the majority of which do not live on planet earth. YTCracker raps about all of the important things in life, like high frame rate and low latency pings. He has served as a corporate shill for the likes of G4TV (rip), Facebook, and Yahoo, appearing on every major television network and countless publications talking about nerdy things like Bitcoin or DDoS attacks - all while trying to push his terrible music on casuals and NPCs everywhere. Along with making substandard hiphop, YTCracker also subsists his musical existence through mediocre production and DJing to gigantic crowds, primarily on the anime and internet nerd convention circuit."
+},{
+    "title": "int80 from Dual Core",
     "author": "",
-    "id": "dante",
+    "id": "dc",
     "hidden": false,
     "logo": {
       "dark_mode_support": false,
-      "image_name": "dante.jpg",
+      "image_name": "dualcore2.png",
       "image_class": "callout-comic",
       "dark_mode_image_name": "",
       "dark_mode_image_class": ""
     },
+    "socials" : {
+      "instagram": "dualcoremusic",
+      "twitter": "int0x80",
+      "music": "https://inteighty.bandcamp.com"
+    },
+    "music": {
+      "iframe": "https://bandcamp.com/EmbeddedPlayer/album=71849643/size=small/bgcol=ffffff/linkcol=0687f5/",
+      "href": "https://dualcoremusic.com/album/all-the-things",
+      "desc": "All The Things by Dual Core",
+      "img": "url('https://f4.bcbits.com/img/a0703992493_42.jpg')"
+    },
     "dates": [{
       "day": "Thursday, April 4th"
     }],
-    "description": "<p>Dante Powell is a comedian from Bernice, Louisiana. Dante currently lives and performs out of Des Moines, IA and travels the country working comedy clubs, theaters, and festivals. His debut comedy album 'The Squirrels Get Fat' was produced by Grammy Award winning Stand Up! Records and is available on any platform you use to purchase albums.</p><p>Dante runs the gamut from opening for major acts like Godfrey, Gary Gulman, Rory Scovel, Mike Epps, Chris Porter, and Pauly Shore to headlining club weekends (Comedy Corner Underground, Blue Room Comedy Club, Penguins Comedy Club) and one off shows.</p><p>Dante brings a unique perspective founded on his life experience to story-telling and joke writing. His comedy is incredibly clever and takes on everything from the common to the mundane in a way that draws in audiences from all walks of life and allows them to connect with him.</p>"
+    "description": "Dual Core is a hip hop duo composed of American rapper int eighty (David Martinjak) and British producer c64 (Chris Hunger). Dual Core is a popular act across many hacker conferences including DEF CON, where their song 'All The Things' was featured on the vinyl record badge of DEF CON 23."
   }
 ]
