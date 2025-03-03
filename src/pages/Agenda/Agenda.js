@@ -14,7 +14,6 @@ import JeffMan from "../../static/images/speakers/JeffMan.jpg";
 import Gabrielle from "../../static/images/speakers/GabrielleHempel.jpg";
 import JaysonStreet from "../../static/images/speakers/JaysonStreet.jpg";
 
-
 import villageConfig from 'villageConfig';
 import competitionConfig from 'competitionConfig';
 import entertainmentConfig from 'entertainmentConfig';
@@ -28,53 +27,38 @@ export default class Agenda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: '',
-      goToClass: ''
+      defaultTab: 'keynotes' // default tab if none specified
     }
   }
 
-  componentWillMount() {
-    //const trainingClasses = ['aai', 'atomicpurple', 'bhgo', 'csanalysis', 'elk', 'webhacking', 'ghidra', 'k8s', 'linfn6', 'netanalysis', 'binaryninja'];
-    //const workshops = ['iotlights', 'iotplugs', 'lightexfil', 'rtlsdr', 'sensing'];
-    let defaultTab = window.location.href.split('#')[1];
-    // const goToClass = defaultTab;
-    let className = '';
-
-    // if (trainingClasses.includes(goToClass)) {
-    //   defaultTab = 'training';
-    //   className = goToClass;
-    // } else if (workshops.includes(goToClass)) {
-    //   defaultTab = 'workshops';
-    //   className = goToClass;
-    // }
-
-    this.setState({
-      defaultTab: defaultTab,
-      goToClass: className
-    });
+  componentDidMount() {
+    const { tabId } = this.props.match.params;
+    if (tabId) {
+      this.setState({ defaultTab: tabId });
+    }
   }
 
-  componentDidMount() {
-    this.setState({...this.state});
-    // const goToClass = this.state.goToClass;
-
-    // if (goToClass !== '') {
-    //   const yOffset = -100;
-    //   const element = document.getElementsByName(goToClass)[0];
-    //   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    //   window.scrollTo({top: y, behavior: 'smooth'});
-    // }
+  componentDidUpdate(prevProps) {
+    if (this.props.match.params.tabId !== prevProps.match.params.tabId) {
+      const { tabId } = this.props.match.params;
+      this.setState({ defaultTab: tabId || 'keynotes' });
+    }
   }
 
   changeTab(tabId) {
-    // window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+    this.props.history.push(`/agenda/${tabId}`);
   }
 
   getTabs(vert) {
     return (
-      <Tabs defaultTab={this.state.defaultTab}
-        onChange={(tabId) => { this.changeTab(tabId) }}
-        vertical={vert}>
+      // <Tabs defaultTab={this.state.defaultTab}
+      //   onChange={(tabId) => { this.changeTab(tabId) }}
+      //   vertical={vert}>
+      <Tabs 
+        defaultTab={this.state.defaultTab}
+        onChange={(tabId) => this.changeTab(tabId)}
+        vertical={vert}
+      >
         <TabList>
           {/* <Tab tabFor="schedule">Schedule</Tab> */}
           <Tab tabFor="keynotes">Keynotes</Tab>
