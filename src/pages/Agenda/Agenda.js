@@ -51,9 +51,6 @@ export default class Agenda extends Component {
 
   getTabs(vert) {
     return (
-      // <Tabs defaultTab={this.state.defaultTab}
-      //   onChange={(tabId) => { this.changeTab(tabId) }}
-      //   vertical={vert}>
       <Tabs 
         defaultTab={this.state.defaultTab}
         onChange={(tabId) => this.changeTab(tabId)}

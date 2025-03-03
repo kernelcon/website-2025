@@ -58,7 +58,7 @@ function App() {
 			<div className="page-box">
 				{/* <div className="container"> */}
 					<Route exact path="/" component={Home} />
-					<Route exact path="/about" component={About} />
+					<Route path="/about/:tabId?" component={About} />
 					<Route exact path="/admin" component={Admin} />
           			<Route exact path="/bio" component={Bio} />
 					<Route exact path="/conference" component={Conference} />
@@ -67,7 +67,7 @@ function App() {
 					<Route exact path="/open-calls" component={OpenCalls} />
 					<Route exact path="/cfp" component={CFP} />
 					<Route exact path="/sponsors" component={Sponsors} />
-					<Route exact path="/venue" component={Venue} />
+					<Route path="/venue/:tabId?"  component={Venue} />
 					<Route exact path="/register" component={Register} />
 					<Route exact path="/safety" component={Safety} />
 					<Route exact path="/training" component={Training} />

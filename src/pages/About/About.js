@@ -20,30 +20,35 @@ export default class About extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: 'kernelcon'
+      defaultTab: 'kernelcon' // default tab if none specified
     }
   }
 
-  componentWillMount() {
-    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'kernelcon';
-    this.setState({
-      defaultTab: defaultTab
-    });
-    //window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
+  componentDidMount() {
+    const { tabId } = this.props.match.params;
+    if (tabId) {
+      this.setState({ defaultTab: tabId });
+    }
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.match.params.tabId !== prevProps.match.params.tabId) {
+      const { tabId } = this.props.match.params;
+      this.setState({ defaultTab: tabId || 'kernelcon' });
+    }
   }
 
   changeTab(tabId) {
-    window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+    this.props.history.push(`/about/${tabId}`);
   }
 
   getTabs(vert) {
-
-    
-
     return (
-      <Tabs defaultTab={this.state.defaultTab}
-        onChange={(tabId) => { this.changeTab(tabId) }}
-        vertical={vert}>
+      <Tabs 
+        defaultTab={this.state.defaultTab}
+        onChange={(tabId) => this.changeTab(tabId)}
+        vertical={vert}
+      >
         <TabList vertical>
           <Tab tabFor="kernelcon">Kernelcon</Tab>
           <Tab tabFor="code-of-conduct">Code Of Conduct</Tab>
