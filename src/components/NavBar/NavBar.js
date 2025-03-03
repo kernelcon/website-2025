@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import DarkModeToggle from "../../themes/DarkMode/DarkModeToggle";
-import BlackLogo from "../../static/images/logos/kernelcon_logo.svg";
+// import BlackLogo from "../../static/images/logos/kernelcon_logo.svg";
 import KillerLogo from "../../static/images/logos/social2.png";
+import KillerLogoWhite from "../../static/images/logos/k25-white.png";
 import "./NavBar.scss";
 
 export default class NavBar extends Component {
@@ -13,14 +14,14 @@ export default class NavBar extends Component {
 				<div className="container">
 					<a href="/">
 						<img
-							src={KillerLogo}
-							className="navbar-logo light-mode-logo"
+							src={KillerLogoWhite}
+							className="navbar-logo-k25 light-mode-show dark-mode-hide"
 							height="30"
 							alt="kernelcon logo"
 						/>
 						<img
-							src={BlackLogo}
-							className="navbar-logo dark-mode-logo"
+							src={KillerLogo}
+							className="navbar-logo-k25 dark-mode-show light-mode-hide"
 							height="30"
 							alt="kernelcon logo"
 						/>

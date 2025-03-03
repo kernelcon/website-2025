@@ -56,7 +56,14 @@ body.dark-mode {
   .update-announcement:after {
     background: #ccc !important;
   }
-  
+
+  .dark-mode-show {
+    display: inline;
+  }
+
+  .light-mode-hide {
+    display: none;
+  }
 }
 
 .all-bright {
@@ -67,6 +74,14 @@ body.dark-mode {
   width: 100%;
 }
 
+
+.dark-mode-hide {
+  display: none;
+}
+
+.light-mode-show {
+  display: inline;
+}
 
 
 div.update-section {

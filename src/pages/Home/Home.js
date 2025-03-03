@@ -164,7 +164,7 @@ export default class Home extends Component {
                 <h2 className='centered'>Kernelcon Updates</h2>
                 <p className='update-text'>As we continue to tinker in the garage, please check back here for updates and announcements. Click on each update to be taken to their individual pages for more details.</p>
                 <div className='updates'>
-                  <h3 className='update-announcement'>New Keynotes</h3>
+                  <h3 className='update-announcement'>New Keynotes Announced</h3>
                   <div className='keynote-section'>
                     <a className='keynote-anchor'
                       href="https://kernelcon.org/agenda">
@@ -200,7 +200,7 @@ export default class Home extends Component {
                     </div>   
                     </a>  
                   </div>
-                  <h3 className='update-announcement'>New Entertainment</h3>
+                  <h3 className='update-announcement'>New Entertainment Announced</h3>
                   <div className='keynote-section'>
                     <a className='keynote-anchor'
                       href="https://kernelcon.org/agenda">
