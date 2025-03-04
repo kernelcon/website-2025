@@ -45,6 +45,7 @@ import Runza from "../../static/images/sponsors/runza-logo-tagline.png"
 import CyberCityCircuits from "../../static/images/logos/cyber_city_circuits_logo.png"
 import EthicalIntruder from '../../static/images/sponsors/ethical_intruder_logo.jpg'
 import CSO from '../../static/images/sponsors/cso.png'
+import Shamar from '../../static/images/sponsors/shamar.png'
 
 import "./Sponsors.scss";
 
@@ -492,16 +493,23 @@ export default class Sponsors extends Component {
                   
 
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h4 className='ctf-spons spons-title'>CTF Sponsors</h4>
-                    <a href="https://www.checkpoint.com/"
+                    <a href="https://www.shamarinfosec.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
-                      <img src={CheckPoint}
-                        className='spons-img other-spons'
-                        alt="Check Point"/>
+                      <img src={Shamar}
+                        className='all-bright dark-mode-logo spons-img other-spons'
+                        alt="Shamar"/>
                     </a>
-                    <a href="https://www.protiviti.com/"
+                    <a href="https://www.shamarinfosec.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={Shamar}
+                        className='light-mode-logo spons-img other-spons'
+                        alt="Shamar"/>
+                    </a>
+                    {/* <a href="https://www.protiviti.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={Protiviti}
@@ -514,8 +522,8 @@ export default class Sponsors extends Component {
                       <img src={Protiviti}
                         className='light-mode-logo spons-img other-spons'
                         alt="Protiviti"/>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
 
                   <div className='spons-block'>
                     <h4 className='gold spons-title'>Other Sponsors</h4>
