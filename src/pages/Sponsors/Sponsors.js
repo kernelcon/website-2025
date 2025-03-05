@@ -13,11 +13,12 @@ import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
 // import AWSDark from "../../static/images/sponsors/AWS_black.png";
 // import AWSLight from "../../static/images/sponsors/AWS-color.png";
 // import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
-// import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
+import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
 // import Protiviti from "../../static/images/sponsors/protiviti.png";
 // import ZScaler from "../../static/images/sponsors/zscaler.png";
 // import BairdHolm from "../../static/images/sponsors/bairdholm.png";
-import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
+// import GuidepointDark from "../../static/images/sponsors/guidepoint_black.png";
+import GuidepointDark from "../../static/images/sponsors/GPS.png";
 // import Tanium from "../../static/images/sponsors/Tanium.png";
 // import Axonius from "../../static/images/sponsors/Axonius.png";
 import Wiz from "../../static/images/sponsors/wiz.png";
@@ -261,7 +262,7 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Ethical Intruder"/>
                     </a>
-                    {/* <a href="https://www.conagrabrands.com/"
+                    <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -277,6 +278,7 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Conagra"/>
                     </a>
+                    {/*
                     <a href="https://expel.com/"
                       target="_blank"
                       className='light-mode-logo'
