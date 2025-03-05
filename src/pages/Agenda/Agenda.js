@@ -65,7 +65,7 @@ export default class Agenda extends Component {
           <Tab tabFor="competitions">Competitions</Tab>
           <Tab tabFor="activities">Activities</Tab>
           <Tab tabFor="entertainment">Entertainment</Tab>
-          {/* <Tab tabFor="careers">Careers</Tab> */}
+          <Tab tabFor="careers">Careers</Tab>
         </TabList>
         <TabPanel tabId="schedule">
           <div className='text-area'>
@@ -275,39 +275,19 @@ export default class Agenda extends Component {
           </div>
         </TabPanel>
 
-        {/* <TabPanel tabId="careers">
+        <TabPanel tabId="careers">
           <div className='text-area'>
             <h3 className='title'>Careers</h3>            
             <div className='competition-area'>
               <div className='competition-section'>
-                <div className='competition-name-logo'>
-                  <div className='competition-name'>Resume Review</div>
-                  <div className='competition-logo'>
-                    <img src={resume} alt='Resume Review'/>
-                  </div>
-                </div>
                 <div className='competition-description'>
                   Did you know your should update your resume every six months, even if you’re not looking for a new job?  Have a recruiting expert take a look at your resume and assist with advice on making it the best it can be.
-                  <p style={{marginTop: '18px'}}>Sam Harvey, Warren Fish and Sydney Hardin of TEKsystems are volunteering on Friday, March 27th at the Kernelcon Resume Review table to provide professional resume review assistance. Attendees are welcome to walk up to the table at any point throughout the day and should expect to spend 15-20 minutes discussing resume updates. A printer will be located at the table for all attendees to print and then partner with the available team member on resume recommendations.</p>
+                  <p style={{marginTop: '18px'}}>TEKsystems volunteers will be here on Thursday and Friday at the Kernelcon Resume Review table within the village area to provide professional resume review assistance. Attendees are welcome to walk up to the table at any point throughout the day and should expect to spend 15-20 minutes discussing resume updates.</p>
                 </div>
               </div>
-
-              <div className='competition-section'>
-                <div className='competition-name-logo'>
-                  <div className='competition-name'>Hiring or Looking?</div>
-                  <div className='competition-logo'>
-                    <img src={hiringlooking} alt='Hiring Or Looking?' />
-                  </div>
-                </div>
-                <div className='competition-description'>
-                  Pick up a Hiring or Looking bracelet at the Kernelcon Resume Review table and wear it around the con to spark a conversation.  Who knows, you might just find your dream job or your next superstar employee right at Kernelcon! 
-                </div>
-              </div>
-
-
             </div>
           </div>
-        </TabPanel> */}
+        </TabPanel>
       </Tabs>
     );
   }
