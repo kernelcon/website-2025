@@ -88,3 +88,12 @@ body.dark-mode {
     color: rgb(227, 227, 227) !important;
   }
 }
+
+.close-btn {
+  border: none;
+  background-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

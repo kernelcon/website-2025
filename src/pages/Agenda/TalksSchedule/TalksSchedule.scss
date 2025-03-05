@@ -38,6 +38,13 @@ body.dark-mode {
     }
   }
 }
+.sched-btn {
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
 
 .tz-note {
   font-size: 12px;
@@ -187,7 +194,7 @@ body.dark-mode {
       word-break: break-all;
     }
     .truncate-overflow-4 {
-      --max-lines: 4;
+      --max-lines: 3;
     }
     .truncate-overflow {
       position: relative;

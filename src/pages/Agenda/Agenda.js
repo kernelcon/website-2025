@@ -4,7 +4,7 @@ import MediaQuery from 'react-responsive';
 import Speakers from './Speakers/Speakers';
 import Talks from './Talks/Talks';
 
-// import TalksSchedule from './TalksSchedule/TalksSchedule';
+import TalksSchedule from './TalksSchedule/TalksSchedule';
 // import ConSchedule from './ConSchedule';
 // import TrainingSubmissions from './TrainingSubmission';
 // import Workshops from './Workshops';
@@ -27,7 +27,7 @@ export default class Agenda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: 'keynotes' // default tab if none specified
+      defaultTab: 'schedule' // default tab if none specified
     }
   }
 
@@ -41,7 +41,7 @@ export default class Agenda extends Component {
   componentDidUpdate(prevProps) {
     if (this.props.match.params.tabId !== prevProps.match.params.tabId) {
       const { tabId } = this.props.match.params;
-      this.setState({ defaultTab: tabId || 'keynotes' });
+      this.setState({ defaultTab: tabId || 'schedule' });
     }
   }
 
@@ -57,7 +57,7 @@ export default class Agenda extends Component {
         vertical={vert}
       >
         <TabList>
-          {/* <Tab tabFor="schedule">Schedule</Tab> */}
+          <Tab tabFor="schedule">Schedule</Tab>
           <Tab tabFor="keynotes">Keynotes</Tab>
           <Tab tabFor="speakers">Speakers</Tab>
           <Tab tabFor="talks">Talks</Tab>
@@ -67,11 +67,11 @@ export default class Agenda extends Component {
           <Tab tabFor="entertainment">Entertainment</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
-        {/* <TabPanel tabId="schedule">
+        <TabPanel tabId="schedule">
           <div className='text-area'>
           	<TalksSchedule />
           </div>
-        </TabPanel> */}
+        </TabPanel>
         <TabPanel tabId="keynotes">
           <div className='text-area'>
             <h3 className='title'>Keynotes</h3>
