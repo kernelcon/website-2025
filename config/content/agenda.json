@@ -156,7 +156,7 @@
     "minutes": "60",
     "roomIndex": [0],
     "talkTitle": "This Little Phish of Mime: Shining a light on the MIME structure",
-    "talkDescription": Phishing continues to be one of the largest threats an organization can face. A successful phish can lead to the loss of money, reputation, and is often the initial access point into an organization. Current detection capabilities heavily focus on IP/domain reputation and application content, such as the text, sender domain name, embedded URLs, and attachments. However, we have found value in examining an email's MIME structure.  This presentation will discuss how applying forensic and investigative techniques to the MIME structure of an email can surface distinct artifacts and insights into how an email was generated and sent. Being able to identify commonly used, abused, and unknown tools is a unique way to analyze email data. These findings have increased our depth of detection capabilities by extending the coverage of emerging threats, such as QR Codes. We will demonstrate how these insights can be used to monitor for anomalies, discover abused infrastructure, and collect additional threat actor tools, and tactics, techniques, and procedures (TTPs). We will explain the methodology, observed tools, and detection insights gleaned from this research.",
+    "talkDescription": "Phishing continues to be one of the largest threats an organization can face. A successful phish can lead to the loss of money, reputation, and is often the initial access point into an organization. Current detection capabilities heavily focus on IP/domain reputation and application content, such as the text, sender domain name, embedded URLs, and attachments. However, we have found value in examining an email's MIME structure.  This presentation will discuss how applying forensic and investigative techniques to the MIME structure of an email can surface distinct artifacts and insights into how an email was generated and sent. Being able to identify commonly used, abused, and unknown tools is a unique way to analyze email data. These findings have increased our depth of detection capabilities by extending the coverage of emerging threats, such as QR Codes. We will demonstrate how these insights can be used to monitor for anomalies, discover abused infrastructure, and collect additional threat actor tools, and tactics, techniques, and procedures (TTPs). We will explain the methodology, observed tools, and detection insights gleaned from this research.",
     "talkTechLevel": "3",
     "talkId": "ThisLittlePhishOfMime",
     "postCon": {
@@ -215,7 +215,7 @@
                     "bio": "Gerard is a cyber security specialist for Red Canary, focusing on detection and response. Prior to his tenure at Red Canary, Gerard has had over a decade of experience in digital forensics, incident response and cyber security. Gerard has developed training solutions to aid security teams with responding to cyber attacks. Additionally, Gerard is also a frequent contributor to various conferences and webcasts. He is also author of the book Digital Forensics and Incident Response, 3rd edition.",
                     "hidden": false
                }]
-    ,{
+  } ,{
     "time": "1230",
     "minutes": "60",
     "roomIndex": [0],
@@ -237,10 +237,10 @@
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Louis graduated with an Associate of Applied Science degree in Information Technology and Computer Network Systems. He went on to complete a Bachelor of Science degree in Information Systems Security in 2011. In 2016, Louis furthered his expertise by obtaining a Master of Science degree in Information Assurance with a specialization in Cybersecurity. In 2021, he achieved a Doctor of Computer Science degree, specializing in Cybersecurity."
+                    "bio": "Louis graduated with an Associate of Applied Science degree in Information Technology and Computer Network Systems. He went on to complete a Bachelor of Science degree in Information Systems Security in 2011. In 2016, Louis furthered his expertise by obtaining a Master of Science degree in Information Assurance with a specialization in Cybersecurity. In 2021, he achieved a Doctor of Computer Science degree, specializing in Cybersecurity.",
                     "hidden": false
     }]
-  },{
+  }, {
     "time": "1230",
     "minutes": "60",
     "roomIndex": [1],
