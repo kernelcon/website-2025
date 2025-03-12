@@ -140,7 +140,7 @@
                 "abstract": "The game of bypassing defenses and detection continues to be a cat and mouse game. Attackers often find clever ways to use common tools and techniques to execute their code and the defenders continue to create detections and mitigations for these methods. As a red teamer, it is becoming increasingly difficult to get around these defenses and emulate those attackers. In this talk, I will cover some of the methods we use during engagements to thread the needle and bypass those defenses."
             },
             {
-                "title": "How to Break Prod and Keep Your Job",
+                "title": "Dumb Ways to Die: Cybersecurity Edition",
                 "authors": [
                 {
                     "name": "Megan Benoit",
@@ -160,7 +160,7 @@
                 "video": "",
                 "length": "20",
                 "technical": "1",
-                "abstract": "Picture this - you’re the admin and someone chats you the most loaded of loaded questions. “Did you guys do something to the internet?” And then two more people ask you. And then you realize that you, in fact, can’t get to the internet. And what’s worse, you recently made a change - any kind of change - and it seems the worst has happened. If you haven't broken prod, you probably aren't taking enough risks, but you can absolutely break prod without getting into trouble, and with the right planning, you can reduce your risk of breaking prod in the first place. How do you prepare for, prevent, and post-mortem a production outage?"
+                "abstract": "Forget about best practices - my job is dealing with the worst ones, from using default Microsoft tenant configurations to trusting your vulnerability scan findings.  Learn from the mistakes of others and don’t fall victim to any of these dumb ways to die (or get compromised and lose your data)."
             },
             {
                 "title": "Finding race conditions and other fun things using FRIDA",
