@@ -47,6 +47,9 @@ import CyberCityCircuits from "../../static/images/logos/cyber_city_circuits_log
 import EthicalIntruder from '../../static/images/sponsors/ethical_intruder_logo.jpg'
 import CSO from '../../static/images/sponsors/cso.png'
 import Shamar from '../../static/images/sponsors/shamar.png'
+import SentOneWhite from '../../static/images/sponsors/sentone_white.png'
+import SHIWhite from '../../static/images/sponsors/shi_white.png'
+import SHIDark from '../../static/images/sponsors/shi_dark.png'
 
 import "./Sponsors.scss";
 
@@ -270,14 +273,44 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Conagra"/>
                     </a>
-                    <a href="https://www.conagrabrands.com/"
-                      target="_blank"
-                      className='all-dark light-mode-logo'
-                      rel='noopener noreferrer'>
-                      <img src={ConAgraLight}
-                        className='spons-img gold-spons'
-                        alt="Conagra"/>
-                    </a>
+                    <div className='sub-party-logos'>
+                      <span className='sub-party-logos'>
+                        <a href="https://www.sentinelone.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='dark-mode-logo'>
+                          <img src={SentOneWhite}
+                            className='spons-img sub-party-spons'
+                            alt="Sentinel One"/>
+                        </a>
+                        <a href="https://www.sentinelone.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='all-dark light-mode-logo'>
+                          <img src={SentOneWhite}
+                            className='spons-img sub-party-spons'
+                            alt="Sentinel One"/>
+                        </a>
+
+                        <a href="https://www.shi.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='dark-mode-logo'>
+                          <img src={SHIWhite}
+                            className='spons-img sub-party-spons'
+                            alt="SHI"/>
+                        </a>
+                        <a href="https://www.shi.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={SHIDark}
+                            className='spons-img sub-party-spons'
+                            alt="SHI"/>
+                        </a>
+                      </span>
+                    </div>
+
                     {/*
                     <a href="https://expel.com/"
                       target="_blank"
