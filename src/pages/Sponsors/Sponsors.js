@@ -50,6 +50,8 @@ import Shamar from '../../static/images/sponsors/shamar.png'
 import SentOneWhite from '../../static/images/sponsors/sentone_white.png'
 import SHIWhite from '../../static/images/sponsors/shi_white.png'
 import SHIDark from '../../static/images/sponsors/shi_dark.png'
+import Cyera_Light from '../../static/images/sponsors/Cyera_Logo_Inverted.png'
+import Cyera_Dark from '../../static/images/sponsors/Cyera_Logo_Primary.png'
 
 import "./Sponsors.scss";
 
@@ -307,6 +309,23 @@ export default class Sponsors extends Component {
                           <img src={SHIDark}
                             className='spons-img sub-party-spons'
                             alt="SHI"/>
+                        </a>
+
+                        <a href="https://www.cyera.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='dark-mode-logo'>
+                          <img src={Cyera_Light}
+                            className='spons-img sub-party-spons'
+                            alt="Cyera"/>
+                        </a>
+                        <a href="https://www.cyera.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={Cyera_Dark}
+                            className='spons-img sub-party-spons'
+                            alt="Cyera"/>
                         </a>
                       </span>
                     </div>

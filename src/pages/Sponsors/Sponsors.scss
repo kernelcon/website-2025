@@ -127,16 +127,19 @@
 }
 
 .sub-party-spons {
-  max-width: calc(13vh + 13vw) !important;
-  max-height: calc(10vh + 4vw) !important;
-  margin: 20px;
+  width: auto; 
+  height: calc(4vh + 6vw); 
+  object-fit: contain;
+  max-width: 100%; 
 }
 
 .sub-party-logos {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  flex-wrap: nowrap; 
+  gap: 20px; 
 }
 
 .gp-logo {
