@@ -14,6 +14,7 @@ import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
 // import AWSLight from "../../static/images/sponsors/AWS-color.png";
 // import Netsecuris from '../../static/images/sponsors/Netsecuris.jpg';
 import ConAgraLight from "../../static/images/sponsors/conagra-light-logo.webp";
+import ConAgraDark from "../../static/images/sponsors/conagra-dark-logo.png";
 // import Protiviti from "../../static/images/sponsors/protiviti.png";
 // import ZScaler from "../../static/images/sponsors/zscaler.png";
 // import BairdHolm from "../../static/images/sponsors/bairdholm.png";
@@ -266,6 +267,14 @@ export default class Sponsors extends Component {
                       <img src={ECS}
                         className='spons-img gold-spons'
                         alt="Ethical Intruder"/>
+                    </a>
+                    <a href="https://www.conagrabrands.com/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ConAgraDark}
+                        className='spons-img gold-spons'
+                        alt="Conagra"/>
                     </a>
                     <a href="https://www.conagrabrands.com/"
                       target="_blank"
