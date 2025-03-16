@@ -53,6 +53,10 @@ import SHIWhite from '../../static/images/sponsors/shi_white.png'
 import SHIDark from '../../static/images/sponsors/shi_dark.png'
 import Cyera_Light from '../../static/images/sponsors/Cyera_Logo_Inverted.png'
 import Cyera_Dark from '../../static/images/sponsors/Cyera_Logo_Primary.png'
+import CyberArk_Light from '../../static/images/sponsors/cyberark-light.png'
+import CyberArk_Dark from '../../static/images/sponsors/cyberark-dark.png' 
+import ZScalar_Light from '../../static/images/sponsors/zscalar-light.png'
+import ZScalar_Dark from '../../static/images/sponsors/zscalar-dark.svg' 
 
 import "./Sponsors.scss";
 
@@ -320,21 +324,21 @@ export default class Sponsors extends Component {
                             alt="SHI"/>
                         </a>
 
-                        <a href="https://www.cyera.io/"
+                        <a href="https://www.cyberark.com/"
                           target="_blank"
                           rel='noopener noreferrer'
                           className='dark-mode-logo'>
-                          <img src={Cyera_Light}
+                          <img src={CyberArk_Light}
                             className='spons-img sub-party-spons'
-                            alt="Cyera"/>
+                            alt="CyberArk"/>
                         </a>
-                        <a href="https://www.cyera.io/"
+                        <a href="https://www.cyberark.com/"
                           target="_blank"
                           rel='noopener noreferrer'
                           className='light-mode-logo'>
-                          <img src={Cyera_Dark}
+                          <img src={CyberArk_Dark}
                             className='spons-img sub-party-spons'
-                            alt="Cyera"/>
+                            alt="CyberArk"/>
                         </a>
                       </span>
                     </div>
@@ -376,6 +380,22 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Contrast"/>
                     </a>
+                    <a href="https://www.cyera.io/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='dark-mode-logo'>
+                      <img src={Cyera_Light}
+                        className='spons-img other-spons'
+                        alt="Cyera"/>
+                    </a>
+                    <a href="https://www.cyera.io/"
+                      target="_blank"
+                      rel='noopener noreferrer'
+                      className='light-mode-logo'>
+                      <img src={Cyera_Dark}
+                        className='spons-img other-spons'
+                        alt="Cyera"/>
+                    </a>
                     {/* <a href="https://www.trailofbits.com/"
                       target="_blank"
                       className='dark-mode-logo'
@@ -410,22 +430,38 @@ export default class Sponsors extends Component {
 
                   <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
-                    <a href="https://www.turngate.io/"
-                          target="_blank"
-                          rel='noopener noreferrer'
-                          className='all-bright dark-mode-logo'>
-                          <img src={Turngate}
-                            className='spons-img other-spons'
-                            alt="Wiz"/>
-                        </a>
-                        <a href="https://www.turngate.io/"
-                          target="_blank"
-                          rel='noopener noreferrer'
-                          className='light-mode-logo'>
-                          <img src={Turngate}
-                            className='spons-img other-spons'
-                            alt="Turngate"/>
-                        </a>
+                      <a href="https://www.turngate.io/"
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className='all-bright dark-mode-logo'>
+                        <img src={Turngate}
+                          className='spons-img other-spons'
+                          alt="Wiz"/>
+                      </a>
+                      <a href="https://www.turngate.io/"
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className='light-mode-logo'>
+                        <img src={Turngate}
+                          className='spons-img other-spons'
+                          alt="Turngate"/>
+                      </a>
+                      <a href="https://www.zscaler.com/"
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className='dark-mode-logo'>
+                        <img src={ZScalar_Light}
+                          className='spons-img other-spons'
+                          alt="ZScalar"/>
+                      </a>
+                      <a href="https://www.zscaler.com/"
+                        target="_blank"
+                        rel='noopener noreferrer'
+                        className='light-mode-logo'>
+                        <img src={ZScalar_Dark}
+                          className='spons-img other-spons'
+                          alt="ZScalar"/>
+                      </a>
                     {/* <a href="http://www.evolvingsol.com/"
                           target="_blank"
                           rel='noopener noreferrer'
