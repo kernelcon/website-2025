@@ -123,5 +123,26 @@
     }
   ],
     "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
+  },
+  {
+    "title": "Badge Village",
+    "author": "Kernelcon",
+    "id": "badge",
+    "hidden": false,
+    "logo": {
+      "dark_mode_support": true,
+      "image_name": "social6.png",
+      "image_class": "light-mode-logo",
+      "dark_mode_image_name": "social3.png",
+      "dark_mode_image_class": "dark-mode-logo"
+    },
+    "dates": [{
+      "day": "Thursday, April 3rd"
+    },
+    {
+      "day": "Friday, April 4th"
+    }
+  ],
+    "description": "Do you have what it takes to claim the top step? Complete a race on your badge and head to the badge village to upload your top scores! If you think you can handle the pressure, jump on the starting line and throw down a LIVE time! Want to learn how to solder or get your hands on a new track? Ask about the 3 bonus tracks you can build!"
   }
 ]
