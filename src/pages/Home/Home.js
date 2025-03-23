@@ -221,7 +221,7 @@ export default class Home extends Component {
                         className="update-keynote"
                         alt="DualCore"
                       />
-                      <div className="keynote-name">int80 of Dual Core</div>
+                      <div className="keynote-name">int eighty of Dual Core</div>
                     </div>
                     </a> 
                   </div>
