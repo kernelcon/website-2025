@@ -10,7 +10,7 @@ import JeffMan from "../../static/images/speakers/JeffMan.jpg";
 import Gabrielle from "../../static/images/speakers/GabrielleHempel.jpg";
 import JaysonStreet from "../../static/images/speakers/JaysonStreet.jpg";
 import YTCracker from "../../static/images/logos/ytcracker.png";
-import DualCore from "../../static/images/logos/dualcore2.png";
+import DualCore from "../../static/images/logos/int_eighty_solo_DFW-wafflesweekly.jpg";
 
 import "./Home.scss";
 
