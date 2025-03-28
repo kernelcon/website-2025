@@ -59,6 +59,10 @@ class CallOuts extends Component {
                   {ele.socials.twitter && <span><a href={`https://www.x.com/${ele.socials.twitter}`} target="_blank" rel="noopener noreferrer">Twitter</a></span>}
                   {ele.socials.music && <span><a href={ele.socials.music} target="_blank" rel="noopener noreferrer">Music</a></span>}
                   {ele.socials.website && <span><a href={ele.socials.website} target="_blank" rel="noopener noreferrer">Website</a></span>}
+                  {ele.socials.patreon && <span><a href={ele.socials.patreon} target="_blank" rel="noopener noreferrer">Patreon</a></span>}
+                  {ele.socials.tiktok && <span><a href={ele.socials.tiktok} target="_blank" rel="noopener noreferrer">TikTok</a></span>}
+                  {ele.socials.youtube && <span><a href={ele.socials.youtube} target="_blank" rel="noopener noreferrer">YouTube</a></span>}
+                  {ele.socials.facebook && <span><a href={ele.socials.facebook} target="_blank" rel="noopener noreferrer">Facebook</a></span>}
                 </span>
               }
               {ele.music && 
