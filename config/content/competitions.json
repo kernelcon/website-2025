@@ -78,4 +78,24 @@
     }
   ],
   "description": "You read that right. Each year we've added something new in terms of competitions from the Science Fair to the Speed Cat6 Cable contest. This year is no different as we've leveled up a line following robot competition.  Build your own or play with ours, it is sure to be a fun time.  There are obstacles, confusing turns, and more to be expected on the competition floor so you'll have to code them all. More information available at the <a class='text-highlight' href='/robo-race'>Robo Race</a> link in the navbar above!  Online kits range in price and we'd love to showcase some fun and unique builds from our crowds. P.S. - You can expect this competition will play into the overall side quests competition as well."
+},{
+  "title": "Kernelcon Corn Cob Catcher",
+  "author": "Kernelcon",
+  "id": "catch",
+  "hidden": false,
+  "logo": {
+    "dark_mode_support": false,
+    "image_name": "corncatcher.jpg",
+    "image_class": "",
+    "dark_mode_image_name": "",
+    "dark_mode_image_class": ""
+  },
+  "dates": [{
+      "day": "Thursday, April 4th"
+    },
+    {
+      "day": "Friday, April 5th"
+    }
+  ],
+  "description": "<b>How to play the Kernelcon Corn Cob Catcher</b><ol class='catcher'><li>Press the top doorbell to turn on the magnets.</li><li>Attach the corn cobs to the magnets. If you take too long the magnets will shut off to prevent overheating.</li><li>When ready press the second button to start a 5 second timer before they begin randomly dropping.</li><li>Attempt to catch all the corn cobs.</li><li>Return the corn cobs to the basket when done.</li></ol><span class='warning'>Please don't steal the corn cobs :)</span>"
 }]
